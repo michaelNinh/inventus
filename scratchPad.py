@@ -25,9 +25,9 @@ and save outlier videos...look for trends on what works and doesn't
 
 
 TO DO:
+- input data into database from CSV (email, reach out status)
 - overall channel performance statistics
-- it is possible to pull category ID, on the video level 
-- practical way to read data
+- it is possible to pull category ID, on the video level
 - understand outlier data
 - understand statistical variance data
 - running scraper_one_creator needs to add creator, if not exist, into the DB
