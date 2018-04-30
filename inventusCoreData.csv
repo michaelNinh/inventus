@@ -1,6 +1,1078 @@
-discovery keyword,channel name,URL,emails,total subs,AVG views,AVG engagement,date recorded
-surfing,Dans Surf Videos,UCvLT8V6syfFU5AETDM4CtpA,testEmail,7734,10846,0.015452512085427738,2018-04-27 12:12:49.758781
-headphone review,Marques Brownlee,UCBJycsmduvYEL83R_U4JriQ,testEmail,6061221,1263705,0.059556834398551264,2018-04-28 11:37:37.287210
-headphone review,JimsReviewRoom,UCcGYJndqreqXMUZoOhn3E7A,testEmail,508915,43853,0.039115529914335014,2018-04-28 11:37:39.025895
-headphone review,Unbox Therapy,UCsTcErHg8oDvUnTzoqsYeNw,testEmail,10647010,1793850,0.029132352869444475,2018-04-28 11:37:40.856646
-headphone review,Z Reviews,UC3XdYJjWliOdKuZMNaTiP8Q,testEmail,98547,8531,0.03683637404538007,2018-04-28 11:37:43.795411
+discovery keyword,channel name,URL,emails,total subs,AVG views,AVG engagement,date recorded,sampleSize
+mechanical keyboard review,Linus Tech Tips,https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw,testEmail,5724356,691304.0,0.035287418173963025,2018-04-30 10:08:19.525312,13.0
+mechanical keyboard review,ScatterVolt,https://www.youtube.com/channel/UCl6ulw6cn3npwxkg_56Ee_w,testEmail,186127,82375.0,0.03533587778846061,2018-04-30 10:08:21.035358,11.0
+mechanical keyboard review,randomfrankp,https://www.youtube.com/channel/UChnN9MPURwKV2PbEoT2vhTQ,testEmail,685334,90333.0,0.03779460287340566,2018-04-30 10:08:22.998049,18.0
+mechanical keyboard review,TechMeister,https://www.youtube.com/channel/UCTZSF6t4rf3DaLZcyFyRYSg,testEmail,761,2917.0,0.05061981867657366,2018-04-30 10:08:25.591800,25.0
+mechanical keyboard review,HardwareCanucks,https://www.youtube.com/channel/UCTzLRZUgelatKZ4nyIKcAbg,testEmail,896027,112365.0,0.04182555098763946,2018-04-30 10:08:27.676083,20.0
+keyboard review,Chyrosran22,https://www.youtube.com/channel/UCD0y51PJfvkZNe3y3FR5riw,testEmail,20738,9007.0,0.06326687486726006,2018-04-30 10:08:30.919503,25.0
+best mech keys,Paul's Hardware,https://www.youtube.com/channel/UCvWWf-LYjaujE50iYai8WgQ,testEmail,759268,69524.0,0.05037937784499138,2018-04-30 10:08:34.310030,22.0
+best mech keys,GrimmGreen,https://www.youtube.com/channel/UCcTfQohClxDpYDBCnuS1azQ,testEmail,364044,20932.0,0.05172986450456353,2018-04-30 10:08:36.465571,16.0
+best mechanical keyboards,Explore Gadgets,https://www.youtube.com/channel/UCK-H1e0S8jg-8qoqQ5N8jvw,testEmail,507165,9148.0,0.028108737887400495,2018-04-30 10:08:39.010985,15.0
+best mechanical keyboards,PC Centric,https://www.youtube.com/channel/UC54-Zt4_z6W81N5X3OnHCEw,testEmail,92907,10432.0,0.06515466684560156,2018-04-30 10:08:40.402120,11.0
+best mechanical keyboards,Brainbean,https://www.youtube.com/channel/UCOUuYK2yMpiDiND3IwxT98g,testEmail,20904,6298.0,0.04322797820467721,2018-04-30 10:08:42.661235,19.0
+kira mechanical keyboard,Input Club,https://www.youtube.com/channel/UCjGmH16q4BSxIpRh9LRFDnA,testEmail,756,3045.0,0.009847087137431461,2018-04-30 10:08:45.459546,21.0
+kira mechanical keyboard,Rhinofeed,https://www.youtube.com/channel/UC5ClFK9Ko4ACRgXjRZc_GfA,testEmail,17754,12831.0,0.026825870517520757,2018-04-30 10:08:48.810880,25.0
+mech keyboard tutorial,TaeKeyboards,https://www.youtube.com/channel/UCllGwtW6scxAjM28fIgEozg,testEmail,28656,19406.5,0.025865474626199123,2018-04-30 10:10:25.737708,25.0
+mech keyboard tutorial,Techquickie,https://www.youtube.com/channel/UC0vBXGSyV14uvJ4hECDOl0Q,testEmail,2078717,262695.82608695654,0.04680995190778865,2018-04-30 10:10:28.208475,25.0
+mech keyboard tutorial,Joanne Tech Lover,https://www.youtube.com/channel/UCDtH9xTCEPzpR_FJiuZ-hFQ,testEmail,110095,21426.583333333332,0.059965050603626516,2018-04-30 10:19:33.247842,13.0
+mech keycaps,Chokkan キーボー道,https://www.youtube.com/channel/UCtLJJRsmtUgCWLj_Ud9URfA,testEmail,2623,987.75,0.05264490002531005,2018-04-30 10:19:35.595881,4.0
+mech keycaps,Tested,https://www.youtube.com/channel/UCiDJtJKMICpb9B1qf7qjEOA,testEmail,3237299,31984.35714285714,0.03487731725999987,2018-04-30 10:19:38.259341,16.0
+gaming keyboards,TechSource,https://www.youtube.com/channel/UChIZGfcnjHI0DG4nweWEduw,testEmail,1677671,239701.0,0.049729232415093944,2018-04-30 10:19:43.270362,25.0
+headphone review,JimsReviewRoom,https://www.youtube.com/channel/UCcGYJndqreqXMUZoOhn3E7A,testEmail,509971,44733.25,0.03864575008522743,2018-04-30 10:19:46.409931,13.0
+headphone review,Marques Brownlee,https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ,testEmail,6068365,1316204.3333333333,0.0581691533204191,2018-04-30 10:19:49.148478,16.0
+headphone review,Unbox Therapy,https://www.youtube.com/channel/UCsTcErHg8oDvUnTzoqsYeNw,testEmail,10664145,1997530.8333333333,0.029577599344524096,2018-04-30 10:19:51.423821,13.0
+headphone review,Z Reviews,https://www.youtube.com/channel/UC3XdYJjWliOdKuZMNaTiP8Q,testEmail,98704,8970.333333333334,0.037391368973088424,2018-04-30 10:19:55.309946,25.0
+sennheiser review,Hifi Heaven,https://www.youtube.com/channel/UC6BW8DqrAmBEIeCtMa4bfBw,testEmail,39086,18161.615384615383,0.016861427948208607,2018-04-30 10:19:58.494077,13.0
+best overhead headphones,WatchMojo.com,https://www.youtube.com/channel/UCaWd5_7JhbQBe4dknZhsHJg,testEmail,17135506,,,2018-04-30 10:20:00.882067,1.0
+best overhead headphones,UrAvgConsumer,https://www.youtube.com/channel/UC9fSZHEh6XsRpX-xJc6lT3A,testEmail,1801135,320083.44,0.041664167318371734,2018-04-30 10:20:04.561161,25.0
+cheap headphone review,Matt Schaefer,https://www.youtube.com/channel/UCET0jPMhgiSfdZybhyrIMhA,testEmail,517504,23729.916666666668,0.041847667676877635,2018-04-30 10:20:10.088679,25.0
+cheap headphone review,Tech of Tomorrow,https://www.youtube.com/channel/UCNJP0oF6k62xA_qhCLfwI-Q,testEmail,559131,36098.25,0.07391335749358646,2018-04-30 10:20:11.632573,8.0
+best beginner headphones,Ash Tailor,https://www.youtube.com/channel/UCqKDAO0u1vSUFc_QIQ1H-9Q,testEmail,87577,44332.875,0.06557398619722572,2018-04-30 10:20:14.549745,9.0
+best beginner headphones,gameranx,https://www.youtube.com/channel/UCNvzD7Z-g64bPXxGzaQaa4g,testEmail,4195520,284448.25,0.04295988507728482,2018-04-30 10:20:18.067914,25.0
+best beginner headphones,recordingrevolution,https://www.youtube.com/channel/UCjRzsiP_aDWWLHV4-2LKBtg,testEmail,399957,23116.333333333332,0.03958961196268151,2018-04-30 10:20:22.458829,25.0
+audio rig review,Film Riot,https://www.youtube.com/channel/UC6P24bhhCmMPOcujA9PKPTA,testEmail,1291783,39255.260869565216,0.04513274791462373,2018-04-30 10:20:27.224779,24.0
+audio rig review,onelonedork,https://www.youtube.com/channel/UCaVDiV5PYcRQPLHY8BbI5Vg,testEmail,53611,1530.75,0.02701290217213784,2018-04-30 10:20:32.287832,21.0
+audio rig review,Justin Brown - Primal Video,https://www.youtube.com/channel/UCO4Nw0vUpxgb0zsziJ1SaMg,testEmail,130410,5896.857142857143,0.05970169743366119,2018-04-30 10:20:35.407962,15.0
+audio rig review,DigitalFoundry,https://www.youtube.com/channel/UC9PBzalIcEQCsiIkq36PyUA,testEmail,563433,104456.45,0.049943730012288426,2018-04-30 10:20:38.753231,21.0
+audio rig review,Snazzy Labs,https://www.youtube.com/channel/UCO2x-p9gg9TLKneXlibGR7w,testEmail,415661,97982.91666666667,0.06528604050876216,2018-04-30 10:20:41.623923,13.0
+best headphones for gaming,PAINFULLY HONEST TECH,https://www.youtube.com/channel/UCSqAtygCJCIdzWT6o7Ok87Q,testEmail,52135,35015.916666666664,0.04517945410539493,2018-04-30 10:20:45.361140,13.0
+budget headphones,ProdiJay,https://www.youtube.com/channel/UCNIbOgt_M31rYzFX2BFDgqg,testEmail,6440,2959.3636363636365,0.07947040211347649,2018-04-30 10:20:50.999917,23.0
+budget headphones,10BestOnes,https://www.youtube.com/channel/UCswqv-OXePrufGSxIbE9_Jg,testEmail,15019,5636.260869565217,0.03262790322030182,2018-04-30 10:20:55.674137,25.0
+high end headphones,Moon-Audio.com,https://www.youtube.com/channel/UCLi4BqCho9hq_6UxjOEFDvw,testEmail,2490,735.0,0.01020408163265306,2018-04-30 10:20:58.194116,4.0
+high end headphones,SIGNATURE AUDIO VIDEO,https://www.youtube.com/channel/UCAlXQj4tmSb5o-v6lKCWLnw,testEmail,26,1366.952380952381,0.0003831951508395457,2018-04-30 10:21:03.459213,22.0
+skull candy review,TJ Tech,https://www.youtube.com/channel/UC5LXffzlfUq74xs19BRRyvw,testEmail,744,3530.0434782608695,0.014052768574513598,2018-04-30 10:21:09.289990,25.0
+best wireless headphones,CNET,https://www.youtube.com/channel/UCOmcA3f_RrH6b9NmcNa4tdg,testEmail,1678017,13256.0,0.01693572721786361,2018-04-30 10:21:12.018916,9.0
+best wireless headphones,RIZKNOWS,https://www.youtube.com/channel/UCAf9vHS_4I9lSu-7gYhkzaw,testEmail,330423,17849.928571428572,0.04021624736393503,2018-04-30 10:21:14.694030,15.0
+best wireless headphones,Matthew Moniz,https://www.youtube.com/channel/UCVlMUh4WsDQvOxCJJXmWwdw,testEmail,183864,32656.583333333332,0.028097958808713915,2018-04-30 10:21:16.978374,13.0
+audio technica review,BTunPlugged,https://www.youtube.com/channel/UCu8NKc_cgwZJRBnsVvqZAVg,testEmail,8173,2118.9166666666665,0.04367490223504286,2018-04-30 10:21:23.724812,25.0
+audio technica review,ODi Productions,https://www.youtube.com/channel/UCnaA5TqsiuTki7a-6kW3WAQ,testEmail,96203,201246.35,0.007774326152522826,2018-04-30 10:21:27.797700,22.0
+audio technica ATH-E70 review,lachlanlikesathing,https://www.youtube.com/channel/UCG-kL1LRqw6Akq0ktl9da1g,testEmail,61852,6834.5,0.06058099239751153,2018-04-30 10:21:31.400710,13.0
+audio technica ATH-E70 review,Performer Magazine,https://www.youtube.com/channel/UCb_ZumX_ECsb4udia8lvA-w,testEmail,207,659.5217391304348,0.0064245860277240075,2018-04-30 10:21:35.684991,24.0
+audio technica ATH-E70 review,MultiTracks.com,https://www.youtube.com/channel/UC6u_tKo1s0zc3WexefYpd1A,testEmail,19662,2829.8333333333335,0.014594952135443331,2018-04-30 10:21:42.059679,13.0
+audio technica ATH-E70 review,Audio-Technica USA,https://www.youtube.com/channel/UC4Zvo2MGFsv-83wf40pG7Ig,testEmail,24220,8111.458333333333,0.0020341594965968923,2018-04-30 10:21:46.949250,25.0
+best headphones for streaming,Tek Syndicate,https://www.youtube.com/channel/UCNovoA9w0KnxyDP5bGrOYzg,testEmail,596332,6149.428571428572,0.06202845614173031,2018-04-30 10:21:50.589828,14.0
+best headphones for streaming,The Product Lab,https://www.youtube.com/channel/UCSc9R_Wo-pS2JZXk7Oppliw,testEmail,22460,17064.208333333332,0.014459772196721187,2018-04-30 10:21:55.036357,25.0
+best headphones for streaming,BlueStacks Official,https://www.youtube.com/channel/UC9eB0Ysv4UcKgjEy47zcZ5A,testEmail,15273,76.69565217391305,0.021730914588057447,2018-04-30 10:21:59.368307,25.0
+best headphones for streaming,StrangerSinTV,https://www.youtube.com/channel/UC4yjlHOYqFoCwRBa2QctvLA,testEmail,3340,3459.2916666666665,0.015045690229465917,2018-04-30 10:22:04.857995,25.0
+monolith m1060 review,DMS3 TV,https://www.youtube.com/channel/UC7WtLipHnndkqwSxvL0oyVQ,testEmail,9087,2543.5833333333335,0.08093266364078537,2018-04-30 10:22:08.680435,13.0
+monolith m1060 review,metal571,https://www.youtube.com/channel/UCpE4nYnzXQFB5uHOZpKZ6Eg,testEmail,8223,11057.111111111111,0.03730630866008803,2018-04-30 10:22:12.276846,18.0
+monolith m1060 review,Deez Canz,https://www.youtube.com/channel/UCw9AYWqR7g09Zq-274CjBwQ,testEmail,422,4252.625,0.028165610129691137,2018-04-30 10:22:13.933152,9.0
+headphone amps,Ezvid Wiki,https://www.youtube.com/channel/UCXAHpX2xDhmjqtA-ANgsGmw,testEmail,335850,109.91666666666667,0.019382272472558262,2018-04-30 10:22:18.866905,25.0
+headphone amps,Techmoan,https://www.youtube.com/channel/UC5I2hjZYiW9gZPVkvzM8_Cw,testEmail,639010,180023.7857142857,0.04672190906152847,2018-04-30 10:22:21.770272,14.0
+best in ear headphones,HiFi Headphones,https://www.youtube.com/channel/UCEW6FtLSt9H9nxEkYjby0eA,testEmail,13256,5366.476190476191,0.020367626180166108,2018-04-30 10:22:26.357263,22.0
+best in ear headphones,Top 5 Tech & LifeStyle,https://www.youtube.com/channel/UCvyHccelypbfL7npoKi-6CA,testEmail,0,140573.45454545456,0.006179419439261592,2018-04-30 10:22:30.742661,23.0
+best in ear headphones,BPS Customs,https://www.youtube.com/channel/UCcA8woXKjpLrSnpTi6hZgUw,testEmail,22616,3361.909090909091,0.07410562180579215,2018-04-30 10:22:34.259396,23.0
+mechanical keyboard review,Toasty Bros,https://www.youtube.com/channel/UCwdEr_DVvYp6Maf-OTw7z_w,testEmail,51860,1225.090909090909,0.08492257841100227,2018-04-30 10:35:01.904859,12.0
+mechanical keyboard review,JayzTwoCents,https://www.youtube.com/channel/UCkWQ0gDrqOCarmUKmppD7GQ,testEmail,1454812,202075.91304347827,0.05250811361033929,2018-04-30 10:35:05.821722,25.0
+mechanical keyboard review,TastyPCTV,https://www.youtube.com/channel/UC6duTrdZCnxNWIofAbQ0TIw,testEmail,98645,102812.36842105263,0.04390419952545132,2018-04-30 10:35:09.742209,20.0
+mechanical keyboard review,Science Studio,https://www.youtube.com/channel/UCmbkRUS_4Efdt5UIhwNqtcw,testEmail,348212,32211.217391304348,0.07427795429983433,2018-04-30 10:35:13.878109,25.0
+mechanical keyboard review,SilencedTech,https://www.youtube.com/channel/UCqkjL0pwKQTz1oujPqM1qJQ,testEmail,56378,4883.142857142857,0.05615041054746162,2018-04-30 10:35:15.420463,7.0
+mechanical keyboard review,This Does Not Compute,https://www.youtube.com/channel/UCEp20NgOZHmgWdbQdHSxgjw,testEmail,82759,8443.384615384615,0.07372180314128494,2018-04-30 10:35:18.016002,14.0
+mechanical keyboard review,theASMRnerd,https://www.youtube.com/channel/UC-J69_lkam--1V2wDU3aggg,testEmail,63518,6179.583333333333,0.0347184337474945,2018-04-30 10:35:20.404557,12.0
+mechanical keyboard review,Jarrod'sTech,https://www.youtube.com/channel/UC2Rzju32yQPkQ7oIhmeuLwg,testEmail,15324,6950.916666666667,0.053685964680917374,2018-04-30 10:35:23.018031,13.0
+mechanical keyboard review,Romsicle,https://www.youtube.com/channel/UCuwC0BIaKqs3UOVPzFTFPvA,testEmail,1857,1465.9545454545455,0.02204345277495689,2018-04-30 10:35:27.576980,24.0
+mechanical keyboard review,Barnacules Nerdgasm,https://www.youtube.com/channel/UC1MwJy1R0nGQkXxRD9p-zTQ,testEmail,940673,,,2018-04-30 10:35:28.624912,1.0
+mechanical keyboard review,uglypoe,https://www.youtube.com/channel/UCPOx_76SFHQNJn1B5KfV4Hg,testEmail,1801,6282.238095238095,0.008193925428456646,2018-04-30 10:35:32.621461,22.0
+mechanical keyboard review,Myxo14,https://www.youtube.com/channel/UClp7ddFRFO69VmviPjKCnNA,testEmail,1599,30070.0,0.013030202255343593,2018-04-30 10:35:34.803954,12.0
+mechanical keyboard review,DidsLive,https://www.youtube.com/channel/UCKCUj0Ot01LiTYjhOJwSWYg,testEmail,1163,731.0,0.024487004103967168,2018-04-30 10:46:56.081062,11.0
+mechanical keyboard review,Rocket Jump Ninja,https://www.youtube.com/channel/UCGJaDZC7PChgd-XMwcbZkiw,testEmail,117408,16833.416666666668,0.04891217217888868,2018-04-30 10:46:57.549774,13.0
+mechanical keyboard review,P Tech,https://www.youtube.com/channel/UCfJAUPooeyIDVz6_zc4gG1w,testEmail,17,,,2018-04-30 10:46:57.744618,1.0
+mechanical keyboard review,The TechieGames,https://www.youtube.com/channel/UCfNBTw1r0akiaUSPw6SenYQ,testEmail,3084,682.9166666666666,0.05708942356155663,2018-04-30 10:47:01.273276,25.0
+mechanical keyboard review,BadSeed Tech,https://www.youtube.com/channel/UCOFH59uoSs8SUF0L_p3W0sg,testEmail,20699,1722.2,0.11520148647079317,2018-04-30 10:47:02.553704,5.0
+mechanical keyboard review,RedGamingTech,https://www.youtube.com/channel/UC4JbHDcSCpK3TTcdvQYa-OA,testEmail,51907,4581.391304347826,0.0627174834554404,2018-04-30 10:47:05.630453,25.0
+mechanical keyboard review,PacoMNL,https://www.youtube.com/channel/UCD0BCr5MPWxUX-IQ8bVEgrQ,testEmail,13493,3591.217391304348,0.04366933824063537,2018-04-30 10:47:09.176880,25.0
+mechanical keyboard review,PC Crazy,https://www.youtube.com/channel/UCYlp-u4-BSWNIPEJ-5fhiNg,testEmail,3309,973.9583333333334,0.035939548942106485,2018-04-30 10:47:12.305516,25.0
+mechanical keyboard review,Nerd Cave PH,https://www.youtube.com/channel/UCu4qvn8hNupSEVV2fk2fYcA,testEmail,786,1477.1666666666667,0.03630706010202082,2018-04-30 10:47:15.152822,20.0
+mechanical keyboard review,JSL Review,https://www.youtube.com/channel/UCtYJT2feifBiVsxSC1S1Jwg,testEmail,12192,11394.25,0.024339762014466363,2018-04-30 10:47:16.824804,13.0
+mechanical keyboard review,The Daily Dot,https://www.youtube.com/channel/UCPky_U7C3p6Y7qMoLCsTA-w,testEmail,30754,4628.714285714285,0.013564396160612328,2018-04-30 10:47:18.731977,15.0
+mechanical keyboard review,LearnCode.academy,https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw,testEmail,464661,9879.636363636364,0.03786407915884525,2018-04-30 10:47:20.344123,13.0
+keyboard review,CrankyTechID,https://www.youtube.com/channel/UCvNl7rXA6joKatJoHXEciPg,testEmail,30016,6169.95652173913,0.03879246559414836,2018-04-30 10:47:29.569802,25.0
+keyboard review,Matt Gonzalez,https://www.youtube.com/channel/UCO2RafvMgqlepmwhg5iuJYg,testEmail,26004,16560.833333333332,0.022271652264607533,2018-04-30 10:47:32.562970,25.0
+keyboard review,LGR,https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ,testEmail,846072,143207.0,0.050948297064932424,2018-04-30 10:47:33.799636,9.0
+keyboard review,The Tech Chap,https://www.youtube.com/channel/UCzlXf-yUIaOpOjEjPrOO9TA,testEmail,253314,139820.81818181818,0.018905040152038744,2018-04-30 10:47:36.451156,24.0
+keyboard review,GameSpot,https://www.youtube.com/channel/UCbu2SsF-Or3Rsn3NxqODImw,testEmail,3108443,50869.434782608696,0.03406949618959137,2018-04-30 10:47:39.361916,25.0
+keyboard review,The Phawx,https://www.youtube.com/channel/UCNpxh2vUm0kZJP_D6C4OMSA,testEmail,14209,5382.375,0.032708057128220766,2018-04-30 10:47:42.301626,25.0
+keyboard review,zollotech,https://www.youtube.com/channel/UCiQMYozSSTkJ2twtZM1bG9w,testEmail,251274,12920.454545454546,0.052242744063324534,2018-04-30 10:47:44.200250,12.0
+keyboard review,Tek Everything,https://www.youtube.com/channel/UC-S891KrwZOQUQHjgkJNyqw,testEmail,22944,42723.55,0.021555965466845628,2018-04-30 10:47:46.772634,21.0
+keyboard review,Dyland PROS,https://www.youtube.com/channel/UCXdmo_q4SawYMz-dmeKEHPQ,testEmail,1063174,325846.5714285714,0.05596360133267512,2018-04-30 10:47:48.023390,7.0
+keyboard review,iDB,https://www.youtube.com/channel/UCF9-JngqznvAsiF2yZbeY8g,testEmail,292686,4477.0,0.03486297112779326,2018-04-30 10:47:51.625512,25.0
+keyboard review,Lon.TV,https://www.youtube.com/channel/UCymYq4Piq0BrhnM18aQzTlg,testEmail,176745,5484.714285714285,0.05480165655197562,2018-04-30 10:47:52.906497,7.0
+keyboard review,DetroitBORG,https://www.youtube.com/channel/UCmY3dSr-0TOkJqy0btd2AJg,testEmail,1179238,329989.5652173913,0.02159807734168781,2018-04-30 10:47:55.797171,25.0
+keyboard review,DJBooth Pro Audio,https://www.youtube.com/channel/UCgeF5HaAI6I9jsuCTFhkBsA,testEmail,0,3792.0833333333335,0.017902910378175874,2018-04-30 10:47:59.422218,25.0
+keyboard review,Nick Ackerman,https://www.youtube.com/channel/UCWsEZ9v1KC8b5VYjYbEewJA,testEmail,213628,32955.666666666664,0.03657576050942898,2018-04-30 10:48:02.020089,21.0
+keyboard review,8-Bit Keys,https://www.youtube.com/channel/UCcTt3O4_IW5gnA0c58eXshg,testEmail,138755,253636.45833333334,0.03136601927467334,2018-04-30 10:48:05.264532,25.0
+best mech keys,Robbie Vapes,https://www.youtube.com/channel/UCqMsGW7ApRqs1eUOECwgluQ,testEmail,15030,1611.5555555555557,0.0272338665195808,2018-04-30 11:02:29.196679,10.0
+best mech keys,MyFreedomSmokes,https://www.youtube.com/channel/UC3wGP7DWOfOByCmtwDpq11A,testEmail,27443,387.5833333333333,0.03284473652230002,2018-04-30 11:02:32.597357,25.0
+best mech keys,Northern Fog,https://www.youtube.com/channel/UCtPMXgNsopoHiKz0cqzBCWw,testEmail,13639,8916.625,0.020118948138116044,2018-04-30 11:02:36.347555,25.0
+best mech keys,ThioJoeTech,https://www.youtube.com/channel/UCrjliuC6PeXJ4P8XYl_iETQ,testEmail,179815,31200.875,0.04406527060539168,2018-04-30 11:02:38.066649,9.0
+best mech keys,AllDayVaper,https://www.youtube.com/channel/UCe8fJHmynSXF-0AsafpQo8Q,testEmail,9821,294.4583333333333,0.1120701853686147,2018-04-30 11:02:41.514167,25.0
+best mech keys,Awe of Tech,https://www.youtube.com/channel/UCkGDCfFTLdLbv0_Mf5vwbtA,testEmail,59674,36120.833333333336,0.018904141192755793,2018-04-30 11:02:42.795059,7.0
+best mech keys,NCIX Tech Tips,https://www.youtube.com/channel/UCjTCFFq605uuq4YN4VmhkBA,testEmail,1175448,83824.85714285714,0.04893025253334334,2018-04-30 11:02:44.080370,8.0
+best mech keys,Farzan,https://www.youtube.com/channel/UCdbVVw-vk9u8nY1h1RPrrAg,testEmail,88,1252.5,0.010778443113772455,2018-04-30 11:02:45.047950,2.0
+best mech keys,The Vaping Bogan,https://www.youtube.com/channel/UCExqR7C-PZp9aTEF-hUIRsA,testEmail,106869,8253.91304347826,0.06330689959008544,2018-04-30 11:02:47.604056,24.0
+best mech keys,KevSoCraftified,https://www.youtube.com/channel/UCdpi9vt45yDATOdL0QzgpoA,testEmail,9663,,,2018-04-30 11:02:48.041750,1.0
+best mech keys,Tony Schuster,https://www.youtube.com/channel/UCmrWDPwjLb0pjdI4EHdytNQ,testEmail,253,888.7916666666666,0.009094744737705688,2018-04-30 11:02:51.155322,25.0
+best mech keys,Quality Vape Reviews,https://www.youtube.com/channel/UCQ614-M27ORonmRZGliDaVw,testEmail,170,472.5,0.029169542213020472,2018-04-30 11:02:54.170191,25.0
+best mech keys,MoltenMetal,https://www.youtube.com/channel/UCa-fkypLpFQjKhsoscKoodg,testEmail,20809,7108.347826086957,0.0512922650649573,2018-04-30 11:02:56.879838,25.0
+best mech keys,DVZN Media,https://www.youtube.com/channel/UCXydHW0hfCf3AEr8kMKBfmA,testEmail,6619,901.8333333333334,0.05484198854185918,2018-04-30 11:03:00.172853,25.0
+best mech keys,Wayne Cheah,https://www.youtube.com/channel/UCFQL-a_7xFbki3ZWTivnNcA,testEmail,658,4491.5,0.016141600801513972,2018-04-30 11:03:01.206966,2.0
+best mech keys,BSM Tech Tricks,https://www.youtube.com/channel/UC7rF9ePuwWEaML2vnK-UIvg,testEmail,18865,24378.75,0.010412073356235793,2018-04-30 11:03:03.286447,13.0
+best mech keys,Rob Fern,https://www.youtube.com/channel/UCLWi5DRbbDHXzXoi2da0gLg,testEmail,8870,1298.5,0.02395926924228811,2018-04-30 11:03:06.396990,19.0
+best mech keys,SavedByVape,https://www.youtube.com/channel/UCCwOyQft3_1jbGoYxVWRlUw,testEmail,167,714.0,0.03221288515406162,2018-04-30 11:03:09.335860,15.0
+best mech keys,Kotaku,https://www.youtube.com/channel/UCVS9tA3PI8Gard_LrTx0YsQ,testEmail,274239,39328.625,0.02413963425338175,2018-04-30 11:03:13.080063,25.0
+best mech keys,Bill Owen,https://www.youtube.com/channel/UCcnCXoB2dRjaTKkcd3l517Q,testEmail,69002,5115.444444444444,0.021069093594561134,2018-04-30 11:03:14.938344,10.0
+best mech keys,GF LaserBolt,https://www.youtube.com/channel/UC5kbCDveYQUcxoOll5NKocA,testEmail,147672,2064.0476190476193,0.03986618987195755,2018-04-30 11:03:18.017290,22.0
+best mech keys,New Amsterdam Vape,https://www.youtube.com/channel/UCxsotC6eyf7ahIFI0eH54fA,testEmail,60986,15374.166666666666,0.024665293511843465,2018-04-30 11:03:21.282226,25.0
+best mech keys,Cuaks,https://www.youtube.com/channel/UCbxCMitq61iQOq8jvLH_vdQ,testEmail,40426,12556.652173913044,0.04506575416460355,2018-04-30 11:03:24.327568,25.0
+best mech keys,callofcrows mod,https://www.youtube.com/channel/UCFH1Z7dLsW91pIExci036Pw,testEmail,1,,,2018-04-30 11:03:24.593565,0.0
+best mech keys,PartyElite,https://www.youtube.com/channel/UCg3BiSs8eBE9hA9EWYTgtAg,testEmail,36948,4174.0,0.051923397429220225,2018-04-30 11:03:27.231844,25.0
+best mechanical keyboards,ozan ekinci,https://www.youtube.com/channel/UCZRPfEBWuYw7qBcEmOrA86g,testEmail,29880,131097.04347826086,0.008522151911201247,2018-04-30 11:03:35.608613,25.0
+best mechanical keyboards,Chipsflickan,https://www.youtube.com/channel/UCwrFk1l7zyjMlm3typlGV0Q,testEmail,17082,131.0,,2018-04-30 11:03:36.614641,3.0
+best mechanical keyboards,Top Lists,https://www.youtube.com/channel/UCAagw0vEXqaTSkIZ4f8_1ew,testEmail,18994,651.304347826087,0.020271473075211394,2018-04-30 11:03:40.113725,25.0
+best mechanical keyboards,Tech Tesseract,https://www.youtube.com/channel/UCT9CJkrdmTnZ-M5xns9chXQ,testEmail,7946,4893.666666666667,0.026614553563760315,2018-04-30 11:03:43.769904,25.0
+best mechanical keyboards,Wirecutter,https://www.youtube.com/channel/UCXlo0wXqyM_WgpmZdyNrXYA,testEmail,3100,804.7391304347826,0.0012845920985204576,2018-04-30 11:03:46.866649,25.0
+best mechanical keyboards,Programmer Friendly,https://www.youtube.com/channel/UChDkyXCcPccDFqFhhzSvQxw,testEmail,812,65972.0,0.007957921542472565,2018-04-30 11:03:47.286758,2.0
+best mechanical keyboards,INDIAN GAMER,https://www.youtube.com/channel/UCtZ1Pm42gx7yCSqR9w77Kew,testEmail,85506,23617.88888888889,0.10772907541835047,2018-04-30 11:03:49.018139,10.0
+best mechanical keyboards,Techs You Can't Live Without,https://www.youtube.com/channel/UCkoP98bkuVjTs12pdMvlK3A,testEmail,584,3957.217391304348,0.028185520494565058,2018-04-30 11:03:53.042199,25.0
+best mechanical keyboards,Gadgets Review,https://www.youtube.com/channel/UCzPJCGFqGMHAyTm4QcntZdQ,testEmail,53450,648.6086956521739,0.02286946418197256,2018-04-30 11:03:56.230788,25.0
+best mechanical keyboards,Gamers Nexus,https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA,testEmail,249597,40587.86956521739,0.06553784899679099,2018-04-30 11:03:58.941635,25.0
+best mechanical keyboards,Miraie,https://www.youtube.com/channel/UCB18IliCiBeraa8oysaTZSQ,testEmail,202829,60977.166666666664,0.1231627188816082,2018-04-30 11:04:01.997081,25.0
+best mechanical keyboards,Carson Clark,https://www.youtube.com/channel/UCKPwFmMXR8tQc_mqD4zqrSQ,testEmail,1479,,,2018-04-30 11:04:03.141156,1.0
+kira mechanical keyboard,OSReviews,https://www.youtube.com/channel/UCpt9QXFMmuldLVn95BWLDbw,testEmail,31654,800.625,0.030080666146239915,2018-04-30 11:04:12.053747,25.0
+kira mechanical keyboard,GoKickMe,https://www.youtube.com/channel/UCItaT4Cy3Y2SNFdDpADcwcQ,testEmail,175,38.36842105263158,0.13929850632525528,2018-04-30 11:04:14.572658,19.0
+kira mechanical keyboard,JELLYzTECH,https://www.youtube.com/channel/UCv-I9EScyXALeJ0fueNdA2g,testEmail,1090,5151.8,0.009860631235684614,2018-04-30 11:04:16.344134,11.0
+kira mechanical keyboard,Jared Busch,https://www.youtube.com/channel/UCiXH5CLtTt-aZF_BLPGWvcg,testEmail,151032,37450.86956521739,0.04372254857571852,2018-04-30 11:04:19.273242,25.0
+kira mechanical keyboard,Bonkaholic !,https://www.youtube.com/channel/UCOBsA92Ojrlt4SshNIujN3w,testEmail,659,32.0,,2018-04-30 11:04:20.663725,3.0
+kira mechanical keyboard,steev the technophile,https://www.youtube.com/channel/UCKcQMNT1Dpl2o1mzcnopexA,testEmail,1040,59.666666666666664,,2018-04-30 11:04:22.103533,6.0
+kira mechanical keyboard,Top5Gadgets,https://www.youtube.com/channel/UChI6gVcD1WA884KwkpdsUPg,testEmail,30081,3915.4583333333335,0.015568632876100072,2018-04-30 11:04:25.643355,25.0
+kira mechanical keyboard,Aban Tech,https://www.youtube.com/channel/UC_8ixgaKSRJTObhpbyo7ELw,testEmail,11439,26.958333333333332,0.043545460654525914,2018-04-30 11:04:29.002965,25.0
+kira mechanical keyboard,minimalistik,https://www.youtube.com/channel/UCZv7dyFdg4DIph6TIBlaVSQ,testEmail,4448,4025.4347826086955,0.028640348508577704,2018-04-30 11:04:32.205512,25.0
+kira mechanical keyboard,JYMV,https://www.youtube.com/channel/UCoYZgKM-MhBIXaFHa-xkHng,testEmail,138,584.6875,0.04417979270810408,2018-04-30 11:04:34.335151,17.0
+kira mechanical keyboard,Lucks List,https://www.youtube.com/channel/UCzS0Ke7C5eQz6Be1d0uQvOA,testEmail,0,1004.304347826087,0.009078675844553153,2018-04-30 11:04:37.139779,25.0
+kira mechanical keyboard,Top Clack,https://www.youtube.com/channel/UCAIHiFKJt69HNad6reiq8pg,testEmail,1486,534.25,0.03410578285962307,2018-04-30 11:04:39.939921,25.0
+kira mechanical keyboard,Jay's Take,https://www.youtube.com/channel/UCliGOXEgaofgCijQ99UYzEA,testEmail,2704,12014.5625,0.014841364385927494,2018-04-30 11:04:42.372444,17.0
+kira mechanical keyboard,ROSHOW,https://www.youtube.com/channel/UCvdMhp21gZGwB7qerEw8_rQ,testEmail,1230,904.5714285714286,0.02849164417389307,2018-04-30 11:04:45.786906,23.0
+kira mechanical keyboard,Eldad Kira,https://www.youtube.com/channel/UCMoT7DIi16hVhOTJ1CnpLag,testEmail,100,44.666666666666664,,2018-04-30 11:04:47.491693,3.0
+kira mechanical keyboard,TechFox,https://www.youtube.com/channel/UCIp-oTSdFO7BhAJpW2d5HMQ,testEmail,6132,995.5555555555555,0.04296874999999999,2018-04-30 11:04:49.035366,10.0
+kira mechanical keyboard,Hipster Pixel,https://www.youtube.com/channel/UCMttl5PJl54t36kd0O21cjg,testEmail,97,1529.4615384615386,0.01765327163908867,2018-04-30 11:04:51.350363,15.0
+kira mechanical keyboard,Mekanisk,https://www.youtube.com/channel/UCWq3V2TN-GPhyKAGTBCvSZQ,testEmail,2869,5620.952380952381,0.016299559471365636,2018-04-30 11:04:54.439440,22.0
+kira mechanical keyboard,Techno Source,https://www.youtube.com/channel/UCjYrAKGiaUWVA8g5a2LYQRw,testEmail,28891,656.25,0.02782905982905983,2018-04-30 11:04:56.727846,13.0
+kira mechanical keyboard,Indiegogo Technology,https://www.youtube.com/channel/UCD1o9pJ7Pt99nTTekMuK53A,testEmail,4078,59.416666666666664,0.03433380084151473,2018-04-30 11:05:00.153977,25.0
+kira mechanical keyboard,Estechmedia,https://www.youtube.com/channel/UCTdYYhKU5PNrG-ypz8ue7_w,testEmail,34967,11731.375,0.05285326308939594,2018-04-30 11:05:03.341734,25.0
+kira mechanical keyboard,Kira Denys,https://www.youtube.com/channel/UCvmTPzpLvgjSTCk0ndNawGA,testEmail,1,,,2018-04-30 11:05:04.327723,1.0
+kira mechanical keyboard,Kevin Evangelista,https://www.youtube.com/channel/UCK6JzYU4f--XoUQALN5ZsTA,testEmail,755,127.33333333333333,0.08376963350785342,2018-04-30 11:05:05.182006,3.0
+kira mechanical keyboard,MONALIZA,https://www.youtube.com/channel/UCQ5QNTODg0xfuM06QAoNHrA,testEmail,15741,7443.478260869565,0.04861638434579439,2018-04-30 11:05:08.580851,25.0
+kira mechanical keyboard,Top 5ves HD,https://www.youtube.com/channel/UCMwxcKBkxVUu4IRMvcHli8Q,testEmail,63005,8951.478260869566,0.008779215480561868,2018-04-30 11:05:12.114579,25.0
+kira mechanical keyboard,Bit Splits,https://www.youtube.com/channel/UC7vGewQIS8vY7HBuk-n8usA,testEmail,21,60.27272727272727,,2018-04-30 11:05:13.523849,12.0
+kira mechanical keyboard,忆光极客定制,https://www.youtube.com/channel/UCzDl0wWT8iBTUb4Bwp4otMg,testEmail,4,,,2018-04-30 11:05:13.787182,1.0
+kira mechanical keyboard,Hazelnuttygames,https://www.youtube.com/channel/UCMGVp_GnkhHZROIfRdXpo4Q,testEmail,89815,10144.772727272728,0.04483782707073777,2018-04-30 11:05:16.485131,24.0
+kira mechanical keyboard,Cool Gadgets & Stuff,https://www.youtube.com/channel/UCtSGuVQVej-vjeSv_xF-8BQ,testEmail,66614,15695.318181818182,0.016077904453015934,2018-04-30 11:05:19.921814,25.0
+kira mechanical keyboard,Mike Y.,https://www.youtube.com/channel/UCMnsPI-jHce0IfPwzoND5eg,testEmail,124,1598.3529411764705,0.008087369350802296,2018-04-30 11:05:22.560653,18.0
+kira mechanical keyboard,zenodyssey,https://www.youtube.com/channel/UCeBcYqqphIaoinO4u41_5aQ,testEmail,20,280.0,0.033333333333333326,2018-04-30 11:05:23.730421,3.0
+mech keyboard tutorial,ALittleDIMM,https://www.youtube.com/channel/UClPo2FZkv2HcPXhkbaTJ0QA,testEmail,19013,3752.0,0.06970356550580431,2018-04-30 11:05:30.800885,9.0
+mech keyboard tutorial,Abandon,https://www.youtube.com/channel/UCJFW-SuNUwWYG6ebaYGA2yg,testEmail,3159,98.96,0.05982507937623751,2018-04-30 11:05:34.509464,25.0
+mech keyboard tutorial,shottysteve,https://www.youtube.com/channel/UCdWJIffMKQmfSZT5U4GV2ew,testEmail,279347,495715.5,0.04638749443985512,2018-04-30 11:05:35.131675,2.0
+mech keyboard tutorial,iluvbeanz,https://www.youtube.com/channel/UC8WqdwRVjibpzHqvg_69gzw,testEmail,7943,31216.36842105263,0.007711288443478539,2018-04-30 11:05:38.127945,21.0
+mech keyboard tutorial,The Wiggin,https://www.youtube.com/channel/UCLg7nvYzINwcackcsbo0qIw,testEmail,745,46.57142857142857,0.2032719836400818,2018-04-30 11:05:40.988907,15.0
+mech keyboard tutorial,Christopher Lambert,https://www.youtube.com/channel/UCYf1R33JOeoxAfprxDp1c9Q,testEmail,1205,1403.8260869565217,0.015014373479592757,2018-04-30 11:05:44.536671,25.0
+mech keyboard tutorial,onFile,https://www.youtube.com/channel/UCFJEixeyykztrATSqtBzPGg,testEmail,632,7125.090909090909,0.010545319995917115,2018-04-30 11:05:47.868294,23.0
+mech keyboard tutorial,Matt3o,https://www.youtube.com/channel/UCkfZZ8Gt-oQaCkgow-KMImw,testEmail,618,5002.428571428572,0.009238369934603193,2018-04-30 11:05:49.637657,15.0
+mech keyboard tutorial,Seton Magic,https://www.youtube.com/channel/UCwjpXdTMaGpW4PIS4da3oBg,testEmail,2047,,,2018-04-30 11:05:50.410504,0.0
+mech keyboard tutorial,Newegg Studios,https://www.youtube.com/channel/UCJ1rSlahM7TYWGxEscL0g7Q,testEmail,468901,3564.6,0.023733378219155027,2018-04-30 11:05:52.145656,11.0
+mech keyboard tutorial,We Do Tech,https://www.youtube.com/channel/UCgNGEu_mRucHDeicVLjHWGQ,testEmail,26318,1116.4583333333333,0.05346552325628565,2018-04-30 11:05:55.733722,25.0
+mech keyboard tutorial,Roman Kisil,https://www.youtube.com/channel/UC5PJInWAD8XMaESmNE3I5tw,testEmail,14,,,2018-04-30 11:05:56.554132,0.0
+mech keyboard tutorial,Moyst,https://www.youtube.com/channel/UCk9-1brj6WOI5EVIQXpfE1A,testEmail,290,24267.75,0.018264981302345707,2018-04-30 11:05:57.182873,4.0
+mech keyboard tutorial,SickBeardHD,https://www.youtube.com/channel/UC1viKPDDJyFMjzg1q1rhg6A,testEmail,2,,,2018-04-30 11:05:57.555051,1.0
+mech keyboard tutorial,totallydubbedHD,https://www.youtube.com/channel/UCAuaBtR8Qr-FRomAAhaD22w,testEmail,12390,998.0,0.04993319973279892,2018-04-30 11:05:59.724153,13.0
+mech keyboard tutorial,Disagreeable Adventures,https://www.youtube.com/channel/UCakrttURaA0zsZVT9MhoF_A,testEmail,13,22.7,,2018-04-30 11:06:01.732818,11.0
+mech keyboard tutorial,Dung Nguyen Thi Phuong,https://www.youtube.com/channel/UCZQe7FMZnbljBqAt7JhgUkg,testEmail,0,21.26086956521739,0.00783912747102931,2018-04-30 11:06:05.888836,25.0
+mech keyboard tutorial,TopLevelReviews,https://www.youtube.com/channel/UCOTUn18BcY11B9ZzNuaSJZA,testEmail,24865,935.3846153846154,0.00986156798245614,2018-04-30 11:06:08.413904,14.0
+mech keyboard tutorial,Gunz Raw,https://www.youtube.com/channel/UCCPuoGgNQuWrJqNNsi9-yrg,testEmail,597,452.10526315789474,0.038741430604061565,2018-04-30 11:06:11.515539,20.0
+mech keyboard tutorial,José Faria,https://www.youtube.com/channel/UCg8T5hoGPocYWY2KSHUg-sQ,testEmail,2520,33592.47826086957,0.002388696523123614,2018-04-30 11:06:14.778511,24.0
+mech keycaps,skiwithpete,https://www.youtube.com/channel/UCuwFJkahErfhbroefg12lzA,testEmail,30700,610.8,0.06021247180382741,2018-04-30 11:06:22.229470,10.0
+mech keycaps,Jerry Neutron,https://www.youtube.com/channel/UCUH_Rsj63x9xq7wCWjNs5Nw,testEmail,13448,3009.75,0.04737381288589861,2018-04-30 11:06:23.917719,13.0
+mech keycaps,Nate Gentile,https://www.youtube.com/channel/UC36xmz34q02JYaZYKrMwXng,testEmail,144096,35823.666666666664,0.07760605186515432,2018-04-30 11:06:26.425896,16.0
+mech keycaps,Troy Fletcher,https://www.youtube.com/channel/UCjtyO3ymIvrkz4ls_ro22fw,testEmail,512,214.6086956521739,0.05061453268503512,2018-04-30 11:06:29.891319,25.0
+mech keycaps,TheMaxKeyboard,https://www.youtube.com/channel/UC3fU1wWOkCvUdMRBR52R_Cg,testEmail,2769,28772.25,0.00626182056205777,2018-04-30 11:06:32.738220,25.0
+mech keycaps,Atrere,https://www.youtube.com/channel/UCH2bwrbaDTGE05S6oOdZIRA,testEmail,34,273.6666666666667,0.021315468940316683,2018-04-30 11:06:34.362246,7.0
+mech keycaps,Bitwit,https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw,testEmail,1002855,107904.5,0.0384684632230822,2018-04-30 11:06:37.192946,25.0
+mech keycaps,QGinHQ,https://www.youtube.com/channel/UCkf4j4RqKKu6W6BQgHl0sqA,testEmail,1392,1686.75,0.10938194753223655,2018-04-30 11:06:38.031578,4.0
+mech keycaps,Leave Alone,https://www.youtube.com/channel/UCoUi3HnE2dweMujqKgcxOZw,testEmail,10,284.09090909090907,0.006906666666666669,2018-04-30 11:06:39.967433,12.0
+mech keycaps,Byheart 101,https://www.youtube.com/channel/UC2cyKUeS4Cg18lW8YgoSshg,testEmail,5,,,2018-04-30 11:06:40.471988,1.0
+mech keycaps,Bibie Sembiring,https://www.youtube.com/channel/UCusSGic58l3xbDWij4gXfow,testEmail,3,,,2018-04-30 11:06:40.762041,1.0
+mech keycaps,Das Keyboard,https://www.youtube.com/channel/UCoGfjyCcxgUz8_EnIpuCGPQ,testEmail,3007,13804.75,0.003931014083316733,2018-04-30 11:06:43.694244,22.0
+mech keycaps,OC3D RushKit,https://www.youtube.com/channel/UCQG_D3J6Bt_PmnlkpXr6mhA,testEmail,28907,13220.1875,0.01691792103820722,2018-04-30 11:06:46.051936,17.0
+mech keycaps,Gal Pavlin,https://www.youtube.com/channel/UCz73PjK5egYHEdB745FJyzA,testEmail,272,898.4,0.01914514692787177,2018-04-30 11:06:47.802140,5.0
+mech keycaps,Adafruit Industries,https://www.youtube.com/channel/UCpOlOeQjj7EsVnDh3zuCgsA,testEmail,284161,1193.2222222222222,0.04047862929509266,2018-04-30 11:06:49.514396,11.0
+mech keycaps,It Was Jovi,https://www.youtube.com/channel/UC1jTsUqKlWN6NCY0lsYGqOw,testEmail,1485,283.3333333333333,0.039230769230769236,2018-04-30 11:06:51.651163,14.0
+mech keycaps,The Board Podcast,https://www.youtube.com/channel/UCg98oJZNffR9nDLJNkorjqw,testEmail,1698,125.54545454545455,0.09196234612599566,2018-04-30 11:06:53.498069,12.0
+mech keycaps,Buttzooka,https://www.youtube.com/channel/UC8Cvclhkjp3_6FqcQHorTkg,testEmail,51,6896.285714285715,0.0012843352529311844,2018-04-30 11:06:54.712426,8.0
+mech keycaps,Ducky Channel,https://www.youtube.com/channel/UCKAMDaJ_gd7-CIvx1bNNA1A,testEmail,3737,17393.5625,0.006194538815105627,2018-04-30 11:06:57.711878,18.0
+mech keycaps,Future Technology,https://www.youtube.com/channel/UCatsBZnwZat4UqcGMVyBAMg,testEmail,1617,32.916666666666664,,2018-04-30 11:07:02.809738,25.0
+mech keycaps,German Caterpillar,https://www.youtube.com/channel/UCkHtklNPHVrSKYK2Upsjqig,testEmail,166,,,2018-04-30 11:07:03.344160,1.0
+gaming keyboards,Soldier Knows Best,https://www.youtube.com/channel/UCMgCvJ3_QahXgvwj6LjOd-w,testEmail,780692,13048.041666666666,0.03760142805593432,2018-04-30 11:07:12.113443,25.0
+gaming keyboards,ValveFollower,https://www.youtube.com/channel/UCvsy6ChPPxGZ14869fsSphA,testEmail,198371,20840.521739130436,0.04224818933622018,2018-04-30 11:07:14.958805,24.0
+gaming keyboards,Blunty,https://www.youtube.com/channel/UCppifd6qgT-5akRcNXeL2rw,testEmail,350395,5177.666666666667,0.05293568531513551,2018-04-30 11:07:16.715844,13.0
+gaming keyboards,techfreshness,https://www.youtube.com/channel/UC1SZCqg1bGjqkv5cGSk9O-Q,testEmail,35371,78916.6,0.014078153392315431,2018-04-30 11:07:18.048080,5.0
+gaming keyboards,GameForest,https://www.youtube.com/channel/UCdrCQ3JltxWmXrNHcC4Fugg,testEmail,3402,1004.0416666666666,0.017191387706570003,2018-04-30 11:07:21.204705,25.0
+gaming keyboards,MALICEDOLL79,https://www.youtube.com/channel/UCE8Sq9Eo98bwf670iOuEaog,testEmail,19073,47.4,0.07825086306098965,2018-04-30 11:07:23.130323,11.0
+gaming keyboards,TK Bay,https://www.youtube.com/channel/UCQN7NhtBqADmNaRA3yc_mAQ,testEmail,53780,1761.7777777777778,0.05940968718466195,2018-04-30 11:07:25.305382,19.0
+gaming keyboards,sutats,https://www.youtube.com/channel/UCmgJ1HGQKe0OCFPyw1aicUQ,testEmail,3742,40.0,,2018-04-30 11:07:26.718987,8.0
+gaming keyboards,MarzBarVlogs,https://www.youtube.com/channel/UC-WN47gj27EoWYITQ4TwsBA,testEmail,463343,63931.25,0.05208559286457764,2018-04-30 11:07:28.656033,17.0
+gaming keyboards,GeekaWhat,https://www.youtube.com/channel/UCAA5ZKM0sUwzKhvcabv48Jw,testEmail,32827,9373.608695652174,0.029813699888215296,2018-04-30 11:07:31.937171,25.0
+gaming keyboards,Optimum Tech,https://www.youtube.com/channel/UCRYOj4DmyxhBVrdvbsUwmAA,testEmail,41017,18908.863636363636,0.04698634198327704,2018-04-30 11:07:35.141843,25.0
+gaming keyboards,MurrayNewlandsShow,https://www.youtube.com/channel/UCng-8dpkgo1Ms47nsxkqLGg,testEmail,30560,329.1666666666667,0.03422784810126582,2018-04-30 11:07:37.008865,6.0
+gaming keyboards,Timmy Joe PC Tech,https://www.youtube.com/channel/UCZACqKnnCu9f8Z8OZz2771w,testEmail,47714,11704.25,0.07287731078077471,2018-04-30 11:07:39.321675,18.0
+gaming keyboards,Jose Martinez,https://www.youtube.com/channel/UC4DzAx0ecW2ucSG-GL9q8Ww,testEmail,6442,2515.7391304347825,0.023154229027686567,2018-04-30 11:07:42.960456,25.0
+headphone review,Audio Advice,https://www.youtube.com/channel/UCzVy1DW9NFp4c910hMd_jIw,testEmail,4259,2645.0,0.015107949457765396,2018-04-30 11:07:50.978551,20.0
+headphone review,Geekyranjit,https://www.youtube.com/channel/UCO2WJZKQoDW4Te6NHx4KfTg,testEmail,1656805,205503.17647058822,0.036721058269029196,2018-04-30 11:07:53.220238,18.0
+headphone review,iTwe4kz,https://www.youtube.com/channel/UCkXk2h_GnO5AAZYk1yhSLpA,testEmail,544524,94489.625,0.03268179527339795,2018-04-30 11:07:55.767423,25.0
+headphone review,Gamesky,https://www.youtube.com/channel/UCO4ZTteyr13tn2rG5hLu8pg,testEmail,18641,5380.181818181818,0.03948835794667297,2018-04-30 11:07:57.689100,12.0
+headphone review,Podcastage,https://www.youtube.com/channel/UCvOU-zTlankT-JjN3ZzvuKA,testEmail,63817,4658.695652173913,0.0689026287136413,2018-04-30 11:08:01.171382,25.0
+headphone review,TechRadar,https://www.youtube.com/channel/UCAY_M9HyJb8oMKPV1utQQyA,testEmail,363052,16442.583333333332,0.01800556305615963,2018-04-30 11:08:04.201524,25.0
+headphone review,Technical Guruji,https://www.youtube.com/channel/UCOhHO2ICt0ti9KAh-QHvttQ,testEmail,5840321,210517.33333333334,0.1461490141839189,2018-04-30 11:08:06.399811,17.0
+headphone review,Nick Capaccio,https://www.youtube.com/channel/UCv7JiDhfg1SLBQsnupWBxYw,testEmail,16273,90514.79166666667,0.011170105614694052,2018-04-30 11:08:09.504106,25.0
+headphone review,InnerFidelity,https://www.youtube.com/channel/UCs5A6Gg74iPHyTFJh69w-RA,testEmail,41745,3600.375,0.03640220649318434,2018-04-30 11:08:12.642668,25.0
+headphone review,*Technically Speaking,https://www.youtube.com/channel/UCt2lNzrQbj0rthZr7OX5C8A,testEmail,7085,372.3333333333333,0.08504923903312446,2018-04-30 11:08:14.148527,7.0
+headphone review,Booredatwork.com,https://www.youtube.com/channel/UC5lDVbmgb-sAcx2fjwy3KQA,testEmail,242930,5446.5,0.01986596897089874,2018-04-30 11:08:15.931046,11.0
+headphone review,Raymond Strazdas,https://www.youtube.com/channel/UCobRabFG7D1cllNePCY1CmA,testEmail,46840,1797.1739130434783,0.12161223337768638,2018-04-30 11:08:19.111012,25.0
+headphone review,Tech Xpress,https://www.youtube.com/channel/UC0vpTuj9t2jfTBNlLLqKb3A,testEmail,74912,9616.347826086956,0.06033750648051024,2018-04-30 11:08:22.554603,25.0
+headphone review,Justin Tse,https://www.youtube.com/channel/UCaP1PNnr055fOt89JPry51w,testEmail,318641,58878.565217391304,0.06203439848314672,2018-04-30 11:08:25.689050,25.0
+headphone review,TecH MoE,https://www.youtube.com/channel/UCWv82xIbPaBORTlfG5cdK-g,testEmail,1415,2064.125,0.00833389735716245,2018-04-30 11:08:28.519041,18.0
+headphone review,PhoneArena,https://www.youtube.com/channel/UCwPRdjbrlqTjWOl7ig9JLHg,testEmail,930097,16984.708333333332,0.022309283105146054,2018-04-30 11:08:31.170287,25.0
+headphone review,Sonarworks,https://www.youtube.com/channel/UCueuaOnAhsBkQvCvndeT__w,testEmail,2705,17748.125,0.011599816882065007,2018-04-30 11:08:32.340154,9.0
+headphone review,Chase Reeves,https://www.youtube.com/channel/UCmadtJlpo-e2wnBOEgLvj1A,testEmail,21901,7569.5,0.04217363542285928,2018-04-30 11:08:33.944280,10.0
+sennheiser review,Ur IndianConsumer,https://www.youtube.com/channel/UCuaErUDVKd4ftDWsImhCQuw,testEmail,706287,138424.84615384616,0.06264493424090717,2018-04-30 11:08:41.536888,14.0
+sennheiser review,Hi-Fi Insider,https://www.youtube.com/channel/UCVrSYkR10_JxMM7S64ZVSMw,testEmail,50020,10139.375,0.02092037874300845,2018-04-30 11:08:44.526317,25.0
+sennheiser review,Babbling Boolean,https://www.youtube.com/channel/UClHlYAOhmVUZ6DjIPD-hGHQ,testEmail,34733,3926.4166666666665,0.01039779789626379,2018-04-30 11:08:48.069390,25.0
+sennheiser review,Bloomberg,https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ,testEmail,924463,78553.53846153847,0.014801272233733776,2018-04-30 11:08:49.915596,14.0
+sennheiser review,headfi,https://www.youtube.com/channel/UCWmO1afpreRxiVw5N0Oqmyg,testEmail,32391,17827.208333333332,0.017501236456771676,2018-04-30 11:08:52.631954,25.0
+sennheiser review,JalanTikus,https://www.youtube.com/channel/UCRFaDqnG9BDE4mpRlXt8pNg,testEmail,1744978,77277.65217391304,0.04558662271448071,2018-04-30 11:08:55.791857,25.0
+sennheiser review,Pizza Tek,https://www.youtube.com/channel/UCuIaRFk9zXvuXlXcmx8ea1g,testEmail,5888,3895.4166666666665,0.009282555213996381,2018-04-30 11:08:59.804265,25.0
+sennheiser review,Audio46 Headphones - Headphone Superstore,https://www.youtube.com/channel/UCLmPBxFEZUjumuHcBZpl6Rw,testEmail,13905,2137.3636363636365,0.03331632002041597,2018-04-30 11:09:01.916765,11.0
+sennheiser review,Digital Trends,https://www.youtube.com/channel/UC8wXC0ZCfGt3HaVLy_fdTQw,testEmail,253899,1504.0,0.03026118385160938,2018-04-30 11:09:04.211582,13.0
+best overhead headphones,Sound Guys,https://www.youtube.com/channel/UC3lJL1pUvQ2Ih2qZ-4ozrLw,testEmail,149209,7090.529411764706,0.031051153568554573,2018-04-30 11:09:11.891563,18.0
+best overhead headphones,iGyaan,https://www.youtube.com/channel/UC7dLvCYNwhYe-l__yczFp1Q,testEmail,795823,63612.11111111111,0.04227706464003187,2018-04-30 11:09:13.515986,10.0
+best overhead headphones,Flossy Carter,https://www.youtube.com/channel/UCFfCqe7b9YiDk2ZiAG8UIGA,testEmail,750843,34904.5,0.04819937257373691,2018-04-30 11:09:15.715259,17.0
+best overhead headphones,Karl Conrad,https://www.youtube.com/channel/UC0MYNOsIrz6jmXfIMERyRHQ,testEmail,395880,36574.166666666664,0.07378421437297238,2018-04-30 11:09:17.384664,13.0
+best overhead headphones,Harsh Punjabi,https://www.youtube.com/channel/UCE2xAWyWyOpZz4CtRI7K8Bg,testEmail,17078,5600.458333333333,0.031150724271079,2018-04-30 11:09:20.703202,25.0
+best overhead headphones,Fitness253,https://www.youtube.com/channel/UCXzw3QmYuoETTjrG2DOOeFA,testEmail,730,100.28571428571429,0.19154795821462486,2018-04-30 11:09:23.150601,15.0
+best overhead headphones,Tech Core,https://www.youtube.com/channel/UCi5NmWwaI6cnXtyNLzpUZPA,testEmail,29821,11383.666666666666,0.015915887624399567,2018-04-30 11:09:26.489760,25.0
+best overhead headphones,HowToMen,https://www.youtube.com/channel/UCqjVP9gAanUGFgTA5BRDvyA,testEmail,279269,31233.391304347828,0.03472645635663058,2018-04-30 11:09:29.287221,25.0
+best overhead headphones,NPL Productions,https://www.youtube.com/channel/UCr2y30TF7w-Wm6ZO6ap3nkQ,testEmail,117904,45800.083333333336,0.01787842452979525,2018-04-30 11:09:32.664197,25.0
+best overhead headphones,Headphone Zone,https://www.youtube.com/channel/UCVJzKP5WF8PAYrEjoroWtCw,testEmail,7359,3921.3478260869565,0.015245423601024492,2018-04-30 11:09:35.413518,24.0
+best overhead headphones,The Verge,https://www.youtube.com/channel/UCddiUEpeqJcYeBxX1IVBKvQ,testEmail,1883427,201234.5,0.02802921191169727,2018-04-30 11:09:37.013250,10.0
+best overhead headphones,Shubham Kejriwal,https://www.youtube.com/channel/UC7Kx1ro44KmLyJY5M8Dtf1w,testEmail,3035,1058.0454545454545,0.05541951282381751,2018-04-30 11:09:40.558956,23.0
+best overhead headphones,Tech Notice,https://www.youtube.com/channel/UCRzScB0a-dc6OCYYZlP9qpA,testEmail,1186,131.85714285714286,0.08017334777898158,2018-04-30 11:09:42.806154,15.0
+best overhead headphones,pricetol INDIA,https://www.youtube.com/channel/UCVMDBibY_DxUymRIGwC1AkA,testEmail,72,142.2,0.029535864978902957,2018-04-30 11:09:45.489180,17.0
+best overhead headphones,Gauging Gadgets,https://www.youtube.com/channel/UC3SdeibuuvF-ganJesKyDVQ,testEmail,6792,571.3913043478261,0.025972708365038295,2018-04-30 11:09:48.842272,25.0
+best overhead headphones,Vimal Chintapatla,https://www.youtube.com/channel/UCUMVRo_qY2RKrEweB9rCv6g,testEmail,250533,35451.791666666664,0.03467072988328864,2018-04-30 11:09:51.633982,25.0
+best overhead headphones,Tryootech,https://www.youtube.com/channel/UCdbFNTUZygLhENdsJmfLG6Q,testEmail,145714,6342.913043478261,0.08453803286104998,2018-04-30 11:09:54.706435,24.0
+best overhead headphones,Jimmy a Geek,https://www.youtube.com/channel/UChr3ugZfUIxLj1Fuu24_qVg,testEmail,10077,252.72727272727272,0.04370503597122302,2018-04-30 11:09:56.913669,12.0
+cheap headphone review,Android Tech,https://www.youtube.com/channel/UCA_CKVzWiERn1lvLp6EMwow,testEmail,26690,1405.7916666666667,0.03254394024719168,2018-04-30 11:10:05.366501,25.0
+cheap headphone review,Unbox Junkie,https://www.youtube.com/channel/UCJY60satUwr-qljbkFFfVWA,testEmail,41689,3476.25,0.06899196931559391,2018-04-30 11:10:07.281623,13.0
+cheap headphone review,Reckless Yūki,https://www.youtube.com/channel/UCLmRhOkHlm868FuSVKHUHHw,testEmail,26654,6948.272727272727,0.028378537504415748,2018-04-30 11:10:10.467553,24.0
+cheap headphone review,DesFit,https://www.youtube.com/channel/UCmVhS0qulkRshtLrXMeMToQ,testEmail,13520,4768.25,0.0330111691388616,2018-04-30 11:10:13.221690,25.0
+cheap headphone review,Dave Lee,https://www.youtube.com/channel/UCVYamHliCI9rw1tHR1xbkfw,testEmail,1258988,367966.44444444444,0.03653594017328875,2018-04-30 11:10:14.539027,9.0
+cheap headphone review,TechBoi6000,https://www.youtube.com/channel/UCbxVlyM9BT5KqTOoA3hTgSg,testEmail,294,15831.666666666666,0.006512966277151981,2018-04-30 11:10:16.305992,10.0
+cheap headphone review,TechCubed,https://www.youtube.com/channel/UCp1Zd6pMjaMpbP4WBGTOoKA,testEmail,6160,9736.444444444445,0.012969598758387728,2018-04-30 11:10:17.993424,9.0
+cheap headphone review,Guddang 775,https://www.youtube.com/channel/UCBeuEXnDU14Ooee1dNmPS8w,testEmail,1488,58.1,0.09958200147528891,2018-04-30 11:10:21.299803,22.0
+cheap headphone review,tommyknowseverything,https://www.youtube.com/channel/UC9CBe29XCDl9JrWstKbBnRA,testEmail,8160,4593.608695652174,0.01948832498840544,2018-04-30 11:10:24.656229,24.0
+cheap headphone review,HinTech Tutorial,https://www.youtube.com/channel/UCTaaX_5A3d1a42X4jaTHetg,testEmail,2028,68.78260869565217,0.06257901390644753,2018-04-30 11:10:28.102437,25.0
+cheap headphone review,BEST REVIEWS,https://www.youtube.com/channel/UC_nPskT9hNIUUYE7_pZK5pw,testEmail,82604,1537.076923076923,0.036414916281796474,2018-04-30 11:10:30.479134,14.0
+cheap headphone review,Dylan Hong,https://www.youtube.com/channel/UCI7vR4V307VzGGxWOcs3gqg,testEmail,3463,2627.25,0.035826434484727374,2018-04-30 11:10:32.363420,9.0
+cheap headphone review,TechLineHD,https://www.youtube.com/channel/UCgfZazkz3uwmbVmvkl0cTbg,testEmail,58838,14275.875,0.024860401587100362,2018-04-30 11:10:35.425200,25.0
+cheap headphone review,SkepTech.TV,https://www.youtube.com/channel/UCe94IZD31MFlrTzVGJ6JcYA,testEmail,235,1332.0,0.02787162162162162,2018-04-30 11:10:37.117712,9.0
+cheap headphone review,EXOcontralto,https://www.youtube.com/channel/UCF5E6g_RiqdtYO4ZiiK6F6w,testEmail,227802,60057.444444444445,0.0528886232995447,2018-04-30 11:10:38.435236,10.0
+cheap headphone review,Gadgets Unboxer,https://www.youtube.com/channel/UCsPtmMYUsq4C-hGiH6L-qdw,testEmail,615,684.5652173913044,0.01961108384576152,2018-04-30 11:10:41.928057,25.0
+cheap headphone review,Tech Best,https://www.youtube.com/channel/UCrX0lGAJ3Q-fHiFsOb9hvHw,testEmail,115075,55938.681818181816,0.00896739947429026,2018-04-30 11:10:45.804042,24.0
+cheap headphone review,DHTV - Dan,https://www.youtube.com/channel/UCUZursSUsd-NxcE6BquDnwQ,testEmail,98960,44074.4,0.011773274281669176,2018-04-30 11:10:48.129609,11.0
+cheap headphone review,The Gadget Hype,https://www.youtube.com/channel/UCxvoVO9WfZ1l-9-V1s-c8Yw,testEmail,10,,,2018-04-30 11:10:48.529407,1.0
+cheap headphone review,Steph Cody,https://www.youtube.com/channel/UCbJXdaJSo0j3ZNMU4psLRwQ,testEmail,73,,,2018-04-30 11:10:49.395020,1.0
+best beginner headphones,Jonathan Morrison,https://www.youtube.com/channel/UCDlQwv99CovKafGvxyaiNDA,testEmail,2420655,433159.5833333333,0.03153071952888803,2018-04-30 11:10:57.089126,13.0
+best beginner headphones,Jon Sine,https://www.youtube.com/channel/UCyosmNadhnz0KLGP7-rdCWA,testEmail,37386,2755.5833333333335,0.08301327607584601,2018-04-30 11:10:58.769213,13.0
+best beginner headphones,Chris Graham Mastering,https://www.youtube.com/channel/UCHMlIDbKT86qGk4LGvBfD_g,testEmail,3226,52615.333333333336,0.01297467151527438,2018-04-30 11:10:59.223330,3.0
+best beginner headphones,FortNine,https://www.youtube.com/channel/UCNSMdQtn1SuFzCZjfK2C7dQ,testEmail,267668,147046.27272727274,0.03292966147917804,2018-04-30 11:11:01.670826,23.0
+best beginner headphones,Manchester Music,https://www.youtube.com/channel/UC1HBaotmt9PHoF_Xca0lg9Q,testEmail,9071,1710.5833333333333,0.05609872175858437,2018-04-30 11:11:03.485280,13.0
+best beginner headphones,Dynamite Dev,https://www.youtube.com/channel/UCxQotQHFDgykuJcB-M6Q5OA,testEmail,37,59.94736842105263,0.13340161935420936,2018-04-30 11:11:06.586116,20.0
+best beginner headphones,Carlos Vega,https://www.youtube.com/channel/UC2ZK-mEL7uvBc3j9tpvsnYg,testEmail,2767,4870.3,0.012148464502528933,2018-04-30 11:11:08.188261,10.0
+best beginner headphones,iBestReviews,https://www.youtube.com/channel/UC61ayuY9bztmYZyENx57vsQ,testEmail,77,123.79166666666667,0.007097595598027307,2018-04-30 11:11:11.705498,25.0
+best beginner headphones,Which?,https://www.youtube.com/channel/UCkqEX4I6XYfiOZ5zIwL7oag,testEmail,49118,1059.7916666666667,0.011979384791582979,2018-04-30 11:11:15.047323,25.0
+best beginner headphones,Ronan Chris Murphy,https://www.youtube.com/channel/UC5ZJRccUMA0Dw5AxOSAgbFA,testEmail,10650,,,2018-04-30 11:11:16.200789,1.0
+best beginner headphones,Larry Dickerson,https://www.youtube.com/channel/UCcNZj-vO3jrJr3dlMGmuC0w,testEmail,27791,294.0833333333333,0.16916973646925476,2018-04-30 11:11:18.228602,13.0
+best beginner headphones,Luke Masky,https://www.youtube.com/channel/UCebJPQ-BekAbbwof3WmbUzw,testEmail,2976,3388.625,0.029313758038535788,2018-04-30 11:11:22.240074,25.0
+best beginner headphones,C-Threep Music,https://www.youtube.com/channel/UCf_G_5Ihr15aKrihKMazXfA,testEmail,28750,2548.625,0.07322575898768945,2018-04-30 11:11:25.430443,25.0
+best beginner headphones,The Location Crew,https://www.youtube.com/channel/UClG94cVtcmll2QP7S6a-MbQ,testEmail,228,608.8571428571429,0.011027686532144533,2018-04-30 11:11:26.441224,8.0
+best beginner headphones,RP Entertainment,https://www.youtube.com/channel/UCngkKLhCZTxQwVae-eKuykg,testEmail,233,21.82608695652174,0.03295907279971025,2018-04-30 11:11:30.071780,24.0
+best beginner headphones,djTLMtv,https://www.youtube.com/channel/UC7oEb0WuQTZitaPz9W7SQUw,testEmail,129366,4041.0,0.052957188814649836,2018-04-30 11:11:31.428634,6.0
+best beginner headphones,HD GADGET,https://www.youtube.com/channel/UCimxsY5ug-9bcxnGLssgl_w,testEmail,9265,3644.7391304347825,0.016593303033556408,2018-04-30 11:11:34.677607,24.0
+best beginner headphones,65 Drums,https://www.youtube.com/channel/UCUBcHXf3KHCQmilm34aoWzg,testEmail,31333,3481.1666666666665,0.06374778570402644,2018-04-30 11:11:37.890879,25.0
+best beginner headphones,Audiobookish,https://www.youtube.com/channel/UCun5Pk_UIIFKFar6Y_HsrEQ,testEmail,3,,,2018-04-30 11:11:38.142927,1.0
+best beginner headphones,DanDanTheFireman,https://www.youtube.com/channel/UC1iNF4BnIucCD7J2QGZYkjg,testEmail,34444,2198.3333333333335,0.042051337593414916,2018-04-30 11:11:40.231236,16.0
+best beginner headphones,Austin Evans,https://www.youtube.com/channel/UCXGgrKt94gR6lmN4aN3mYTg,testEmail,3005435,589599.25,0.03621831551967997,2018-04-30 11:11:43.072039,25.0
+best beginner headphones,Jonathan The Greater,https://www.youtube.com/channel/UCN-1chN15ISLr-3wbAHAjBw,testEmail,5,107.8,0.024287400910777534,2018-04-30 11:11:44.729292,11.0
+best beginner headphones,Multiplier,https://www.youtube.com/channel/UCofivGuDRe-0NVO9fbfT0-Q,testEmail,64548,1748.5833333333333,0.05900014297288281,2018-04-30 11:11:46.594038,13.0
+best beginner headphones,Christ Centered Ironworks,https://www.youtube.com/channel/UCVZa2bQrCprFEk0kzmarilA,testEmail,20476,537.3333333333334,0.16722745172078973,2018-04-30 11:11:49.672933,25.0
+best beginner headphones,Mayoor Chaudhary,https://www.youtube.com/channel/UC2Qtlv-ox_TnHx5SA1fDIvA,testEmail,211596,11186.1,0.060306988137062964,2018-04-30 11:11:51.950309,11.0
+best beginner headphones,Phandroid,https://www.youtube.com/channel/UC60o55QG_Yabb1nelfSGO0w,testEmail,101531,2926.75,0.03823664163631704,2018-04-30 11:11:53.952489,12.0
+best beginner headphones,Tech Force,https://www.youtube.com/channel/UCdFlL_m0rn--IVL6y1_YnPQ,testEmail,9937,2915.7727272727275,0.009275570174754858,2018-04-30 11:12:00.633572,23.0
+best beginner headphones,Drummer Connection,https://www.youtube.com/channel/UCvLRtxV4_9s3IErhIUssizw,testEmail,20609,7090.291666666667,0.011421261108971978,2018-04-30 11:12:04.023445,25.0
+best beginner headphones,Cameron Fous,https://www.youtube.com/channel/UCwGflGmzevf4fcm-z8E-twA,testEmail,88261,5481.666666666667,0.05801155366372757,2018-04-30 11:12:04.840864,3.0
+best beginner headphones,Jackmonx,https://www.youtube.com/channel/UCHsETc_YYEr_hAFBa03ODMA,testEmail,38232,11400.083333333334,0.0341039505957891,2018-04-30 11:12:07.411781,13.0
+best beginner headphones,ellaskins,https://www.youtube.com/channel/UCr3_EE6O_eA71X2quaKvziw,testEmail,181894,1389.7222222222222,0.037254412058647164,2018-04-30 11:12:10.000777,19.0
+best beginner headphones,MrDifferentTV,https://www.youtube.com/channel/UCrF_n8ttMtROddLuAlItoYA,testEmail,48202,1055.0,0.06911532385466035,2018-04-30 11:12:11.930990,13.0
+best beginner headphones,Creative rahul,https://www.youtube.com/channel/UClh8eEg0U22682IUvPUMjVQ,testEmail,24888,396.375,0.10045902098882231,2018-04-30 11:12:13.496671,9.0
+best beginner headphones,ZDF Tech,https://www.youtube.com/channel/UCMyREoFs8gMQ4ZeXkjHnGKw,testEmail,2,,,2018-04-30 11:12:13.892587,1.0
+best beginner headphones,Mr. Dude,https://www.youtube.com/channel/UC6RzukLXWGBx6dOGqzaeK5w,testEmail,34214,116612.07692307692,0.013541940833414139,2018-04-30 11:12:15.758539,14.0
+audio rig review,True Soundzzz,https://www.youtube.com/channel/UC8N-QlLdXQc6zn05JFrwUrg,testEmail,9,,,2018-04-30 11:12:22.401089,0.0
+audio rig review,SoundsAndGear,https://www.youtube.com/channel/UCskzAFgznYi9DS92g13twgA,testEmail,53975,1443.4615384615386,0.042309009934909214,2018-04-30 11:12:24.534675,14.0
+audio rig review,BigPileOfWesley,https://www.youtube.com/channel/UC0XZWuJCneBtOqCVYdcdzsw,testEmail,575,1314.2,0.023588494901841423,2018-04-30 11:12:27.654935,21.0
+audio rig review,Dragon Blogger Technology and Entertainment,https://www.youtube.com/channel/UCnnoVEXsgW98gt0hxszklZQ,testEmail,19450,35.0,0.08571428571428572,2018-04-30 11:12:30.568363,17.0
+audio rig review,HiTechKing,https://www.youtube.com/channel/UCq4E6gBbEJ8sapVYyFaRcgg,testEmail,1389,26.61111111111111,,2018-04-30 11:12:33.318059,19.0
+audio rig review,Woody Piano Shack,https://www.youtube.com/channel/UC27jRFKGzztB9u9T5GkPH_g,testEmail,20221,4520.75,0.05636289027968458,2018-04-30 11:12:36.538759,25.0
+audio rig review,iConnectivity,https://www.youtube.com/channel/UCcDKN3HsKhjKOCBcxxIP4Gw,testEmail,2324,1711.4285714285713,,2018-04-30 11:12:38.698313,15.0
+audio rig review,Edwin-E,https://www.youtube.com/channel/UCgTcp1OVzuoX0KZBxkmq3Zw,testEmail,29122,269.3333333333333,0.07425742574257427,2018-04-30 11:12:40.095110,6.0
+audio rig review,AR Media,https://www.youtube.com/channel/UCTOYKljVpP-SoTIXwJPwyPw,testEmail,4465,1346.0,0.1030899390572173,2018-04-30 11:12:43.217728,25.0
+audio rig review,F.O.Breviews,https://www.youtube.com/channel/UCwy0q4XlzRrWGcj6x1ZHUSQ,testEmail,11,81.2,0.046798029556650245,2018-04-30 11:12:43.902022,5.0
+audio rig review,Calvin Pixels,https://www.youtube.com/channel/UC9aFyS4CSLEPgZVXZ-Tj3yw,testEmail,3888,1491.8333333333333,0.03671842997058057,2018-04-30 11:12:46.551909,19.0
+audio rig review,Chris Voss,https://www.youtube.com/channel/UCHa4heUFyjbpQ12OmmQCC3w,testEmail,24815,70.04347826086956,0.025562891484679197,2018-04-30 11:12:50.459057,25.0
+audio rig review,Chris Culture,https://www.youtube.com/channel/UCp1xwnUvf2bG7ka48hrRJCw,testEmail,0,825.5,0.011952352109832426,2018-04-30 11:12:51.821256,6.0
+audio rig review,Briar Rabbit,https://www.youtube.com/channel/UC02QCCz8STKVGEDS4VCsL4g,testEmail,96173,4647.538461538462,0.0703198274244982,2018-04-30 11:12:53.920786,13.0
+audio rig review,Two Bit da Vinci,https://www.youtube.com/channel/UCEgYhf84VjXDz-W7a9-rdCQ,testEmail,15596,11856.125,0.02098423107606125,2018-04-30 11:12:57.672484,25.0
+audio rig review,LVLONE NEWS,https://www.youtube.com/channel/UCq6d-EtavZ-t4LU6YeZKXDQ,testEmail,201,240.33333333333334,0.01872399445214979,2018-04-30 11:12:59.048793,6.0
+audio rig review,BooredGamer,https://www.youtube.com/channel/UCTQosnnp-zqY-BEac2qEMDQ,testEmail,7267,5425.555555555556,0.02158509113250051,2018-04-30 11:13:00.679670,10.0
+audio rig review,JERMgaming,https://www.youtube.com/channel/UCqyKIlKKfFGy6AraaqAGlHA,testEmail,46740,9132.923076923076,0.05661680479752039,2018-04-30 11:13:02.679800,14.0
+audio rig review,Profen ProReview,https://www.youtube.com/channel/UCo_XDpSI-drp4k3IsyCXtXg,testEmail,7846,8987.695652173914,0.021341979614642237,2018-04-30 11:13:06.018169,25.0
+audio rig review,Windwalker's Outdoor Channel,https://www.youtube.com/channel/UCbMQwFW_de97C3mT3ejrBQg,testEmail,1877,176.75,,2018-04-30 11:13:07.388756,4.0
+audio rig review,BOOMHeadShot757,https://www.youtube.com/channel/UCQukgrsg-01iwt7W5VTXXSQ,testEmail,31,4.0,0.11356209150326799,2018-04-30 11:13:10.283076,18.0
+audio rig review,Hardware Unboxed,https://www.youtube.com/channel/UCI8iQa1hv7oV_Z8D35vVuSg,testEmail,217537,24081.833333333332,0.06914271477116221,2018-04-30 11:13:11.846086,13.0
+audio rig review,Torridity Beats,https://www.youtube.com/channel/UC8F1wTD5CqmZRZIQgtjE0tg,testEmail,918,9231.105263157895,0.00445860962079012,2018-04-30 11:13:14.988132,20.0
+audio rig review,Reality Check,https://www.youtube.com/channel/UCbzs7_SDNtcCyDLpZA3E9qg,testEmail,779,481.1666666666667,0.04160705411063086,2018-04-30 11:13:18.419965,25.0
+audio rig review,Alanah Pearce,https://www.youtube.com/channel/UCKpBmnEfSy20al-Fk_2YzVA,testEmail,132155,20819.0,0.06023344060713771,2018-04-30 11:13:19.524019,2.0
+audio rig review,DS-77717,https://www.youtube.com/channel/UC0RsZEmj-5dtZXjb2IGP7Hg,testEmail,8,439.6666666666667,0.02880970432145565,2018-04-30 11:13:20.003977,3.0
+audio rig review,SweetwaterSound,https://www.youtube.com/channel/UC1kdsZUTDSW1BtsHEoYx4WQ,testEmail,209552,3999.913043478261,0.02396791234592056,2018-04-30 11:13:22.651234,25.0
+audio rig review,TREBAX TECH,https://www.youtube.com/channel/UC8f5HggFz7HH6irOrGxqyxQ,testEmail,46,368.3,0.029323920716806947,2018-04-30 11:13:24.372683,11.0
+best headphones for gaming,Tech Legend,https://www.youtube.com/channel/UCybLjt4Vp59aSXVVcI2RS1w,testEmail,0,3567.782608695652,0.04041161071468533,2018-04-30 11:13:32.761849,25.0
+best headphones for gaming,TheTechMag,https://www.youtube.com/channel/UChKEz7vEp_muMNar39DO99g,testEmail,7667,137.95833333333334,0.022738959725815133,2018-04-30 11:13:36.296802,25.0
+best headphones for gaming,soulsik reviews,https://www.youtube.com/channel/UCG8GZMXiVDTWk8U5PnOmJcw,testEmail,2537,3187.304347826087,0.025945894945526633,2018-04-30 11:13:39.648253,25.0
+best headphones for gaming,KitGuruTech,https://www.youtube.com/channel/UCy-pYDfVaRwfQ0zChOBRuuw,testEmail,37081,9320.833333333334,0.02557174787662047,2018-04-30 11:13:42.105356,20.0
+best headphones for gaming,LevelCapGaming,https://www.youtube.com/channel/UClMXf2oP5UiW_V4dwHxY0Mg,testEmail,1873915,131741.44444444444,0.03663771793839994,2018-04-30 11:13:44.023716,18.0
+best headphones for gaming,MMOHuts,https://www.youtube.com/channel/UCTy_oLoGaQnV7LeiOkxx3qw,testEmail,444007,5205.791666666667,0.022402932631123987,2018-04-30 11:13:46.983460,25.0
+best headphones for gaming,Screenbite,https://www.youtube.com/channel/UCzrUal7VnXetzOEZN35dazA,testEmail,837,675.5,0.03486306439674315,2018-04-30 11:13:49.869803,22.0
+best headphones for gaming,BLEEM,https://www.youtube.com/channel/UCvRxYljQPAGePepiW_ChfMA,testEmail,211443,140848.21739130435,0.010312982615575384,2018-04-30 11:13:53.316430,25.0
+best headphones for gaming,Randall Donadio,https://www.youtube.com/channel/UCijmgheYNeCBHEtouHJH9fQ,testEmail,4633,8700.857142857143,0.012449512363313958,2018-04-30 11:13:54.882336,8.0
+budget headphones,ASBYT,https://www.youtube.com/channel/UC18WQbNSfrqxlIjKeIW3bGQ,testEmail,359942,42033.857142857145,0.020491984352749654,2018-04-30 11:14:01.241505,8.0
+budget headphones,TrueSoundStudios,https://www.youtube.com/channel/UCRjd-9WwyjRDuIJPkH9E0pQ,testEmail,8415,,,2018-04-30 11:14:02.020015,1.0
+budget headphones,Zachary Anderson,https://www.youtube.com/channel/UCF78twzUr1i7EyJV9Yo72aA,testEmail,213443,20648.5,0.048579359715761876,2018-04-30 11:14:03.804605,11.0
+budget headphones,Tech Burner,https://www.youtube.com/channel/UCXUJJNoP1QupwsYIWFXmsZg,testEmail,214507,40691.166666666664,0.095260418741764,2018-04-30 11:14:05.788633,13.0
+budget headphones,TechFit360,https://www.youtube.com/channel/UCjGtXW90etS9gkA81WgEs0A,testEmail,6018,1186.0,0.04980326025857223,2018-04-30 11:14:08.304514,16.0
+budget headphones,My Mate VINCE,https://www.youtube.com/channel/UChY9Cgv-iyPDvf1Bkyx20OQ,testEmail,160043,12974.5,0.03199132364032745,2018-04-30 11:14:10.095315,15.0
+budget headphones,Copper vs Glass,https://www.youtube.com/channel/UCI_lLkWji9bFWGkRGM_5TkQ,testEmail,62610,1311.8333333333333,0.04529284716046246,2018-04-30 11:14:12.173847,13.0
+budget headphones,The Deal Guy,https://www.youtube.com/channel/UC5Qbo0AR3CwpmEq751BIy0g,testEmail,420616,7445.888888888889,0.13442167937564353,2018-04-30 11:14:13.638290,10.0
+budget headphones,VerTechHD,https://www.youtube.com/channel/UC0LT37TJKXaTGsAbWIbz_Nw,testEmail,7255,3525.866666666667,0.03192122976856754,2018-04-30 11:14:15.864691,16.0
+budget headphones,Affordable Tech,https://www.youtube.com/channel/UCvHrYEl8WQOaynt0c1nGQcw,testEmail,0,1025.25,0.010972933430870519,2018-04-30 11:14:18.705987,17.0
+budget headphones,Techiebeez India,https://www.youtube.com/channel/UCmoLbtGZiZc0I4KN9DYdkmQ,testEmail,16049,8174.541666666667,0.038317672901405045,2018-04-30 11:14:21.999490,25.0
+budget headphones,Sharmaji Technical,https://www.youtube.com/channel/UCdiHpeH9fr4DMK_3wbUZapA,testEmail,1108757,60173.0,0.09731939574227645,2018-04-30 11:14:23.167978,5.0
+budget headphones,JackHadar,https://www.youtube.com/channel/UCPnHzUVC8BxgP4UrmTFCTIA,testEmail,661,1139.0,0.04247782825005408,2018-04-30 11:14:26.934694,25.0
+high end headphones,Bestify,https://www.youtube.com/channel/UCzeAtBj8JMkMmk7CXkQTRJA,testEmail,1265,,,2018-04-30 11:14:34.295086,0.0
+high end headphones,WeLoveHeadphones,https://www.youtube.com/channel/UCRu7H_TTFoO2jaaMF9C-fAA,testEmail,210,94.0,,2018-04-30 11:14:35.641020,3.0
+high end headphones,HiHACKER,https://www.youtube.com/channel/UCYWISqscop1eMKcxADf_okQ,testEmail,31999,7404.722222222223,0.09241692218692434,2018-04-30 11:14:38.634129,20.0
+high end headphones,Audio Affair,https://www.youtube.com/channel/UCGPKknUlpeoxGOYwovjH_Pg,testEmail,1630,8250.458333333334,0.0077290392079667055,2018-04-30 11:14:41.879895,25.0
+high end headphones,The Vinyl Guide,https://www.youtube.com/channel/UCPeGX5rdr3xBuLrSiGxT9GA,testEmail,0,369.8,0.027968786216487677,2018-04-30 11:14:44.069267,15.0
+high end headphones,eHow,https://www.youtube.com/channel/UCnQznIHK_kZIEMUl2nT1mYQ,testEmail,624136,2489.5833333333335,0.02497071129707113,2018-04-30 11:14:47.255814,25.0
+high end headphones,best of high end,https://www.youtube.com/channel/UCy0yMEBN_vozMbHQA2YoQ5w,testEmail,229,52.541666666666664,0.0049650036203151395,2018-04-30 11:14:50.821098,25.0
+high end headphones,Bloomberg TV Markets and Finance,https://www.youtube.com/channel/UCIALMKvObZNtJ6AmdCLP7Lg,testEmail,71735,151.25,0.019918553120134144,2018-04-30 11:14:53.481214,25.0
+high end headphones,EISA Awards,https://www.youtube.com/channel/UCJBNFgQxrhUGcYGP3bD0E2w,testEmail,2405,5163.739130434783,0.0033630556444324694,2018-04-30 11:14:56.232749,25.0
+high end headphones,MasterStudy,https://www.youtube.com/channel/UCBojYD5qk1LvaSmGr-9lVeQ,testEmail,2205,439.75,0.015444381277240857,2018-04-30 11:14:59.168706,25.0
+high end headphones,Dave Taylor,https://www.youtube.com/channel/UCa6UyXhegwV4js_tmhCJrcQ,testEmail,9520,158.9090909090909,0.04462242562929062,2018-04-30 11:15:01.047516,12.0
+high end headphones,Mrwhosetheboss,https://www.youtube.com/channel/UCMiJRAwDNSNzuYeN2uWa0pA,testEmail,1176096,272918.9583333333,0.0382246640942577,2018-04-30 11:15:03.945927,25.0
+high end headphones,"MajorHiFi Headphone, HIFI & Amplifier Reviews",https://www.youtube.com/channel/UCFZczFS5eX1xdA9qjW-_RFw,testEmail,777,454.6666666666667,0.0724340175953079,2018-04-30 11:15:06.138920,16.0
+high end headphones,Clough Reviews,https://www.youtube.com/channel/UC19KWBKgSJ6QJEXZYSxT8cg,testEmail,242,192.41666666666666,0.008765322838797145,2018-04-30 11:15:09.987830,25.0
+high end headphones,vspc.bg,https://www.youtube.com/channel/UCwUv0viRW4V6x2SATOI9uIA,testEmail,262,83.23076923076923,0.008119883813044628,2018-04-30 11:15:12.254304,14.0
+skull candy review,MattyC Reviews,https://www.youtube.com/channel/UCEMkNzBhGzjBpRLOz5jjRLw,testEmail,3222,24366.833333333332,0.012882948817039556,2018-04-30 11:15:19.662818,13.0
+skull candy review,Audio46 en Español,https://www.youtube.com/channel/UCqFzeatV6mmI9AQh5YniDhQ,testEmail,109518,8209.117647058823,0.093155227528772,2018-04-30 11:15:22.158580,18.0
+skull candy review,Dalton Brewer,https://www.youtube.com/channel/UCpI8nWQuV2YUNu_J8GNp8Yg,testEmail,1211,148.08333333333334,0.1133708497467642,2018-04-30 11:15:25.992651,25.0
+skull candy review,TechteamGB,https://www.youtube.com/channel/UChUSQzd5mlXo_m3uzeVkzeA,testEmail,37794,707.0833333333334,0.09965096777117992,2018-04-30 11:15:28.008012,13.0
+skull candy review,ON THE RADAR,https://www.youtube.com/channel/UCLDw7ummSJnILbMZn2Azf2g,testEmail,56411,751.25,0.10748752079866888,2018-04-30 11:15:29.251621,4.0
+skull candy review,Limitless Tech UK,https://www.youtube.com/channel/UC_dwOYddipfHqvbNYQkFhlA,testEmail,7978,435.15384615384613,0.03024908036398226,2018-04-30 11:15:31.613799,14.0
+skull candy review,D ORANGE MX,https://www.youtube.com/channel/UCfO3NXHc22uwKGEgL4mTfxw,testEmail,124,3227.714285714286,0.013377445339470656,2018-04-30 11:15:32.919186,8.0
+skull candy review,MesenTech,https://www.youtube.com/channel/UCs0QYgA9CCKnrMbhUOhcvpQ,testEmail,6414,7159.866666666667,0.013454626715581295,2018-04-30 11:15:35.384432,16.0
+skull candy review,Nemesis099,https://www.youtube.com/channel/UChc3_MY7ZPbby5u98SbDKMg,testEmail,719,801.8333333333334,0.011224277696944502,2018-04-30 11:15:36.622794,7.0
+skull candy review,Tobias Dahlberg,https://www.youtube.com/channel/UCgqIUsRybJ3V_X4U_r3nSdg,testEmail,8047,4233.0,0.013677689775268948,2018-04-30 11:15:39.059581,20.0
+skull candy review,EJATech,https://www.youtube.com/channel/UCL-O5Gjkzfuk45nSbAno4HQ,testEmail,617,10249.75,0.01697195866565851,2018-04-30 11:15:40.310972,9.0
+skull candy review,All Things Entertainment,https://www.youtube.com/channel/UC7GAiJZwRPa0RFp38lerRxA,testEmail,127,909.7222222222222,0.014965046203294497,2018-04-30 11:15:43.493185,20.0
+skull candy review,DTecRC,https://www.youtube.com/channel/UCHmNeJHSH1YSTUi50B7jJ9Q,testEmail,43880,1488.4545454545455,0.05497011183201863,2018-04-30 11:15:45.601589,13.0
+skull candy review,Unbox Guruji,https://www.youtube.com/channel/UCph1QzTnS57oInt9DJE5uoQ,testEmail,2703,5683.0,0.01538532159223925,2018-04-30 11:15:48.776572,24.0
+skull candy review,Entertainment Buddha,https://www.youtube.com/channel/UCYxgQRyQeqrxkkP_GhhEl_A,testEmail,1775,46.21739130434783,0.0348071495766698,2018-04-30 11:15:52.024393,24.0
+skull candy review,technowarriorstv,https://www.youtube.com/channel/UCCmiRVcM3Xc7JlzCcLE0PJw,testEmail,2355,203.7826086956522,0.020011023398051348,2018-04-30 11:15:55.578328,25.0
+skull candy review,Mr Moviliano,https://www.youtube.com/channel/UC8FCQeTYqREA29RMlolHx3A,testEmail,6534,222.1875,0.07988748241912799,2018-04-30 11:15:58.196055,17.0
+skull candy review,YKG Tech,https://www.youtube.com/channel/UCbWfXYM5GuGyQMiDXvXYgWQ,testEmail,791,1140.090909090909,0.027882025218154024,2018-04-30 11:16:01.447443,25.0
+skull candy review,Miguel Angel Rocha,https://www.youtube.com/channel/UC2sWzkO6Wfnwbmt6afs29HQ,testEmail,63269,1307.3636363636363,0.06432097906960574,2018-04-30 11:16:03.621217,12.0
+skull candy review,anthony cavins,https://www.youtube.com/channel/UC1eZOMt7DKN6SzCUGOwGs9Q,testEmail,23,,,2018-04-30 11:16:04.813211,0.0
+skull candy review,MAQ NIYAZI,https://www.youtube.com/channel/UCfPMqMrltF-EYRKTEuj0dKQ,testEmail,1209,347.05555555555554,0.12319325040725432,2018-04-30 11:16:07.399698,19.0
+skull candy review,Geekman,https://www.youtube.com/channel/UCMKqBUspKvrR3J-OpXQn9bQ,testEmail,4898,1197.142857142857,0.046897374701670644,2018-04-30 11:16:08.971459,8.0
+best wireless headphones,G3AR - 'GreekGadgetGuru',https://www.youtube.com/channel/UCGjJOXtT9nXYgjFFzRDdaTA,testEmail,541622,28904.6,0.05010967112501124,2018-04-30 11:16:15.377607,6.0
+best wireless headphones,TechnoNerd,https://www.youtube.com/channel/UCeDqLK6FAytkaFEXRd443Pw,testEmail,69978,3686.0,0.014288298064749502,2018-04-30 11:16:16.926522,7.0
+best wireless headphones,Tian Wu,https://www.youtube.com/channel/UC06eyiLbNX007OiW_VCsRIw,testEmail,7493,12489.208333333334,0.016866735528049362,2018-04-30 11:16:20.584291,25.0
+best wireless headphones,Incredibles !,https://www.youtube.com/channel/UCyiTWmZehWpNqGE3ruA8rqg,testEmail,109431,62228.04347826087,0.010598785206818773,2018-04-30 11:16:23.931832,25.0
+best wireless headphones,Danny Winget,https://www.youtube.com/channel/UCGq7ov9-Xk9fkeQjeeXElkQ,testEmail,345305,113429.5,0.019258658461863976,2018-04-30 11:16:25.018065,4.0
+best wireless headphones,Amanda Woolsey,https://www.youtube.com/channel/UCMvFpZt2EfFnfPHXusmmIQg,testEmail,40985,18764.08695652174,0.026897569516853813,2018-04-30 11:16:27.784353,25.0
+best wireless headphones,DailyTekk,https://www.youtube.com/channel/UC-tZk0bsaiq9KANWZ2BPO8w,testEmail,90334,39305.36363636364,0.026439267911116938,2018-04-30 11:16:30.646757,25.0
+best wireless headphones,The Unboxers,https://www.youtube.com/channel/UCOmn6l7z7e-vFX3TybUvHPw,testEmail,5110,25131.347826086956,0.014120450064386357,2018-04-30 11:16:33.975116,25.0
+best wireless headphones,TJ Davidson,https://www.youtube.com/channel/UClfY-Ms-yc9DAeP7uLDG_NQ,testEmail,45332,4207.952380952381,0.05479647379677934,2018-04-30 11:16:36.801852,22.0
+best wireless headphones,Tech to Pick,https://www.youtube.com/channel/UCl4PNwhQbdyVyaPc12ookVw,testEmail,4644,3370.3571428571427,0.01937056267881742,2018-04-30 11:16:39.281768,15.0
+best wireless headphones,Ur Random Geek,https://www.youtube.com/channel/UCvxQ36lH2KXZstVt0-lTB9Q,testEmail,6861,1328.157894736842,0.07678422825440857,2018-04-30 11:16:42.179531,20.0
+audio technica review,Super* Review,https://www.youtube.com/channel/UCLt1ZCWX6QCDWVUElrY5_qA,testEmail,1379,5103.307692307692,0.01760547457908144,2018-04-30 11:16:49.082708,14.0
+audio technica review,Carlos Delgado,https://www.youtube.com/channel/UCfr55bMg3ILQB0Z4KyIUQOg,testEmail,8209,7374.0,0.018614477609809717,2018-04-30 11:16:52.073050,21.0
+audio technica review,TheAngryHoneyBadger,https://www.youtube.com/channel/UC7foeIw1ZW7BaqHAUfFgRzg,testEmail,143530,13951.0,0.014085011827109167,2018-04-30 11:16:53.160014,4.0
+audio technica review,Virtually Mainstream,https://www.youtube.com/channel/UCvuKREmvca1sSP7gdtKrenQ,testEmail,322,,,2018-04-30 11:16:54.114800,1.0
+audio technica review,GYMCADDY,https://www.youtube.com/channel/UCW5cHxkagtxS59B48uvhHVQ,testEmail,13194,5669.333333333333,0.02711959078080903,2018-04-30 11:16:57.137877,25.0
+audio technica review,Zococity,https://www.youtube.com/channel/UCti5EPH7uqDEC3SVa6EsvUA,testEmail,11191,2174.8571428571427,0.06726878612716763,2018-04-30 11:16:59.163156,15.0
+audio technica review,9to5Mac,https://www.youtube.com/channel/UChjRM_qQAaOAiLNbOGbYcRA,testEmail,251360,25378.416666666668,0.028789298449569796,2018-04-30 11:17:01.882211,25.0
+audio technica review,Gavin Fabiani-Laymond,https://www.youtube.com/channel/UCpszZTwKqdrdLyeTqG9XI4w,testEmail,1383,813.1818181818181,0.05086640581330353,2018-04-30 11:17:03.933345,12.0
+audio technica review,Reuben Chng,https://www.youtube.com/channel/UCK04w-P1HZVWweAzG8SlXHQ,testEmail,5407,1341.75,,2018-04-30 11:17:05.155469,4.0
+audio technica ATH-E70 review,Tech Altar,https://www.youtube.com/channel/UCTfdGCcqSQQ0bJJtKXMPkNw,testEmail,62,329.0,0.008139409156985477,2018-04-30 11:17:14.086142,24.0
+audio technica ATH-E70 review,INhumanly PLAYS,https://www.youtube.com/channel/UCgGEylW3sYBwbdBfD9MKYnA,testEmail,184,13.4375,,2018-04-30 11:17:16.614666,18.0
+audio technica ATH-E70 review,Packing Lite,https://www.youtube.com/channel/UCiTVZa6InO6COnn83fITbwQ,testEmail,4751,761.8333333333334,0.029534018814263836,2018-04-30 11:17:17.682587,6.0
+audio technica ATH-E70 review,MusicStoreTV,https://www.youtube.com/channel/UCUEJwai3aOxohaNR3qndgFg,testEmail,45440,356.69565217391306,0.016668698196001946,2018-04-30 11:17:20.282213,25.0
+audio technica ATH-E70 review,ิวิบูลย์ ประสิทธิ์วัฒนะกุล,https://www.youtube.com/channel/UC8V48bNWUmsOSEdq1LHkVkg,testEmail,0,,,2018-04-30 11:17:20.590589,0.0
+audio technica ATH-E70 review,Tech Infusion,https://www.youtube.com/channel/UCjRfaQrOrGeQfOLuA5xSTIQ,testEmail,7814,4323.125,0.030359982651438484,2018-04-30 11:17:22.391308,9.0
+audio technica ATH-E70 review,NightWolfPack,https://www.youtube.com/channel/UCzuB3zj88QRYk5tJItwxj_g,testEmail,125,150.95454545454547,0.04787714543812104,2018-04-30 11:17:26.109409,24.0
+audio technica ATH-E70 review,On A studentbudget,https://www.youtube.com/channel/UCDgyR3ltmwKkFVszxYyClGw,testEmail,1642,2746.153846153846,0.017759103641456584,2018-04-30 11:17:28.368433,14.0
+audio technica ATH-E70 review,JustMusic,https://www.youtube.com/channel/UCGEgeZsE-MwJTpaTGdXExsw,testEmail,1557,990.2857142857143,0.007068667051356029,2018-04-30 11:17:30.605523,15.0
+audio technica ATH-E70 review,Юрий Довгорук,https://www.youtube.com/channel/UC-pLN8V5P-q3-clNYvZSaew,testEmail,184,35.36363636363637,0.0,2018-04-30 11:17:32.567949,12.0
+audio technica ATH-E70 review,tekvasionhd,https://www.youtube.com/channel/UC3CRCVa3fR2xg97zAXkvIHw,testEmail,18,3698.0,0.01081665765278529,2018-04-30 11:17:33.574418,2.0
+audio technica ATH-E70 review,The Mohawk Guy,https://www.youtube.com/channel/UCy6eJZ5vw8VRVNjOdGCSjgQ,testEmail,211,,,2018-04-30 11:17:34.299917,0.0
+audio technica ATH-E70 review,PureTech Reviews,https://www.youtube.com/channel/UCtXJwnvuiOFvI23Et3pFimA,testEmail,31,5586.8,0.006873344311591608,2018-04-30 11:17:35.162005,5.0
+audio technica ATH-E70 review,Poc Network // Tech,https://www.youtube.com/channel/UCDND8kF3xsIKkfpRZAqnP0A,testEmail,0,138.56521739130434,0.025716452253948332,2018-04-30 11:17:38.354545,25.0
+audio technica ATH-E70 review,DennisCNLew,https://www.youtube.com/channel/UCd8XAa3piJJU0IAaMSdC6gw,testEmail,11205,13986.208333333334,0.014871793344038323,2018-04-30 11:17:41.669988,25.0
+audio technica ATH-E70 review,Bad Guy Good Audio Reviews,https://www.youtube.com/channel/UCIw1An1OUp4XIv_h6si2etQ,testEmail,4393,2841.3809523809523,0.04189323220981201,2018-04-30 11:17:44.137565,22.0
+audio technica ATH-E70 review,GdgtCompare.com,https://www.youtube.com/channel/UC1iPxUQCHBh4o3xwJltv-bw,testEmail,8261,912.8,0.013584574934268187,2018-04-30 11:17:46.930419,16.0
+audio technica ATH-E70 review,Smart Gen Hub,https://www.youtube.com/channel/UC2ccEDYyyqSb_cJi4P3E6Ig,testEmail,221,464.5,0.0281664872622892,2018-04-30 11:17:49.091488,13.0
+audio technica ATH-E70 review,LORELYNF,https://www.youtube.com/channel/UCmA9AwHwRQtBghd4GIT5eag,testEmail,163011,32855.5,0.034933268402550566,2018-04-30 11:17:50.909945,13.0
+audio technica ATH-E70 review,Masonry Studios,https://www.youtube.com/channel/UCgdmTepi7ghtnLJcA5exqWg,testEmail,2,19.8,,2018-04-30 11:17:53.153974,16.0
+audio technica ATH-E70 review,ProjectRecton,https://www.youtube.com/channel/UClMoOZW0HbE1q12FyPKF6MQ,testEmail,115,958.95,0.0160269540842042,2018-04-30 11:17:56.287499,22.0
+best headphones for streaming,ChilledCow,https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow,testEmail,1484506,86136.72727272728,0.04789795082659281,2018-04-30 11:18:04.525006,23.0
+best headphones for streaming,summit1g,https://www.youtube.com/channel/UC9XKrQI5N24RDzZA8fheEjg,testEmail,496256,132996.65217391305,0.023751509587210583,2018-04-30 11:18:07.746203,23.0
+best headphones for streaming,Daily Twitch,https://www.youtube.com/channel/UCmCcLJqodUkQmExYXIIWrHw,testEmail,97996,87919.70833333333,0.022976916170569746,2018-04-30 11:18:10.798204,25.0
+best headphones for streaming,Podcast Fast,https://www.youtube.com/channel/UCLCL_RHPBGMZsK3wNQMBO1Q,testEmail,7176,9257.875,0.014620729277287822,2018-04-30 11:18:14.095645,25.0
+best headphones for streaming,Interesting Gadgets,https://www.youtube.com/channel/UCSmaqw1DCx7fMBsXylhM16g,testEmail,30,5.043478260869565,,2018-04-30 11:18:18.305871,25.0
+best headphones for streaming,Cb74,https://www.youtube.com/channel/UCE2MHA10-AcbPgVbqNdYRUQ,testEmail,0,2344.6521739130435,0.06242319162099606,2018-04-30 11:18:21.404409,24.0
+best headphones for streaming,Stevie Richards,https://www.youtube.com/channel/UCqGbBVZK3PoUIVtoTldr_2A,testEmail,27361,535.0869565217391,0.06990724667656495,2018-04-30 11:18:24.748789,25.0
+best headphones for streaming,Cole Review,https://www.youtube.com/channel/UCN4iMoQsmgoVqxUrpqFljhQ,testEmail,274,2234.782608695652,0.006421044098573281,2018-04-30 11:18:27.848063,25.0
+best headphones for streaming,Korleone,https://www.youtube.com/channel/UC8B0JGK8CKnewe1KBoNpvEw,testEmail,863,6173.04347826087,0.008906183969573178,2018-04-30 11:18:31.579530,25.0
+best headphones for streaming,hollywoodfrodo,https://www.youtube.com/channel/UCuEnyJNRt1-wM1CxvdqrNwQ,testEmail,23889,229.64285714285714,0.050388802488335924,2018-04-30 11:18:33.600845,15.0
+best headphones for streaming,PremierClips,https://www.youtube.com/channel/UCnpoV1inTj6FXezeD7Y2a7Q,testEmail,26247,10395.0,0.01398962014904044,2018-04-30 11:18:37.008220,25.0
+best headphones for streaming,MCL LUNATIC,https://www.youtube.com/channel/UClvmcTASELZqjIw5Wz64MXQ,testEmail,38,7.75,,2018-04-30 11:18:38.185974,4.0
+best headphones for streaming,PewDiePie,https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw,testEmail,62335395,4580948.541666667,0.06862343724739511,2018-04-30 11:18:40.833522,25.0
+best headphones for streaming,Geek Street,https://www.youtube.com/channel/UCj2xtCfUX4tY0AouuOvEhNA,testEmail,14504,239.22222222222223,0.034181191483120245,2018-04-30 11:18:43.623537,19.0
+best headphones for streaming,phototristan,https://www.youtube.com/channel/UCwaaV6YJs5FqQ6I8ad2DdCw,testEmail,11549,386.0,0.06476683937823834,2018-04-30 11:18:44.864880,5.0
+best headphones for streaming,BOBdotEXE,https://www.youtube.com/channel/UCStF2E9_qNtoJnxi92XZysQ,testEmail,33645,1520.1666666666667,0.03695127822559502,2018-04-30 11:18:48.035648,25.0
+best headphones for streaming,baoan infinite,https://www.youtube.com/channel/UCXwnjPcReq_UfRGEXLqlWNA,testEmail,5,5.176470588235294,,2018-04-30 11:18:50.336596,19.0
+best headphones for streaming,Anthony Moss,https://www.youtube.com/channel/UCQYMRkp4h_sQh5DWE0uw6pw,testEmail,3892,1104.375,0.004326227755769352,2018-04-30 11:18:51.883850,9.0
+best headphones for streaming,TechCrunch,https://www.youtube.com/channel/UCCjyq_K1Xwfg8Lndy7lKMpA,testEmail,347514,4468.208333333333,0.02022947141459531,2018-04-30 11:18:54.681509,25.0
+best headphones for streaming,Jimmy Lewis,https://www.youtube.com/channel/UCYbQwWNu_uBliM5XqRO694w,testEmail,0,26.8,,2018-04-30 11:18:55.893597,6.0
+best headphones for streaming,kamikaze s0undwavez,https://www.youtube.com/channel/UCfN_583XI1dkxtS1mxJ9jVA,testEmail,217,78.9,0.1356147021546261,2018-04-30 11:18:57.792309,10.0
+best headphones for streaming,Ninja,https://www.youtube.com/channel/UCAW-NpUFkMyCNrvRSSGIvDQ,testEmail,9696813,3979172.25,0.03465501670532142,2018-04-30 11:19:00.357392,25.0
+monolith m1060 review,Joshua Valour,https://www.youtube.com/channel/UCx9bOYEjkevIDYONBAstK-A,testEmail,1103,426.4347826086956,0.0986609570418706,2018-04-30 11:19:09.015608,25.0
+monolith m1060 review,ZadiusTech,https://www.youtube.com/channel/UCpyccToYyxo1HW6en0-UN5w,testEmail,0,476.5,0.04386149003147954,2018-04-30 11:19:11.049271,11.0
+monolith m1060 review,The Master Switch,https://www.youtube.com/channel/UCgH23eAeFHbpOjNkVq7a1YA,testEmail,1277,636.6086956521739,0.028943046777017548,2018-04-30 11:19:14.514242,25.0
+monolith m1060 review,Alex Mattaliano,https://www.youtube.com/channel/UCetkgWvdPFjruMeByBucP5g,testEmail,260,5401.0,0.03698389187187558,2018-04-30 11:19:15.471048,4.0
+monolith m1060 review,Damir Franc,https://www.youtube.com/channel/UCMpZ_fKWmTeZEOLy9PFfFxg,testEmail,75786,5145.913043478261,0.04708675521308595,2018-04-30 11:19:18.315453,25.0
+monolith m1060 review,ZeosPantera,https://www.youtube.com/channel/UCQQR-Lu1vjEgNwC2hhE_J-w,testEmail,16773,4315.0,0.04016493356006682,2018-04-30 11:19:22.240327,23.0
+monolith m1060 review,KT Chang,https://www.youtube.com/channel/UCw13mCvOa68vRzJVPSJsMEQ,testEmail,41,,,2018-04-30 11:19:22.861594,0.0
+monolith m1060 review,Monoprice,https://www.youtube.com/channel/UCo5CResZOuKxO2_1QMd0q5g,testEmail,43232,4967.136363636364,0.008928977589593155,2018-04-30 11:19:26.109537,25.0
+monolith m1060 review,kenshinesca,https://www.youtube.com/channel/UCRH1RFyRPRza-KF2yhHUINw,testEmail,141,216.69230769230768,0.03605659516202647,2018-04-30 11:19:28.698403,15.0
+monolith m1060 review,Mickxal,https://www.youtube.com/channel/UCeMqglW6dqiYN55xLonr8_g,testEmail,342,171.0,,2018-04-30 11:19:30.540554,11.0
+monolith m1060 review,Steve Guttenberg Audiophiliac,https://www.youtube.com/channel/UC9wBmplRUhaCi-aNrkfgeTg,testEmail,14752,6297.24,0.05229919452174999,2018-04-30 11:19:33.266762,25.0
+headphone amps,Kirby Meets Audio,https://www.youtube.com/channel/UCOuow_HIYmeaIqi42zVs3qg,testEmail,136877,29013.0,0.029076545896217436,2018-04-30 11:19:41.920693,25.0
+headphone amps,Music Bliss Malaysia,https://www.youtube.com/channel/UCSLzK8E0i7tDFykDt0EFgrw,testEmail,3945,739.9333333333333,0.042441886656455534,2018-04-30 11:19:44.533389,17.0
+headphone amps,Charles Simon,https://www.youtube.com/channel/UCXIRc64yLt44K_vJicRr1mA,testEmail,80,816.3913043478261,0.007553567307521613,2018-04-30 11:19:49.081280,25.0
+headphone amps,Ulrich Peise,https://www.youtube.com/channel/UCPeJrAtwnQpPTCgVFlZKg8g,testEmail,8541,42.8,0.11292834890965732,2018-04-30 11:19:50.638200,6.0
+headphone amps,CircuitsandCoffee,https://www.youtube.com/channel/UClVP9vnpAnJZXxaaO5uLjhg,testEmail,13519,3471.181818181818,0.09284236440300657,2018-04-30 11:19:52.651646,12.0
+headphone amps,Joker Productions,https://www.youtube.com/channel/UCVJtDvrR27PQBcsVGZp3Law,testEmail,119978,6410.0,0.10854091306509404,2018-04-30 11:19:54.444981,14.0
+headphone amps,HeadphoneAddictCOM,https://www.youtube.com/channel/UCJTVYdc9uLLw9r2E8ox9ZhA,testEmail,2999,4107.0,0.020351432513594673,2018-04-30 11:19:56.956190,13.0
+headphone amps,EEVblog,https://www.youtube.com/channel/UC2DjFE7Xf11URZqWBigcVOQ,testEmail,530817,45352.625,0.049577174419341764,2018-04-30 11:19:59.660348,25.0
+headphone amps,Make:,https://www.youtube.com/channel/UChtY6O8Ahw2cz05PS2GhUbg,testEmail,1606560,22328.041666666668,0.02526831673857831,2018-04-30 11:20:02.309377,25.0
+headphone amps,Bay Bloor Radio,https://www.youtube.com/channel/UCxwgsoSXXcgeq1-SW-v0XAQ,testEmail,0,7160.166666666667,0.0039516004255569686,2018-04-30 11:20:05.506156,19.0
+headphone amps,JohnAudioTech,https://www.youtube.com/channel/UC8SPQG7er2RJhz4E8xvFEtw,testEmail,18570,3752.25,0.05829835432074089,2018-04-30 11:20:06.824858,4.0
+headphone amps,Ryan Urlacher,https://www.youtube.com/channel/UC4jEJu1wGktdUeGcFj4VR0g,testEmail,51054,5321.791666666667,0.040729785823873606,2018-04-30 11:20:10.106427,25.0
+headphone amps,TopProducts.com,https://www.youtube.com/channel/UC31bwDAoLeVG13H2HIVFPTw,testEmail,1676,48.708333333333336,,2018-04-30 11:20:13.148849,25.0
+headphone amps,Samson Technologies,https://www.youtube.com/channel/UCZLmFeGmJ-dMkS4hN20AW6A,testEmail,8011,625.3333333333334,0.015763021626561072,2018-04-30 11:20:14.503442,7.0
+headphone amps,Sonic Electronix,https://www.youtube.com/channel/UCl76vrtVLcPPnOSIHVs8HMg,testEmail,170910,15267.782608695652,0.009805624612592396,2018-04-30 11:20:17.878188,25.0
+best in ear headphones,Tech Tricks Talk,https://www.youtube.com/channel/UC9PmXBq4cSgRjlAi2PJPJYg,testEmail,9239,4223.916666666667,0.003797817980941858,2018-04-30 11:20:26.121570,25.0
+best in ear headphones,Geekster's Amazing Gadgets,https://www.youtube.com/channel/UCrKPVYH-80qUVt_7Kvbtxtg,testEmail,24516,4407.6,0.005626644886105816,2018-04-30 11:20:27.393826,5.0
+best in ear headphones,Practical Worship,https://www.youtube.com/channel/UCTKdlfc7rbYPVvZCgtIEbyw,testEmail,5400,1026.2222222222222,0.04598852317020355,2018-04-30 11:20:29.583624,9.0
+best in ear headphones,Trakin Tech,https://www.youtube.com/channel/UCEPL07qzVsOcHd3sMUws65g,testEmail,544305,22054.428571428572,0.07822853848595358,2018-04-30 11:20:31.229088,8.0
+best in ear headphones,FrenchToast Philip,https://www.youtube.com/channel/UCOTL48Lm11gdTjWDK0GlaTw,testEmail,10688,4612.958333333333,0.017712783734226953,2018-04-30 11:20:34.825044,25.0
+best in ear headphones,Absolute Music,https://www.youtube.com/channel/UCOl1I3_kZkSRLR-UElFO19Q,testEmail,8901,3375.076923076923,0.01467772814294831,2018-04-30 11:20:37.088199,14.0
+best in ear headphones,TechFocus,https://www.youtube.com/channel/UCr5-4vlEX5yrCpx7Tbf4j4Q,testEmail,11111,2242.1363636363635,0.04767503936316149,2018-04-30 11:20:40.429875,23.0
+best in ear headphones,WorldwideTrends,https://www.youtube.com/channel/UCal_YfweO77d2DmHVXCRXzg,testEmail,3540,,,2018-04-30 11:20:41.193973,0.0
+corsair review,Tech Deals,https://www.youtube.com/channel/UCCss3QxegBkF8BAetIo0qXA,testEmail,280016,19150.125,0.08502990624517247,2018-04-30 12:07:46.551889,9.0
+corsair review,TechyTalk,https://www.youtube.com/channel/UCUisdiJrldTbaRS--p0-F5A,testEmail,4992,26637.4,0.008220140024729771,2018-04-30 12:07:49.337784,21.0
+corsair review,OC3D TV,https://www.youtube.com/channel/UC_SN80_V2GymyCWM2oTYTeg,testEmail,206970,13000.666666666666,0.03831534280293319,2018-04-30 12:07:50.723265,9.0
+corsair review,JoesTech,https://www.youtube.com/channel/UCTo8svlKSM8Q667oVs5rdUw,testEmail,3475,4025.2083333333335,0.02773328412653049,2018-04-30 12:07:54.239698,25.0
+corsair review,Adamant IT,https://www.youtube.com/channel/UCURRdjIBFE8TDJlPOuiob3Q,testEmail,3900,262.06666666666666,0.0714830831849402,2018-04-30 12:07:56.919674,16.0
+AKG review,Pocketnow,https://www.youtube.com/channel/UCO_vmeInQm5Z6dEZ6R5Kk0A,testEmail,1560431,46483.61538461538,0.0564561912207981,2018-04-30 12:08:04.550699,13.0
+AKG review,Android Authority,https://www.youtube.com/channel/UCgyqtNWZmIxTx3b6OxTSALw,testEmail,3041425,50484.708333333336,0.038228895469459664,2018-04-30 12:08:07.202384,25.0
+AKG review,TechDaily,https://www.youtube.com/channel/UCAl07YZamCkD9BU4GXUMocQ,testEmail,30117,2788.304347826087,0.03327693835014787,2018-04-30 12:08:10.682407,25.0
+AKG review,Phone Battles,https://www.youtube.com/channel/UCtr_4TnjzulPJQ9UjNrnvZA,testEmail,57525,5593.086956521739,0.024531624655224443,2018-04-30 12:08:13.893211,25.0
+AKG review,TEK,https://www.youtube.com/channel/UCk5BKXc2dWp_M0vLInxb90w,testEmail,1898,4912.5,0.015504664970313825,2018-04-30 12:08:16.487862,25.0
+AKG review,Infinite Loop,https://www.youtube.com/channel/UCvmZV1aPBPB70b8qPuaO_HQ,testEmail,5425,2507.75,0.013587588620204902,2018-04-30 12:08:19.656084,25.0
+AKG review,Jimmy is Promo,https://www.youtube.com/channel/UCenU8Lc_KuRTyJzs0t1Tteg,testEmail,103920,7335.714285714285,0.037293086660175265,2018-04-30 12:08:21.026253,8.0
+AKG review,TechRage,https://www.youtube.com/channel/UCpM6wke1bCUFN6NCLKUjFVQ,testEmail,2131,4853.736842105263,0.016127563136378916,2018-04-30 12:08:23.682610,21.0
+AKG review,"783,490 views",https://www.youtube.com/channel/UC54RCSClfn1Ag6DZ2FULVCw,testEmail,4246,2856.625,0.004025729663501509,2018-04-30 12:08:26.867971,25.0
+AKG review,Tech Man Pat,https://www.youtube.com/channel/UCK8lrK-LP49lYZ0q9Nn26ZQ,testEmail,1265,137.69565217391303,0.08835912009262183,2018-04-30 12:08:30.161912,25.0
+AKG review,The YouTube Tech Guy,https://www.youtube.com/channel/UCzLaQ6eeTVuAltzTrN7fzyg,testEmail,241506,889.0,0.07659980002499689,2018-04-30 12:08:31.529628,9.0
+AKG review,Tech1Tv,https://www.youtube.com/channel/UCGNUw-AKLnqVvJ5wjtd1GXw,testEmail,38353,731.75,0.023303773463456173,2018-04-30 12:08:34.392659,25.0
+AKG review,JustKiddingGamer,https://www.youtube.com/channel/UCGI2ppgYx4i3nwHMl8eGnBQ,testEmail,200949,19612.5,0.02495128835473004,2018-04-30 12:08:36.765059,15.0
+AKG review,ListedFit,https://www.youtube.com/channel/UCI5MSedSCG4Nu_aER5pZrSg,testEmail,1221,2366.818181818182,0.012598425196850394,2018-04-30 12:08:38.766636,12.0
+AKG review,WairX Tech,https://www.youtube.com/channel/UCZ8ItUUsItDMHlIR2GAnskw,testEmail,0,605.1666666666666,0.022583310382814654,2018-04-30 12:08:40.812268,13.0
+AKG review,Fluctibus Fludd,https://www.youtube.com/channel/UCAHSe0CJA6mniQhGD6WeGqg,testEmail,0,1436.8333333333333,,2018-04-30 12:08:43.657647,19.0
+AKG review,SuperUser,https://www.youtube.com/channel/UCjaWXIsE5cGx_QbBEsYS9Ew,testEmail,1707,4132.2,0.02038292333126995,2018-04-30 12:08:46.434267,21.0
+AKG review,From the Mountains,https://www.youtube.com/channel/UCXkGbOuuzFdcwr6dGqFrZHg,testEmail,135,44.708333333333336,0.0782851817334576,2018-04-30 12:08:49.806034,25.0
+AKG review,Mark Steadman,https://www.youtube.com/channel/UC9B0d8_cP4EjBl1EniVsUMQ,testEmail,47,255.23076923076923,0.0039180229053646775,2018-04-30 12:08:51.940113,14.0
+AKG review,Samual Williams,https://www.youtube.com/channel/UCni-m8ItFABWh1C97mO-vEQ,testEmail,61,2946.0,0.015905343807584134,2018-04-30 12:08:53.355186,8.0
+AKG review,Oh Ship! Audio Tinkering,https://www.youtube.com/channel/UCKhcusQaf_KZmnGl9feqetA,testEmail,718,10.0,,2018-04-30 12:08:55.002941,5.0
+AKG review,Andre Ganzarolli,https://www.youtube.com/channel/UCj_o6ETxEyrZueRUa21j5kA,testEmail,155,457.4761904761905,0.06238443559147214,2018-04-30 12:08:58.507125,23.0
+ableton push review,DJ TechTools,https://www.youtube.com/channel/UCkZQQVgNUToyz5bocyA-cog,testEmail,282252,25548.571428571428,0.017632147916200703,2018-04-30 12:09:07.736642,22.0
+ableton push review,sonicstate,https://www.youtube.com/channel/UCW64y2tidRL5njv0JrQdvbA,testEmail,120824,1641.375,0.0357682737502383,2018-04-30 12:09:09.813351,18.0
+ableton push review,PMTVUK,https://www.youtube.com/channel/UCb5PQHC0CsA48rlI6gefr5A,testEmail,73831,717.75,0.03418951681184201,2018-04-30 12:09:12.967485,25.0
+ableton push review,Engadget,https://www.youtube.com/channel/UC-6OW5aJYBFM33zXQlBKPNA,testEmail,504508,9832.722222222223,0.02419924402081485,2018-04-30 12:09:15.167635,19.0
+ableton push review,Digital DJ Tips,https://www.youtube.com/channel/UCcGypazPypWJ2K5ig_c7LyQ,testEmail,130159,1322.4166666666667,0.03598210347217846,2018-04-30 12:09:18.469771,25.0
+ableton push review,Cub Kuker,https://www.youtube.com/channel/UCDNNuuKGY3F2YEt29gI2_Ow,testEmail,202,1346.8,0.004320647177790035,2018-04-30 12:09:20.946451,16.0
+ableton push review,Andri Søren,https://www.youtube.com/channel/UC5ZEIQ-owq_WnnzsJUd3_BA,testEmail,4699,17794.055555555555,0.01091574056915901,2018-04-30 12:09:23.719318,19.0
+ableton push review,Erin Fritsche,https://www.youtube.com/channel/UCGv9sDAxLsQ1QuFQdc2SL3Q,testEmail,29,103.85714285714286,0.0453920220082531,2018-04-30 12:09:24.884689,8.0
+ableton push review,Taetro,https://www.youtube.com/channel/UCNRFvq0JOm5VqHIBDDQgkMA,testEmail,37527,2790.714285714286,0.05723061172254927,2018-04-30 12:09:26.791795,15.0
+ableton push review,Cat andbeats,https://www.youtube.com/channel/UC29f-roOOuE_zAJ4MS0y0Pw,testEmail,3521,234.83333333333334,,2018-04-30 12:09:28.207904,6.0
+ableton push review,Alex Buga,https://www.youtube.com/channel/UCdR4LvDncJovaBxpjIiwmlQ,testEmail,57,676.625,0.01218472973009154,2018-04-30 12:09:31.821699,25.0
+ableton push review,Greg Chase,https://www.youtube.com/channel/UCOgn7SCSXCZYQ6Oj2KTmlzw,testEmail,919,2897.8333333333335,0.008208281549683545,2018-04-30 12:09:35.482861,25.0
+ableton push review,tarekith,https://www.youtube.com/channel/UCE11_-IseQFfXZhc8sOK7xg,testEmail,2913,1420.0,0.023943661971830985,2018-04-30 12:09:36.906186,4.0
+ableton push review,arcade15,https://www.youtube.com/channel/UCmQ8xVomIxdPf3ibxctHuTA,testEmail,2662,18227.791666666668,0.005871250313439791,2018-04-30 12:09:40.297366,25.0
+ableton push review,Ableton,https://www.youtube.com/channel/UCgWZYUZjiidjWgfs95pJrWg,testEmail,243191,19396.11111111111,0.027021453326841006,2018-04-30 12:09:41.643334,10.0
+ableton push review,Magnetic Magazine,https://www.youtube.com/channel/UCZ1vUnKkrCb5PH6XAZoq1Xw,testEmail,1653,1080.3636363636363,0.010083585773589141,2018-04-30 12:09:43.676006,12.0
+ableton push review,Point Blank Music School,https://www.youtube.com/channel/UCIWNozFjO8yVdJFsGKVmPgg,testEmail,308957,1791.5,0.040747976555958694,2018-04-30 12:09:45.085238,8.0
+ableton push review,XpressPads Finger Drumming,https://www.youtube.com/channel/UCcw7OJ8K1ZADdo3SnLfLtCQ,testEmail,4927,,,2018-04-30 12:09:46.691407,0.0
+ableton push review,loopop,https://www.youtube.com/channel/UC-RA5BzE_BnZhf5iVdNF1hA,testEmail,14375,6419.5,0.04242282628449776,2018-04-30 12:09:48.377583,6.0
+ableton push review,Julian Gray Media,https://www.youtube.com/channel/UCdL5OemMau4OQB8t6Z4Eujg,testEmail,19041,939.695652173913,0.08625210135875014,2018-04-30 12:09:51.867120,25.0
+ableton push review,modul8tor,https://www.youtube.com/channel/UCeEUQ2fQUi-WtfMZwAylwuw,testEmail,1253,25233.6,0.006626085853782259,2018-04-30 12:09:53.235961,5.0
+ableton push review,Jayel Flex Secrets de Beatmaker,https://www.youtube.com/channel/UCOJqsyZq-WK7DcZSlQzahAw,testEmail,6339,1903.0,0.02259590120861797,2018-04-30 12:09:54.557534,4.0
+ableton push review,John Joe,https://www.youtube.com/channel/UCfl78H4Q3sZBHlXuYuHJfHg,testEmail,211,6431.3125,0.006795795158910592,2018-04-30 12:09:57.502445,18.0
+ableton push review,Leo Casagrande,https://www.youtube.com/channel/UCev6lCdOb-U35dCqRaw8PLg,testEmail,13377,357.5,,2018-04-30 12:09:58.589922,2.0
+ableton push review,Melodics,https://www.youtube.com/channel/UCKl3s3mZ0NIRqheYZWN6Y0A,testEmail,1982,3258.0,0.010720862930807682,2018-04-30 12:10:00.816540,15.0
+ableton push review,Ned Rush,https://www.youtube.com/channel/UCIbbeIvZgBiXikUJaYWXTcQ,testEmail,8748,663.5,0.07255295989282426,2018-04-30 12:10:02.244031,9.0
+ableton push review,Thomas Piper,https://www.youtube.com/channel/UCrZC0XPDqFARksY6B67p41A,testEmail,6633,359.07142857142856,0.07597639413831975,2018-04-30 12:10:04.526486,15.0
+ableton push review,Jack Spade,https://www.youtube.com/channel/UC-wQbmF13u4sGRl2L-bW3qA,testEmail,1352,357.59090909090907,0.05146271041783944,2018-04-30 12:10:07.663482,23.0
+ableton push review,TecnologiaDJ,https://www.youtube.com/channel/UCFxdhLyKJ1JrkVvnBTa0psw,testEmail,7744,790.9166666666666,0.02299661464178879,2018-04-30 12:10:11.329485,25.0
+ableton push review,Sanjay C,https://www.youtube.com/channel/UC8g0HP1M957M7l8wJQfcuWQ,testEmail,4587,482.25,0.14256091238983928,2018-04-30 12:10:12.768844,4.0
+ableton push review,Drum Machine Addicts,https://www.youtube.com/channel/UCWu4MGvmHfA4McLPvRS9ZRg,testEmail,4789,1707.304347826087,0.020627482937761028,2018-04-30 12:10:16.232640,24.0
+ableton push review,Bax Music,https://www.youtube.com/channel/UC5vf6KjCqMUTEY4kiEeb_hg,testEmail,25132,100.91304347826087,,2018-04-30 12:10:19.238811,25.0
+ableton push review,Bryan D,https://www.youtube.com/channel/UCzuTAbWQrEpqGyIDrxmEW3Q,testEmail,265,,,2018-04-30 12:10:20.131038,0.0
+ableton push review,Padbangers,https://www.youtube.com/channel/UCzdO0t0w2l_MjLLkyr1mvaA,testEmail,5904,5205.631578947368,0.007498626656016932,2018-04-30 12:10:22.929148,20.0
+ableton push review,Rezzonator,https://www.youtube.com/channel/UCMx7xgce-1ohHZlM3DfFp3Q,testEmail,3285,101.75,0.085995085995086,2018-04-30 12:10:24.533597,9.0
+ableton push review,Experiencia Musical,https://www.youtube.com/channel/UCtwNEHoXGxXtwSevT6ymYjA,testEmail,52,1934.5,0.02481261307831481,2018-04-30 12:10:25.061341,2.0
+ableton push review,ANDREW HUANG,https://www.youtube.com/channel/UCdcemy56JtVTrsFIOoqvV8g,testEmail,1349687,122332.0,0.06614532972722163,2018-04-30 12:10:26.133464,7.0
+ableton push review,Ave Mcree,https://www.youtube.com/channel/UCRNU6E3OnmVNW1cR6Up9hdQ,testEmail,28447,1458.6875,0.05440409850044821,2018-04-30 12:10:28.864581,17.0
+ableton push review,Sequence One,https://www.youtube.com/channel/UCMkSVdfVn2n7EaaKpcevj3w,testEmail,4756,32751.375,0.011719791480946547,2018-04-30 12:10:29.892503,8.0
+ableton push review,Ba Bene,https://www.youtube.com/channel/UC1wqYV1uVQDwcoCgAgZvjJg,testEmail,1,,,2018-04-30 12:10:31.073461,1.0
+ableton push review,Erik Hawk,https://www.youtube.com/channel/UCp2DRr1POIYh8quQQigEfew,testEmail,2560,,,2018-04-30 12:10:33.241787,1.0
+ableton push review,Matthew Ray,https://www.youtube.com/channel/UC_KunSX7Ofv00uc1ylCJ0Hg,testEmail,23,,,2018-04-30 12:10:34.866114,0.0
+graphic card review,Tech Hindi,https://www.youtube.com/channel/UCD4dsOoS9jauVWpdzYjBihQ,testEmail,313177,14616.0,0.025641610411725354,2018-04-30 12:10:41.335106,10.0
+graphic card review,ponchato,https://www.youtube.com/channel/UCfJxwFp-RuuYIJUzZl4cqdQ,testEmail,19271,7316.076923076923,0.04489585633325974,2018-04-30 12:10:43.226466,14.0
+graphic card review,Socket Sanctuary,https://www.youtube.com/channel/UCCPPo5f-zeJXUA6NrdL4llg,testEmail,10905,6384.739130434783,0.06553642403648191,2018-04-30 12:10:46.643877,25.0
+graphic card review,Dhananjay Bhosale,https://www.youtube.com/channel/UCuFkA1HPWVD0mXl8o1uBZzA,testEmail,213842,34796.782608695656,0.04659918791425827,2018-04-30 12:10:50.110298,25.0
+graphic card review,Nerd on a Budget,https://www.youtube.com/channel/UCw-kw9V9aE0c6y1fJm6e2IA,testEmail,71694,14537.375,0.047784876338862185,2018-04-30 12:10:52.869671,25.0
+graphic card review,Trusted Reviews,https://www.youtube.com/channel/UC3AzjGDUlJu_-tm_i7OzNcQ,testEmail,66259,3728.681818181818,0.024211066194664125,2018-04-30 12:10:56.576392,25.0
+graphic card review,Zach Ferree,https://www.youtube.com/channel/UCBS1NUWY7oC6FFHaXQy4zAA,testEmail,10185,912.0,0.16520467836257308,2018-04-30 12:10:58.747528,13.0
+graphic card review,GamerMuscleVideos,https://www.youtube.com/channel/UC69aRMKDNmaruRhBQ-_wyqw,testEmail,37929,2521.125,0.06341415042887599,2018-04-30 12:11:00.523046,9.0
+graphic card review,Josh TechGamer,https://www.youtube.com/channel/UCzVL5laX2kB1qNxYn0Bf-aA,testEmail,3039,66.64285714285714,0.14340836012861735,2018-04-30 12:11:02.831307,15.0
+graphic card review,MW Technology,https://www.youtube.com/channel/UCvIbgcm10GqMdwKho8C1Zmw,testEmail,303175,11552.208333333334,0.022845559831633923,2018-04-30 12:11:05.485748,25.0
+graphic card review,Budget-Builds Official,https://www.youtube.com/channel/UCsgnjvCvJZgAdSMMRG_j0cw,testEmail,93805,88275.91666666667,0.036991025298519505,2018-04-30 12:11:08.300755,25.0
+graphic card review,PC Perspective,https://www.youtube.com/channel/UCtKh7t3br1obEQL6EyiAq0w,testEmail,138385,4489.782608695652,0.0495198437676528,2018-04-30 12:11:10.941611,25.0
+graphic card review,PCWizKids Tech Talk,https://www.youtube.com/channel/UCtjAhxsnkqA5O49D2mIwh3w,testEmail,90467,606.2307692307693,0.06587724545471023,2018-04-30 12:11:13.134230,14.0
+graphic card review,Craft Computing,https://www.youtube.com/channel/UCp3yVOm6A55nx65STpm3tXQ,testEmail,47091,17639.81818181818,0.04335748667786722,2018-04-30 12:11:14.672441,12.0
+graphic card review,Bizon Computers (Bizon Pc),https://www.youtube.com/channel/UCz7XXThBQzM3Ff5qWn4mARQ,testEmail,2197,28860.083333333332,0.011983102381894255,2018-04-30 12:11:16.261250,13.0
+graphic card review,ConnorReviewsandMore,https://www.youtube.com/channel/UCgBm1AulXpK_7xg7K69w2VA,testEmail,3642,1181.695652173913,0.018764487287979692,2018-04-30 12:11:19.633764,25.0
+graphic card review,Tech Virus,https://www.youtube.com/channel/UC-P5hcUfm_VcL49-kClyqtw,testEmail,35795,460.2,0.07518470230334638,2018-04-30 12:11:20.501767,5.0
+PCB keyboard,J Pan,https://www.youtube.com/channel/UCcnYdrokcRmCLlOnnfok1Vg,testEmail,43,,,2018-04-30 12:11:26.367126,1.0
+PCB keyboard,Jono Sandilands,https://www.youtube.com/channel/UCuazA7MvqWIim58MoaqdtrQ,testEmail,85,12.333333333333334,,2018-04-30 12:11:27.452903,3.0
+PCB keyboard,John Ward,https://www.youtube.com/channel/UC2uFFhnMKyF82UY2TbXRaNg,testEmail,58409,3940.25,0.059577437979823615,2018-04-30 12:11:28.513282,4.0
+PCB keyboard,Anthony Ooi,https://www.youtube.com/channel/UC4F6BtL1avObpQo2QfWsMrw,testEmail,640,211.30434782608697,0.03106606185309889,2018-04-30 12:11:31.785365,25.0
+PCB keyboard,electronhacks,https://www.youtube.com/channel/UCWOdxDJ8IFR2fRh1j52rVtg,testEmail,26574,2862.4,0.009991615427613192,2018-04-30 12:11:32.953662,5.0
+PCB keyboard,l2pn,https://www.youtube.com/channel/UC63Mg47dwlLFlItqnOHD1Og,testEmail,1403,37.0,,2018-04-30 12:11:34.947520,11.0
+PCB keyboard,Manofinterests,https://www.youtube.com/channel/UCTJRSH0vGvD0qzxj2TnoKXA,testEmail,2001,1343.304347826087,0.0262102429656482,2018-04-30 12:11:37.842483,25.0
+PCB keyboard,CNLohr,https://www.youtube.com/channel/UCG7yIWtVwcENg_ZS-nahg5g,testEmail,30777,4182.5,0.05697936078196969,2018-04-30 12:11:40.367456,18.0
+PCB keyboard,Tanner Tech,https://www.youtube.com/channel/UCR1ARVDHnmTC3sUOkS4mUsg,testEmail,10671,1093.3181818181818,0.09754907188654043,2018-04-30 12:11:43.975330,24.0
+PCB keyboard,Wodan,https://www.youtube.com/channel/UCOfwAlVn0JxymLljlDnOODQ,testEmail,909,625.8333333333334,0.04318589706478318,2018-04-30 12:11:46.818994,25.0
+PCB keyboard,Jameco Electronics,https://www.youtube.com/channel/UC1rxMIOt82ieNE19w15U5YQ,testEmail,4315,7808.583333333333,0.00261464414159632,2018-04-30 12:11:49.408990,25.0
+PCB keyboard,Make it better,https://www.youtube.com/channel/UCmTy_bV_Sg81gPTtglnV9vw,testEmail,0,,,2018-04-30 12:11:50.348172,0.0
+PCB keyboard,Stjepan Horvat,https://www.youtube.com/channel/UCn1_p0ZriWcHvIBKr589o8w,testEmail,52,31.2,,2018-04-30 12:11:51.816263,5.0
+PCB keyboard,MechAndTech,https://www.youtube.com/channel/UCI9b2khPCO_nlWmXY0K2YHg,testEmail,30,785.3333333333334,0.015379173740803623,2018-04-30 12:11:53.829945,10.0
+PCB keyboard,NUDE cnc,https://www.youtube.com/channel/UC4A7fpUw6sjlGa9XRkEm0Ig,testEmail,5928,25412.0,0.005911813086417708,2018-04-30 12:11:56.521386,20.0
+PCB keyboard,spacehuhn,https://www.youtube.com/channel/UCFmjA6dnjv-phqrFACyI8tw,testEmail,3463,7718.428571428572,0.028762948293200565,2018-04-30 12:11:58.552169,15.0
+PCB keyboard,PC Builder Bangladesh,https://www.youtube.com/channel/UCBqI6HQbOYCkqWeB3PJpXnQ,testEmail,29839,16130.222222222223,0.059505276499600475,2018-04-30 12:12:00.222530,9.0
+PCB keyboard,Eve Devices,https://www.youtube.com/channel/UCsILW-DiiFN5yrMgipAz1ow,testEmail,945,1284.0,0.02263505124384848,2018-04-30 12:12:03.692234,25.0
+PCB keyboard,Sir Κ,https://www.youtube.com/channel/UCq9cXBR1LG9DfG-FudqetwQ,testEmail,69,27.5,,2018-04-30 12:12:05.519126,6.0
+PCB keyboard,RayMing Technology,https://www.youtube.com/channel/UCugbdfaCS2AK0VbQcu-y-wQ,testEmail,490,53282.11111111111,0.00010218147012026133,2018-04-30 12:12:07.067777,10.0
+PCB keyboard,GON's KeyboardWorks,https://www.youtube.com/channel/UCqVM_3lJqPbMFZJ7jjhy3aA,testEmail,623,1150.8125,0.007168848096453593,2018-04-30 12:12:09.374583,17.0
+PCB keyboard,Clueboard,https://www.youtube.com/channel/UC3GqckFDmz2YwWm9zD2xNUQ,testEmail,0,1751.125,0.004996787779284745,2018-04-30 12:12:10.386385,8.0
+PCB keyboard,mrosebro,https://www.youtube.com/channel/UClogZ-JOcq_9QvzUXe8zW8A,testEmail,13,,,2018-04-30 12:12:11.133455,0.0
+PCB keyboard,BiNiaRiS,https://www.youtube.com/channel/UC4fevdTnz1v_uwHq7LFQ7_w,testEmail,21,24645.666666666668,0.004584984513842867,2018-04-30 12:12:11.677969,3.0
+PCB keyboard,FrankCastleAZ,https://www.youtube.com/channel/UCeHvZMYb72lq2aKC85-9YOg,testEmail,41,,,2018-04-30 12:12:11.952610,0.0
+PCB keyboard,MechaniKey,https://www.youtube.com/channel/UCVUKiRcId34I3OQcx2s1Dbw,testEmail,22,3113.5,0.010599004335956319,2018-04-30 12:12:12.597534,4.0
+PCB keyboard,MechMerlin,https://www.youtube.com/channel/UCdfrYMwAJ8LHvy8-j_WIxAw,testEmail,1585,698.2,0.06303709538814094,2018-04-30 12:12:14.985097,16.0
+best graphic card review,Tech Showdown,https://www.youtube.com/channel/UCNBQvT7zlLuK-hqRtv1j47g,testEmail,37103,4689.04347826087,0.07512193086566278,2018-04-30 12:12:22.940222,25.0
+best graphic card review,wolfgang,https://www.youtube.com/channel/UCncuMsyOBwyiTv-6rc8mq0Q,testEmail,70812,12922.1875,0.0358250102778651,2018-04-30 12:12:25.468113,17.0
+best graphic card review,Ranky10,https://www.youtube.com/channel/UC2pE1rJwhJOHz6dZW1GVWfA,testEmail,1339,103.76923076923077,0.020385470719051148,2018-04-30 12:12:27.449264,14.0
+best graphic card review,OzTalksHW,https://www.youtube.com/channel/UC6Jxh95N32m1JvKG_-fQ6QQ,testEmail,129738,33033.666666666664,0.0638742293216012,2018-04-30 12:12:28.331119,3.0
+best graphic card review,Mayadi - A Knowledge Source,https://www.youtube.com/channel/UCDdKucdZUFS_d5Nj7rXDgXw,testEmail,0,1217.25,0.011775176285342644,2018-04-30 12:12:30.417643,13.0
+best graphic card review,Qubimaxima,https://www.youtube.com/channel/UCQvlaugSXtc_kDvKo80Gi2A,testEmail,120519,947.75,0.01617866877692781,2018-04-30 12:12:33.341610,25.0
+budget graphics card,TECHDROIDS,https://www.youtube.com/channel/UCwqRbrFn1CMyL0LJMFwrWwQ,testEmail,3029,854.125,0.06688131128347724,2018-04-30 12:12:40.113396,9.0
+budget graphics card,Tech Dreams,https://www.youtube.com/channel/UCzq1xxLmhvFfYUzKM4M8OyA,testEmail,8296,1509.875,0.15597096889919143,2018-04-30 12:12:43.526331,25.0
+budget graphics card,GamesAlike,https://www.youtube.com/channel/UCNcXEUMD1G8xCotxbHM3RMg,testEmail,20626,1107.3478260869565,0.061857879513657135,2018-04-30 12:12:46.903598,25.0
+budget graphics card,NBTalks,https://www.youtube.com/channel/UCzTNZiI_YtU6so8YOkQQwng,testEmail,5796,3014.7,0.1259381245763761,2018-04-30 12:12:50.050587,21.0
+budget graphics card,Tech Suvidha,https://www.youtube.com/channel/UCW6XAQ6k4eVm5Z8uA2Nuecg,testEmail,3744,2585.0476190476193,0.12648246827409043,2018-04-30 12:12:53.469460,23.0
+budget graphics card,Maximus,https://www.youtube.com/channel/UCeNRlKEDlcME41lE8PgiT0g,testEmail,46,34.7,0.15850144092219018,2018-04-30 12:12:55.299425,11.0
+budget graphics card,Foxy,https://www.youtube.com/channel/UC1kTA6iQJfNNEPhVmWGydiw,testEmail,858,515.0,0.04006472491909385,2018-04-30 12:12:58.050579,16.0
+budget graphics card,RandomGaminginHD,https://www.youtube.com/channel/UCUzjKyS5r72bfvPkA6GxpRg,testEmail,209711,52873.27272727273,0.07439056680983346,2018-04-30 12:12:59.629141,12.0
+budget graphics card,Tech Central,https://www.youtube.com/channel/UCWxdM5LJKwYYHzots4KuDeA,testEmail,8371,7541.541666666667,0.017231762035843583,2018-04-30 12:13:02.959118,25.0
+budget graphics card,Tech YES City,https://www.youtube.com/channel/UC9Tn-atYOt8qZP-oqui7bhw,testEmail,283604,24721.64285714286,0.07167675074049765,2018-04-30 12:13:04.819135,14.0
+budget graphics card,Tech Phase,https://www.youtube.com/channel/UCM5Akuu734B-Wp2qX2QIAIQ,testEmail,6464,5974.708333333333,0.08399718741955448,2018-04-30 12:13:08.478057,25.0
+budget graphics card,Saad Afaq,https://www.youtube.com/channel/UCroKO8keUCJkWwri8ajqeCw,testEmail,455,775.8571428571429,0.06564168661388327,2018-04-30 12:13:10.745800,15.0
+budget graphics card,BantuTechTips,https://www.youtube.com/channel/UC8S-5sz5NDkCQKRGgafDzew,testEmail,9546,564.4782608695652,0.14091183342319444,2018-04-30 12:13:14.238224,25.0
+budget graphics card,32megabytes,https://www.youtube.com/channel/UCnAWVTVrLApgmkAntCUp8jg,testEmail,36467,48718.0,0.037980746633539016,2018-04-30 12:13:17.442629,25.0
+budget graphics card,Techno JJ,https://www.youtube.com/channel/UCGDbaJ9ua6eWOlGFBuX7Zaw,testEmail,266,160.8181818181818,0.12605992085924253,2018-04-30 12:13:19.312089,12.0
+budget graphics card,PC Informer,https://www.youtube.com/channel/UCXludSOFjMDY7jPsnIDZ-Dw,testEmail,446,3128.0,0.025073072707343807,2018-04-30 12:13:21.324658,15.0
+cpu review,Nicolas11x12 English,https://www.youtube.com/channel/UCb0N0jgHiCwoGgkf5slDVUg,testEmail,53063,1122.3333333333333,0.06571806571806571,2018-04-30 12:13:28.342805,12.0
+cpu review,MobileTechReview,https://www.youtube.com/channel/UCW6J17hZ_Vgr6cQgd_kHt5A,testEmail,619215,46542.04347826087,0.031008701498193465,2018-04-30 12:13:31.003937,25.0
+cpu review,MCS Tech,https://www.youtube.com/channel/UCrZ3Q0bO1FilIYkn8ahDxSQ,testEmail,20167,11974.333333333334,0.08096650565400149,2018-04-30 12:13:33.641659,25.0
+cpu review,Coalition Gaming,https://www.youtube.com/channel/UCoQZ-XABu1ztHpJGez_q35Q,testEmail,1850,115.88888888888889,0.09300095877277084,2018-04-30 12:13:35.381594,9.0
+cpu review,Gadgets 360,https://www.youtube.com/channel/UCx5e1u7BX0aKwEj3sdYXdXg,testEmail,319787,6820.916666666667,0.021325335060048137,2018-04-30 12:13:38.334076,25.0
+cpu review,Dans Tech,https://www.youtube.com/channel/UCgRSCe2siDmMP_cDyjqpPAg,testEmail,23717,3571.0,0.02432791935032204,2018-04-30 12:13:40.215991,9.0
+mech keyboard tutorial,EposVox,https://www.youtube.com/channel/UCRBHiacaQb5S70pljtJYB2g,testEmail,98521,,,2018-04-30 12:13:45.837424,1.0
+best CPU,Hindustani Helper,https://www.youtube.com/channel/UClRcb7YdbGvcr3OZvn7_0iA,testEmail,352856,4023.086956521739,0.08095812607273631,2018-04-30 12:13:49.040322,24.0
+best CPU,The Indian Budget Gamer,https://www.youtube.com/channel/UCr8q3gJ5BA1Qdsj-bb4cIDA,testEmail,12318,3525.3684210526317,0.13112925860678987,2018-04-30 12:13:52.119895,21.0
+best CPU,The Frugal Gamer,https://www.youtube.com/channel/UCNzVQZWqq80TVhvrurMwULA,testEmail,0,7319.0,0.018390490504167238,2018-04-30 12:13:52.736656,5.0
+best CPU,The Good Old Gamer,https://www.youtube.com/channel/UCVqOg8VjkLno7ZQKHOmIrxA,testEmail,11370,7830.260869565217,0.07619496874394263,2018-04-30 12:13:55.843446,24.0
+best CPU,GaminGHD,https://www.youtube.com/channel/UCW-thz5HxE-goYq8yPds1Gw,testEmail,179607,1600.0869565217392,0.08848137782366901,2018-04-30 12:13:58.727956,25.0
+best CPU,TeamOverclocked,https://www.youtube.com/channel/UCZfQj-xG4tBvEOXsm8ipyIw,testEmail,921,2212.1739130434785,0.023172169811320753,2018-04-30 12:14:02.983128,25.0
+best CPU,Easy PC,https://www.youtube.com/channel/UCuPW6x4ZBXR06cjmf1wOS2g,testEmail,2244,2576.25,0.03920426977195536,2018-04-30 12:14:04.664887,9.0
+best CPU,RA Tech,https://www.youtube.com/channel/UCgTvRjLpLWSftkvryAHW_hA,testEmail,2710,7590.583333333333,0.022900227732588197,2018-04-30 12:14:07.722548,25.0
+best CPU,TekTick,https://www.youtube.com/channel/UCXfX9T28JOnkZ7ojYVBBtzQ,testEmail,17907,8318.375,0.019520038469051947,2018-04-30 12:14:10.044623,17.0
+worst cpu,TheIshan3,https://www.youtube.com/channel/UCvt-RtL7pjcfdcSMyXi7KIA,testEmail,2473,1932.8947368421052,0.008413886997957795,2018-04-30 12:14:19.018252,20.0
+worst cpu,Scott Manley,https://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A,testEmail,702774,56235.42105263158,0.04662237604506618,2018-04-30 12:14:21.010964,20.0
+worst cpu,E-Beowulf Hunter115,https://www.youtube.com/channel/UCHLExxLG9O3RaEKDl_INLqg,testEmail,22,42.25,0.037218077351856615,2018-04-30 12:14:24.036500,25.0
+worst cpu,ZTech,https://www.youtube.com/channel/UCyuLtQbXFghe2L3d831AWcA,testEmail,25,522.1666666666666,0.013909654442521882,2018-04-30 12:14:26.894648,20.0
+worst cpu,ThioJoe,https://www.youtube.com/channel/UCQSpnDG3YsFNf5-qHocF-WQ,testEmail,1835683,47433.71428571428,0.0662367936006939,2018-04-30 12:14:28.378159,8.0
+worst cpu,IT ADV,https://www.youtube.com/channel/UC-5FnYyl9NOyxEvJfV8zkNA,testEmail,5452,703.6666666666666,0.002761274932922411,2018-04-30 12:14:31.991481,25.0
+worst cpu,Boba Buddy,https://www.youtube.com/channel/UCnPF3l1mT8xbme1rquzz9Sg,testEmail,3,18.375,0.01422387136672851,2018-04-30 12:14:35.216238,25.0
+worst cpu,NormalX71 Videos,https://www.youtube.com/channel/UC5h3JE_4fXfrEHiRYb6o3qg,testEmail,231,27.791666666666668,0.07978619385959194,2018-04-30 12:14:38.250194,25.0
+worst cpu,The Phoenix Empire,https://www.youtube.com/channel/UCLHSaE8NWk2OS2UYvSs5Hgw,testEmail,24,23.875,0.10471204188481675,2018-04-30 12:14:41.340275,25.0
+worst cpu,Edward Plays,https://www.youtube.com/channel/UCOa2OiDGa-WDA3CfJzr60gQ,testEmail,1,6.25,,2018-04-30 12:14:42.123975,4.0
+worst cpu,Amy W.,https://www.youtube.com/channel/UC_AeHl_VVlUSeKzzhfQnvSQ,testEmail,139,,,2018-04-30 12:14:43.167582,1.0
+worst cpu,unfragablegaming,https://www.youtube.com/channel/UCLbjAz5IH2iy0pzq6vLBs3w,testEmail,21,422.3333333333333,0.011049723756906079,2018-04-30 12:14:44.693614,3.0
+worst cpu,Yellowman3456,https://www.youtube.com/channel/UCr-pLfO36ROPeKGBT4Nbi9g,testEmail,54,64.46666666666667,0.20165460186142709,2018-04-30 12:14:46.776779,16.0
+worst cpu,NykeFaller,https://www.youtube.com/channel/UChppONofKuTEXhdY4u-LOxg,testEmail,340485,28032.208333333332,0.038310098651402474,2018-04-30 12:14:49.912487,25.0
+worst cpu,AA Computers and Technology,https://www.youtube.com/channel/UCdh-HeBRlgk7YJ0NDxPz6Mw,testEmail,34068,8990.5,0.057349424392414215,2018-04-30 12:14:51.305160,6.0
+worst cpu,TechMagnet,https://www.youtube.com/channel/UCtT2VnurQKOAA0I1EKKHSPA,testEmail,308907,65588.66666666667,0.013746204701451034,2018-04-30 12:14:52.475391,7.0
+worst cpu,RON93ALDO9,https://www.youtube.com/channel/UCsDhO3Gl7R5NT7jJZp-lrzw,testEmail,73,35663.6,0.0034208548772417815,2018-04-30 12:14:53.379695,5.0
+worst cpu,Robyn Li Hensel,https://www.youtube.com/channel/UCJ-URU8Qv8gtwPS-8xQimgg,testEmail,43,3.625,,2018-04-30 12:14:56.872684,25.0
+worst cpu,HashirPlays,https://www.youtube.com/channel/UCshsgyS0LZduJUrJLhTYaqA,testEmail,85,152.83333333333334,0.044711014176663025,2018-04-30 12:14:58.257878,7.0
+worst cpu,jacob austin,https://www.youtube.com/channel/UCAjI-oLGgoWRVAmKoj__z-A,testEmail,3,6.857142857142857,0.020833333333333332,2018-04-30 12:15:00.259519,15.0
+worst cpu,SciShow,https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow,testEmail,4949175,163330.0,0.040631663290377706,2018-04-30 12:15:02.718759,25.0
+worst cpu,TheNHLDealerss,https://www.youtube.com/channel/UC5a4Zhv-GLTWunpls97S4_g,testEmail,1524,330.53846153846155,0.05885058235535313,2018-04-30 12:15:04.774841,15.0
+worst cpu,Firman Family,https://www.youtube.com/channel/UC59M0Iz-tTIYTQB9sJiP0YA,testEmail,56,128.54166666666666,0.020703262631245157,2018-04-30 12:15:08.249965,25.0
+worst cpu,ItzAlexx™,https://www.youtube.com/channel/UCRU6xJcLqYGRRP7JFYBVeQw,testEmail,209,42.875,0.17522288418472978,2018-04-30 12:15:12.962887,25.0
+worst cpu,KingAveeshKaa,https://www.youtube.com/channel/UCNKsLVnO9Zej_xiOtJiRPoA,testEmail,453,31.166666666666668,0.10638896707008161,2018-04-30 12:15:15.823517,20.0
+worst cpu,Kevinplayz21,https://www.youtube.com/channel/UCCap-XSxAiPcL_JQ6QibVAg,testEmail,64,1.9166666666666667,,2018-04-30 12:15:19.726671,25.0
+worst cpu,Chip Chace,https://www.youtube.com/channel/UCtNb-e37QI0Avz00Hp5Se5g,testEmail,13,22.142857142857142,,2018-04-30 12:15:21.066449,7.0
+worst cpu,BREAKING NEWS,https://www.youtube.com/channel/UCKYe-T0-TWGTKUhAd35EH9Q,testEmail,0,15.478260869565217,0.0,2018-04-30 12:15:24.657556,25.0
+worst cpu,WillBFlawless,https://www.youtube.com/channel/UC5Lt_0YUSdJfPkl6mXBQX4g,testEmail,12,,,2018-04-30 12:15:25.583894,0.0
+gaming rig setups,Alex Mandel Vlog,https://www.youtube.com/channel/UCwuRC9oEYPRV_drofrS-4kg,testEmail,481051,25251.470588235294,0.04671364509929532,2018-04-30 12:15:32.581969,18.0
+gaming rig setups,FragHero,https://www.youtube.com/channel/UClyfWhFlnrt3oBs2Zs2dH6w,testEmail,349731,4065.0,0.03952439524395244,2018-04-30 12:15:33.468156,3.0
+gaming rig setups,TrendCrave,https://www.youtube.com/channel/UCfsV3FguvnnrOijTzcH6heA,testEmail,1838106,105867.78260869565,0.05586666551674997,2018-04-30 12:15:36.405060,25.0
+gaming rig setups,Squirrel,https://www.youtube.com/channel/UCSeb5KSN6BC1c0WwEjUzM_A,testEmail,609164,33467.055555555555,0.044654195585376665,2018-04-30 12:15:38.692646,19.0
+gaming rig setups,Lachlan,https://www.youtube.com/channel/UCh7EqOZt7EvO2osuKbIlpGg,testEmail,4830030,2048128.4782608696,0.02053745566870115,2018-04-30 12:15:40.999708,24.0
+gaming rig setups,Joey Delgado,https://www.youtube.com/channel/UCStk7sZhuFJhxdvyXksdj5Q,testEmail,119173,259662.5652173913,0.02820642308521143,2018-04-30 12:15:43.738567,24.0
+gaming rig setups,Michael Hogman,https://www.youtube.com/channel/UCpg2nZJhp7gW6hlFBaKONpA,testEmail,152560,7771.833333333333,0.031436663955803586,2018-04-30 12:15:45.846877,13.0
+gaming rig setups,Seabee DM,https://www.youtube.com/channel/UCsLOeYx5cCP8wltPJIMRDwQ,testEmail,1849,,,2018-04-30 12:15:46.073111,0.0
+gaming rig setups,Muselk,https://www.youtube.com/channel/UCd534c_ehOvrLVL2v7Nl61w,testEmail,4914430,2480822.32,0.025760308456272595,2018-04-30 12:15:48.722730,25.0
+gaming rig setups,OfficialNerdCubed,https://www.youtube.com/channel/UCKab3hYnOoTZZbEUQBMx-ww,testEmail,2604293,145287.66666666666,0.0354758460701004,2018-04-30 12:15:51.445287,25.0
+gaming rig setups,Wipspeed. DiY & Tech,https://www.youtube.com/channel/UCnki_QB2p55mnKv-2HLXiIw,testEmail,9240,243.25,0.06372045220966084,2018-04-30 12:15:52.936215,4.0
+gaming rig setups,Adam LZ,https://www.youtube.com/channel/UCXIYLgIp6DYZHjmUUUXErmg,testEmail,2014720,286400.0416666667,0.04258691340869006,2018-04-30 12:15:55.523574,25.0
+gaming rig setups,GLOCO,https://www.youtube.com/channel/UClxGlpO6TzyJcW7gPCJe94g,testEmail,440251,25961.363636363636,0.03767471424928348,2018-04-30 12:15:58.757558,25.0
+gaming rig setups,MSI Gaming,https://www.youtube.com/channel/UCezxSW8kVueIU0pr_rukbYA,testEmail,150205,1645.0833333333333,0.042022451618018555,2018-04-30 12:16:01.714001,25.0
+gaming rig builds,Nerdphilia,https://www.youtube.com/channel/UCHfcvboI69ThEGgnWRPNI3w,testEmail,83866,10035.833333333334,0.054909220221741654,2018-04-30 12:16:09.399313,25.0
+gaming rig builds,Designs By IFR,https://www.youtube.com/channel/UCV11AccJeiMX4ZyHErV2oPw,testEmail,0,12741.42857142857,0.047353963448817135,2018-04-30 12:16:11.519945,15.0
+gaming rig builds,TheLazyGunner,https://www.youtube.com/channel/UCHaaWRqTya1yQEsiu0eS6tw,testEmail,5209,57593.8,0.019621903746583833,2018-04-30 12:16:13.116566,11.0
+gaming rig builds,Matthew Younatan,https://www.youtube.com/channel/UCNeNuB9NUkHlfM0IA4qFRAg,testEmail,4287,,,2018-04-30 12:16:13.513095,1.0
+gaming computer builds,PrestonPlayz - Minecraft,https://www.youtube.com/channel/UC70Dib4MvFfT1tU6MqeyHpQ,testEmail,6115303,382233.14285714284,0.050612341308520756,2018-04-30 12:16:19.338889,7.0
+gaming computer builds,Dom Esposito,https://www.youtube.com/channel/UCDt0iwnK2sPXaOyZhVmXIQw,testEmail,446102,21520.285714285714,0.03597491624735023,2018-04-30 12:16:21.923229,23.0
+gaming computer builds,Martic,https://www.youtube.com/channel/UCierrR71fyMJMBiYraIox3Q,testEmail,1322,5049.8,0.028898834277265105,2018-04-30 12:16:24.307592,16.0
+beginner gaming computer build,SERGE,https://www.youtube.com/channel/UCObCihrvT1158l1PqgOa4Qw,testEmail,20004,,,2018-04-30 12:16:30.596972,1.0
+beginner gaming computer build,Too Cool Tech,https://www.youtube.com/channel/UC0rGeEPxy3t1atmGlZX8ObQ,testEmail,14491,1406.8125,0.01584725586889427,2018-04-30 12:16:33.591204,18.0
+beginner gaming computer build,Toast Gaming,https://www.youtube.com/channel/UCYzCvF2KO2ms9hADC9hS4og,testEmail,5178,1563.0,0.12420640779565924,2018-04-30 12:16:35.880795,13.0
+beginner gaming computer build,BeginnersTech,https://www.youtube.com/channel/UCTkMl64iMrMFpUO9a0WTmCw,testEmail,92901,14173.833333333334,0.028993176001160196,2018-04-30 12:16:38.649198,19.0
+beginner gaming computer build,2ndJerma,https://www.youtube.com/channel/UCL7DDQWP6x7wy0O6L5ZIgxg,testEmail,213271,71680.66666666667,0.05023864397773862,2018-04-30 12:16:41.215870,25.0
+beginner gaming computer build,Muaaz,https://www.youtube.com/channel/UCOCBH9Xcdf9vN6gpWxM0POA,testEmail,105231,46890.434782608696,0.06994620515293129,2018-04-30 12:16:44.436940,25.0
+beginner gaming computer build,BulletBarry,https://www.youtube.com/channel/UCu0sLdOcxsr3de-CwVLrpdg,testEmail,161353,46751.913043478264,0.08346717269881539,2018-04-30 12:16:47.478350,25.0
+pc build review,FRANKIEonPC,https://www.youtube.com/channel/UCxbivvwPkudpfWrLQHGHQyw,testEmail,3583925,1900132.6666666667,0.02934953547687957,2018-04-30 12:16:53.887521,10.0
+pc build review,THE RED DRAGON,https://www.youtube.com/channel/UCpf0HFUmqDTnUY0fgaLqnFA,testEmail,147627,37016.0,0.05982998343058858,2018-04-30 12:16:54.931826,3.0
+pc build review,SSSniperWolf,https://www.youtube.com/channel/UCpB959t8iPrxQWj7G6n0ctQ,testEmail,8822605,1462522.5833333333,0.04647066852055769,2018-04-30 12:16:57.758015,25.0
+pc build review,FaZe Censor,https://www.youtube.com/channel/UCtqyFB7NfU2aHGAa6JnqHKQ,testEmail,2547585,231685.3,0.03957480254465864,2018-04-30 12:16:59.170631,10.0
+pc build review,Think Media,https://www.youtube.com/channel/UCGxjDWAN1KwrkXYVi8CXtjQ,testEmail,512444,6148.0,0.07563435263500325,2018-04-30 12:17:00.809964,4.0
+pc build review,ReviewTechUSA,https://www.youtube.com/channel/UC__Oy3QdB3d9_FHO_XG1PZg,testEmail,665464,60574.04347826087,0.08208587812879148,2018-04-30 12:17:03.411878,25.0
+pc build review,Kraig Adams,https://www.youtube.com/channel/UCpnuadQ_w3r6f4Q_NRlqd-w,testEmail,73207,18850.91304347826,0.044165104062156686,2018-04-30 12:17:07.085079,25.0
+pc build review,Zon@ IT,https://www.youtube.com/channel/UCCUnAfa_A5XR5NyoPgErmlg,testEmail,85386,12712.95652173913,0.06709205717321368,2018-04-30 12:17:10.581754,25.0
+pc build review,Level1Techs,https://www.youtube.com/channel/UC4w1YQAJMWOz4qtxinq55LQ,testEmail,206087,16085.5,0.06831960911776247,2018-04-30 12:17:13.398121,25.0
+pc build review,GubbaTV,https://www.youtube.com/channel/UCh_qG51fY8rCjKtuYxGNSdA,testEmail,6760,242.63636363636363,0.14724615961034096,2018-04-30 12:17:15.414442,12.0
+gaming pc unboxing,PrestigeIsKey,https://www.youtube.com/channel/UCf_oZtjZcE_NOzYaQ1uPYMg,testEmail,1212002,63808.38461538462,0.05409475163419967,2018-04-30 12:17:23.010682,13.0
+gaming pc unboxing,Diamond Mamba,https://www.youtube.com/channel/UC8bCBqGIOEEqubusTOZnR5g,testEmail,214241,105095.125,0.018136347110930852,2018-04-30 12:17:25.857693,25.0
+gaming pc unboxing,ClutchucK,https://www.youtube.com/channel/UCv3uTfAVSObHHvJ0J6kdEfw,testEmail,192,366.15384615384613,0.028991596638655463,2018-04-30 12:17:28.290496,14.0
+gaming pc unboxing,Lamarr Wilson,https://www.youtube.com/channel/UCOcE8WdQOSeqFczVxGatGKg,testEmail,1564672,131321.7142857143,0.043690413510114746,2018-04-30 12:17:30.795230,15.0
+gaming pc unboxing,Vikkstar123,https://www.youtube.com/channel/UCvwgF_0NOZe2vN4Q3g1bY-A,testEmail,4695193,297048.3076923077,0.03128930152183039,2018-04-30 12:17:32.820300,14.0
+gaming pc unboxing,antwon Stark,https://www.youtube.com/channel/UCHKimrvBinyO5tDrYgKivsg,testEmail,6802,1202.2105263157894,0.04159005341038438,2018-04-30 12:17:36.335656,20.0
+gaming pc unboxing,Chaos,https://www.youtube.com/channel/UCJAlToHny9Llt6mR7UCEhTQ,testEmail,2209275,80375.68181818182,0.04729325072882175,2018-04-30 12:17:38.932425,23.0
+gaming pc unboxing,Nadeshot,https://www.youtube.com/channel/UCs3l6DsCu9ZOXkJkvskEsrQ,testEmail,3088618,352717.0869565217,0.04352749518551203,2018-04-30 12:17:41.581329,25.0
+gaming pc unboxing,Arekkz Gaming,https://www.youtube.com/channel/UC-zjH-e5XBzMpy_VtwIGRxQ,testEmail,778341,67864.71428571429,0.032632148412913925,2018-04-30 12:17:42.760977,7.0
+gaming pc unboxing,KreekCraft,https://www.youtube.com/channel/UCxsk7hqE_CwZWGEJEkGanbA,testEmail,380931,26074.083333333332,0.05421731029214834,2018-04-30 12:17:45.747877,25.0
+gaming pc unboxing,MoreJStu,https://www.youtube.com/channel/UCZpRTwgtk1H0cUAWrHZ1gzg,testEmail,3322655,136642.58333333334,0.044324274216614994,2018-04-30 12:17:47.835393,13.0
+gaming pc unboxing,Naomi Kyle,https://www.youtube.com/channel/UCmFRT3Yg6fF5KMe6vc8HE7w,testEmail,102707,196301.0,0.03711392198715238,2018-04-30 12:17:48.873465,4.0
+gaming pc unboxing,Olso,https://www.youtube.com/channel/UCRo9qVkrf-0Vb3kKQbJQEIg,testEmail,1535,156.77272727272728,0.12931704631882376,2018-04-30 12:17:52.431209,25.0
+gaming pc unboxing,iBerleezy,https://www.youtube.com/channel/UCp1VWSTrt2cUBInkn4dUmDA,testEmail,355697,113774.05882352941,0.08479783719952703,2018-04-30 12:17:54.397011,17.0
+gaming pc unboxing,A SPIN WITH FIN,https://www.youtube.com/channel/UCv-QhguRWuuxLqcH7UEvajQ,testEmail,6786,789.625,0.08675003957574798,2018-04-30 12:17:56.194312,9.0
+gaming pc unboxing,Robles Games,https://www.youtube.com/channel/UC2xQGUXG51xzg5uzVL5DgYQ,testEmail,1388,172.34782608695653,0.048011650307311256,2018-04-30 12:17:59.684691,24.0
+gaming pc unboxing,aCasualGamer,https://www.youtube.com/channel/UCyEpLKasaMw-I20z70BMP_g,testEmail,138,22.25,,2018-04-30 12:18:03.424896,25.0
+gaming pc unboxing,ThePapiGfunk,https://www.youtube.com/channel/UC-V5YJX0D6elwUrsxAoZkGw,testEmail,398794,15497.6,0.07724744476564113,2018-04-30 12:18:06.058538,22.0
+gaming pc unboxing,The Speedy Diver,https://www.youtube.com/channel/UCkH8TpYdpCDJVZgCK2PVqYw,testEmail,872164,39994.608695652176,0.05355504437554626,2018-04-30 12:18:08.613763,24.0
+gaming pc unboxing,HARDCORE,https://www.youtube.com/channel/UCupX5B9z_iQ4_n-8nTgB_kg,testEmail,83516,23813.166666666668,0.17771848298514675,2018-04-30 12:18:12.359679,25.0
+gaming pc unboxing,Grant LaRoy,https://www.youtube.com/channel/UCmG95CzVUROrhqMnSMnQnKg,testEmail,2095,804.1666666666666,0.08044639298525309,2018-04-30 12:18:14.587512,14.0
+gaming pc unboxing,ChampChong,https://www.youtube.com/channel/UCtYeFvaebYxmQ58TO2tio0Q,testEmail,867417,51219.230769230766,0.05613126079447323,2018-04-30 12:18:16.461195,14.0
+gaming pc unboxing,iTzKaotic,https://www.youtube.com/channel/UC_GX6F_jLdpkpBW9NvXTy9g,testEmail,56,23.0,,2018-04-30 12:18:17.645537,2.0
+gaming pc unboxing,Ezy,https://www.youtube.com/channel/UCh33gp2K6pa2T9sptwkJwYw,testEmail,57893,8395.521739130434,0.038623075449126604,2018-04-30 12:18:20.993778,25.0
+gaming pc unboxing,Anomaly,https://www.youtube.com/channel/UCcqsx0NjdN3Ng9Nd8VSOlXg,testEmail,2080434,748174.3478260869,0.05245895903516251,2018-04-30 12:18:23.741898,25.0
+gaming pc unboxing,SuperSaf TV,https://www.youtube.com/channel/UCIrrRLyFMVmmL9NDAU2obJA,testEmail,940072,100711.875,0.041190249136184014,2018-04-30 12:18:25.021571,9.0
+gaming pc unboxing,The Squad,https://www.youtube.com/channel/UC0sL36b-Sc-MQYleWzktOIQ,testEmail,322853,32362.071428571428,0.03174777646083341,2018-04-30 12:18:27.217949,15.0
+gaming pc unboxing,Jay Rule,https://www.youtube.com/channel/UCotHq0lomgtnx0eeAD9qd0g,testEmail,28804,206.45454545454547,0.11169822398356084,2018-04-30 12:18:28.968604,12.0
+gaming pc unboxing,Danica DeCosto,https://www.youtube.com/channel/UCUcyI5Kul4ebpE4C-Wwraaw,testEmail,396786,19139.75,0.012008563805217365,2018-04-30 12:18:30.533893,12.0
+gaming pc unboxing,Kali Muscle,https://www.youtube.com/channel/UCg_tz2iw7_-gf2xIL-DdM2g,testEmail,1687230,46008.25,0.037478785507671634,2018-04-30 12:18:33.538354,25.0
+gaming pc unboxing,mikeymegamega,https://www.youtube.com/channel/UCOvvFK_EhrX9exQ-jkLPg8w,testEmail,268128,13386.375,0.06261830726071418,2018-04-30 12:18:34.631067,8.0
+gaming pc unboxing,JT Gaming,https://www.youtube.com/channel/UCfWvFHjx3UC0jqdfqSzruhw,testEmail,83071,1210.0,0.08119834710743802,2018-04-30 12:18:36.077934,9.0
+gaming pc unboxing,Tailosive Gaming,https://www.youtube.com/channel/UC7sXO0lCAlrNi7x-wm7bZwA,testEmail,2755,793.1739130434783,0.0768538866713509,2018-04-30 12:18:38.806482,24.0
+gaming pc unboxing,Trent Whetsel,https://www.youtube.com/channel/UCiqOMzGiak6Wsl8jostgYcA,testEmail,1304,312.72222222222223,0.041215135903357604,2018-04-30 12:18:41.432591,19.0
+gaming pc unboxing,TutopolisTV,https://www.youtube.com/channel/UCySPETZPynSo-O4rdicM-qQ,testEmail,531813,,,2018-04-30 12:18:41.511425,0.0
+gaming pc unboxing,NukemDukem,https://www.youtube.com/channel/UC9s0ZYxkI90hP3ADETrHxgg,testEmail,1006173,48106.35294117647,0.028045702658814786,2018-04-30 12:18:43.768762,18.0
+gaming pc unboxing,Sifath Shahab,https://www.youtube.com/channel/UCXWiPQOwjs6wjKPsoAD2t7w,testEmail,1037,530.0909090909091,0.03892985765734865,2018-04-30 12:18:45.768878,12.0
+gaming pc unboxing,Toni Bankz,https://www.youtube.com/channel/UCQNBHT6F5PkBv76udmrTQ7g,testEmail,386,38.25,0.24093018850052098,2018-04-30 12:18:49.187042,25.0
+gaming pc unboxing,4xSkillz,https://www.youtube.com/channel/UCjvyOuMEqULNgdHyLIo3ufw,testEmail,660,9.0,0.11787439613526571,2018-04-30 12:18:52.314400,25.0
+gaming pc unboxing,HikeTheGamer,https://www.youtube.com/channel/UCtRZhZgOx7BJ_0vQEvCwI4w,testEmail,1048317,5749.0,0.1564330028410738,2018-04-30 12:18:54.109512,6.0
+gaming pc unboxing,ThySubLime,https://www.youtube.com/channel/UClzLaJz6NX9lm3E3wC_TAUw,testEmail,1100,8016.0,0.005052395209580838,2018-04-30 12:18:55.077018,2.0
+gaming pc unboxing,MigueZ,https://www.youtube.com/channel/UCOEYBSAadyBJpzpRej7bVtw,testEmail,10685,2265.4166666666665,0.13053714084653462,2018-04-30 12:18:58.590885,25.0
+gaming pc unboxing,YaadManGaming,https://www.youtube.com/channel/UCiTe98nt3eklIrEft9v3BLA,testEmail,87,104.21739130434783,0.07065650244623961,2018-04-30 12:19:02.981568,24.0
+gaming pc under 300,Paul's Tech,https://www.youtube.com/channel/UChXhmmAmau7WNSvCQKA17MA,testEmail,22,588.5,0.022316624185783066,2018-04-30 12:19:09.343945,6.0
+gaming pc under 300,Andy Ino,https://www.youtube.com/channel/UCR60f_ndLSdk1ieI-LIRQnA,testEmail,66094,22918.0,0.02503127090787445,2018-04-30 12:19:11.028860,10.0
+gaming pc under 300,Ancient Gameplays,https://www.youtube.com/channel/UClxgKTFDjv90AQ_MYWiB1PA,testEmail,3979,4305.708333333333,0.04375048122415853,2018-04-30 12:19:14.448104,25.0
+gaming pc under 300,Oldline Games,https://www.youtube.com/channel/UCRqF97Ss4bgtc7cyOTKCLvQ,testEmail,308,224.58333333333334,0.04879406307977736,2018-04-30 12:19:17.917923,25.0
+gaming pc under 300,HardwareDealz,https://www.youtube.com/channel/UCHj7VElFb0_sxhI5KHduM7A,testEmail,118917,47469.692307692305,0.06803369275294682,2018-04-30 12:19:20.067099,13.0
+gaming pc under 300,TechHow,https://www.youtube.com/channel/UCGXSGDbMYqde_35nfmzyXMA,testEmail,2611,,,2018-04-30 12:19:20.573506,1.0
+gaming pc under 300,SimpleTechVids,https://www.youtube.com/channel/UCMYk66bJ9_45Z0JpjhgqYKw,testEmail,54,267.1666666666667,0.07664606136221856,2018-04-30 12:19:22.474000,12.0
+gaming pc under 300,TylerzSg,https://www.youtube.com/channel/UCzy9PrJWfFVkgqLW2BMwiFg,testEmail,121,313.0,0.0362087326943557,2018-04-30 12:19:23.089223,3.0
+gaming pc under 300,Tech By Matt,https://www.youtube.com/channel/UCSy7VGPa8Np8PNjV7Mz-xZg,testEmail,53147,38619.958333333336,0.030801215692663222,2018-04-30 12:19:25.998558,25.0
+gaming pc under 300,Gamer's Stadium,https://www.youtube.com/channel/UC6NljlcKbnudh5lAmtkCajQ,testEmail,1360,2109.1739130434785,0.02846777019645029,2018-04-30 12:19:29.850808,25.0
+gaming pc under 300,Forflies,https://www.youtube.com/channel/UCVIOA9XqMtMUk8U-IF-dSYA,testEmail,14369,691.2272727272727,0.04616866946286178,2018-04-30 12:19:32.801761,24.0
+gaming pc under 300,comptv,https://www.youtube.com/channel/UCzBYGYLfRoHumx2mopHTSiw,testEmail,31239,,,2018-04-30 12:19:33.854620,1.0
+gaming pc under 300,ItsThePug,https://www.youtube.com/channel/UCrtqMYjmB4JnPFDfvYSDCtg,testEmail,1059,6181.909090909091,0.02247761062337318,2018-04-30 12:19:36.950679,23.0
+gaming pc under 300,Oafah,https://www.youtube.com/channel/UCDQcmf5fpLH1A_x6nlWsaXA,testEmail,8158,2265.6666666666665,0.08280417831396204,2018-04-30 12:19:39.843093,25.0
+gaming pc under 300,Pebos,https://www.youtube.com/channel/UCmj1weCcia6sMNk1iO0K3rg,testEmail,7285,42.0,0.14835164835164835,2018-04-30 12:19:41.914890,13.0
+gaming pc under 200,Tech Always,https://www.youtube.com/channel/UCa8pbh04MJxYkxEp8CcIyUw,testEmail,2824,13080.833333333334,0.025002654435030046,2018-04-30 12:19:50.711858,19.0
+gaming pc under 200,Kong Tech,https://www.youtube.com/channel/UCZk8ZuDHiX5wdDIFpC5YFMQ,testEmail,359,855.4090909090909,0.03412215992009309,2018-04-30 12:19:54.757978,25.0
+gaming pc under 200,Poor Man's Tech,https://www.youtube.com/channel/UCwgJ79_RdHuFZpSBMybs80A,testEmail,864,1023.1428571428571,0.05560091707846161,2018-04-30 12:19:57.896667,25.0
+gaming pc under 200,Luis Alamilla,https://www.youtube.com/channel/UCyXITk1ZyctlZKKnOgipomg,testEmail,56794,2303.0434782608695,0.056861516810544556,2018-04-30 12:20:01.190584,24.0
+gaming pc under 200,iPod Pro,https://www.youtube.com/channel/UCWXoV30CURMhXfh4jJok73A,testEmail,575,201.375,0.04634802400165529,2018-04-30 12:20:04.685748,25.0
+best CPU,Slash687,https://www.youtube.com/channel/UCgdAX0VSO7LSpRPsrAbBMyg,testEmail,13595,,,2018-04-30 12:20:05.762658,0.0
+gaming pc under 200,TheUnlockr,https://www.youtube.com/channel/UCaDBRJTQhIg_QhCkW7SxWGQ,testEmail,468716,16542.727272727272,0.028040097388246032,2018-04-30 12:20:08.982579,24.0
+gaming pc under 200,Aidan Rogan,https://www.youtube.com/channel/UCNYOdeywQeRjyKKvg394tvg,testEmail,212,408.5416666666667,0.05996940336562978,2018-04-30 12:20:12.626987,25.0
+gaming pc under 200,Fmentz,https://www.youtube.com/channel/UCtdE0xDjh0yctyb6wi-c_mg,testEmail,1050,5722.041666666667,0.016114586139853927,2018-04-30 12:20:16.283253,25.0
+gaming pc under 200,HardwareRat,https://www.youtube.com/channel/UCi8eNXB_wcqCyUSockeDsIA,testEmail,116870,12000.695652173914,0.08129074203866969,2018-04-30 12:20:19.501527,24.0
+gaming pc under 200,TheTechLemon,https://www.youtube.com/channel/UCzpJCSvX5aiG1SNz6RJtwjg,testEmail,7614,651.9,0.055453290381960424,2018-04-30 12:20:22.357290,21.0
+gaming pc under 200,Bal World,https://www.youtube.com/channel/UCvOdbcXu4ko-7rewBhCHz1Q,testEmail,1119,8707.0,0.009788764124356177,2018-04-30 12:20:24.514522,14.0
+gaming pc under 1000,Loliiz,https://www.youtube.com/channel/UCK8QVS-h-yxvLXlBR0Yb0sA,testEmail,215,12742.75,0.026269839712777854,2018-04-30 12:20:30.732092,4.0
+gaming pc under 1000,UFD Tech,https://www.youtube.com/channel/UC4Z8mPYjn6Dhr6n531YDh0Q,testEmail,112022,18242.416666666668,0.0565714520645565,2018-04-30 12:20:32.460808,13.0
+gaming pc under 1000,9to5Toys,https://www.youtube.com/channel/UCJ7ITQSZ2K1H2w3ncJF-pRA,testEmail,4565,2433.875,0.013045041343536542,2018-04-30 12:20:34.689041,17.0
+gaming pc under 1000,CTNtechnologynews,https://www.youtube.com/channel/UCFmHIftfI9HRaDP_5ezojyw,testEmail,113679,9574.315789473685,0.008202989479650721,2018-04-30 12:20:40.225144,20.0
+gaming pc under 1000,TECH 404,https://www.youtube.com/channel/UCbA6M_a0U5v4PbQSv0eGWNQ,testEmail,7959,3640.266666666667,0.028163000879056477,2018-04-30 12:20:42.771607,16.0
+gaming pc under 1000,The Breakdown,https://www.youtube.com/channel/UC6Ec5NXzcESo60F3UgtgQRA,testEmail,119654,226.0,0.11802246426140231,2018-04-30 12:20:45.105697,13.0
+gaming pc under 1000,Stevepilot,https://www.youtube.com/channel/UC8lDuYxUzrTtVTv0EDWcjHA,testEmail,536,737.2916666666666,0.015413344472154995,2018-04-30 12:20:48.771039,25.0
+gaming pc under 1000,Ashton Stark,https://www.youtube.com/channel/UCYF-7ESUtfQijz5-eYhyUGA,testEmail,1781,31.153846153846153,0.051322751322751325,2018-04-30 12:20:50.890971,14.0
+gaming pc under 1000,MikeKW,https://www.youtube.com/channel/UCkuYPaE7cizVdRzd_8wO07w,testEmail,1268,2307.294117647059,0.0321741790740363,2018-04-30 12:20:53.625580,18.0
+gaming pc under 1000,ParkGamer,https://www.youtube.com/channel/UC3gxvEYuvr2OE8mKWL_p3Uw,testEmail,0,80.82608695652173,0.0,2018-04-30 12:20:57.579249,25.0
+gaming pc under 1000,Ben Stinson Films,https://www.youtube.com/channel/UCVvLUkjKx90CFl0IwyNyf3w,testEmail,744,,,2018-04-30 12:20:58.500727,0.0
+pc setup tour,McSkillet,https://www.youtube.com/channel/UCoYlFF157pVe-CC3mvAb-TQ,testEmail,897350,255938.0,0.10868456156088656,2018-04-30 12:21:06.823099,24.0
+pc setup tour,jacksepticeye,https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g,testEmail,18815970,851201.1538461539,0.04197151114812266,2018-04-30 12:21:08.331846,13.0
+pc setup tour,YetAnotherTechChannel,https://www.youtube.com/channel/UCT7B-cFBqjYPl5OrPhJYnww,testEmail,56652,52140.5625,0.021466972091066336,2018-04-30 12:21:10.680114,17.0
+pc setup tour,CaRtOoNz,https://www.youtube.com/channel/UCdQWs2nw6w77Rw0t-37a4OA,testEmail,2494871,293855.5,0.03518853735286642,2018-04-30 12:21:12.908456,22.0
+pc setup tour,Ali-A,https://www.youtube.com/channel/UCYVinkwSX7szARULgYpvhLw,testEmail,13185568,4073355.909090909,0.027290449635795213,2018-04-30 12:21:15.214981,22.0
+pc setup tour,Clare Siobhan,https://www.youtube.com/channel/UCVrMYm6nIxhtYROPtRW7FUA,testEmail,1026873,160481.5,0.06914797664835358,2018-04-30 12:21:17.905492,25.0
+pc setup tour,W2S,https://www.youtube.com/channel/UCjtLOfx1yt1NlnFIDyAX3Ug,testEmail,12258024,8568729.416666666,0.02970150497753667,2018-04-30 12:21:20.564839,25.0
+pc setup tour,swashin,https://www.youtube.com/channel/UCRL9jNF5eKw2sdYPf6pCYjA,testEmail,186173,35576.25,0.03783188690957216,2018-04-30 12:21:22.437114,13.0
+pc setup tour,CooLoserTech,https://www.youtube.com/channel/UCl97rZ2Tc7KV9lktmmHNFDQ,testEmail,198780,5058.2,0.050521026164535715,2018-04-30 12:21:24.025336,12.0
+pc setup tour,Kwebbelkop,https://www.youtube.com/channel/UCfLuMSIDmeWRYpuCQL0OJ6A,testEmail,8257360,135391.04545454544,0.031401729506847914,2018-04-30 12:21:26.441123,23.0
+pc setup tour,Deligracy,https://www.youtube.com/channel/UC883IVbvcI7SPx8kffHjWxw,testEmail,656357,71054.6,0.06465092273470618,2018-04-30 12:21:27.895403,11.0
+pc setup tour,Jelly,https://www.youtube.com/channel/UC0DZmkupLYwc0yDsfocLh0A,testEmail,8029343,177748.875,0.03318539521933214,2018-04-30 12:21:30.402337,25.0
+pc setup tour,Sk1er - Minecraft,https://www.youtube.com/channel/UCupmKYprhkHcb5DJyRgA3zw,testEmail,51056,14062.363636363636,0.06273224467631201,2018-04-30 12:21:32.030989,11.0
+pc setup tour,DIAMANTJEWEL,https://www.youtube.com/channel/UCw_wBbeBe5gsEbQPHCNw-eA,testEmail,101025,66359.91666666667,0.04298171190961642,2018-04-30 12:21:33.903299,13.0
+pc setup tour,FaZe Agony,https://www.youtube.com/channel/UCExBSxihtmkHC-WolUVDbwg,testEmail,1099051,50547.208333333336,0.04135325640304896,2018-04-30 12:21:36.973765,25.0
+pc setup tour,CarryMinati,https://www.youtube.com/channel/UCj22tfcQrWG7EMEKS0qLeEg,testEmail,3097752,3529096.3636363638,0.09815458597093014,2018-04-30 12:21:38.766125,12.0
+pc setup tour,miniminter,https://www.youtube.com/channel/UCWZmCMB7mmKWcXJSIPRhzZw,testEmail,7002673,1091044.6153846155,0.049163639158160986,2018-04-30 12:21:40.454360,13.0
+pc setup tour,Anubhav Roy,https://www.youtube.com/channel/UCEmOg9ooeiihAemFze-jQrg,testEmail,124374,14282.181818181818,0.06374619747871252,2018-04-30 12:21:43.738724,24.0
+pc setup tour,TheRussianBadger,https://www.youtube.com/channel/UCWzLmNWhgeh3h1j-M-Isy0g,testEmail,1325290,1355192.2173913044,0.030302428994964863,2018-04-30 12:21:46.552131,25.0
+pc setup tour,DashieGames,https://www.youtube.com/channel/UCERUmrDh9hmqEXBsnYFNTIA,testEmail,4367355,623229.1739130435,0.06069126274895721,2018-04-30 12:21:49.167562,24.0
+pc setup tour,SteveTheGamer55,https://www.youtube.com/channel/UCbItyvYa6cqvqtwlU2E9-wA,testEmail,1262245,39527.30434782609,0.03901687477817571,2018-04-30 12:21:51.832126,25.0
+pc setup tour,Gigz,https://www.youtube.com/channel/UCbvLvbqcydnHsgIlrdPtrmw,testEmail,46779,9448.25,0.03873733231021618,2018-04-30 12:21:52.372596,4.0
+pc setup tour,Chase Liefeld,https://www.youtube.com/channel/UCphJ6b0YZkUcUj0MwUL1h4Q,testEmail,8208,16764.0,0.0348621195077888,2018-04-30 12:21:53.703618,8.0
+pc setup tour,Kephrii,https://www.youtube.com/channel/UCUGHabcIVqEiJAoDqcpSqyw,testEmail,304649,32646.69230769231,0.042416241956423906,2018-04-30 12:21:55.295561,13.0
+pc setup tour,KaityBooSaysDie,https://www.youtube.com/channel/UC1ko8y4nGkMJSiNDRpXKBxA,testEmail,17199,3858.5,0.0776208371128677,2018-04-30 12:21:56.578748,4.0
+pc setup tour,Felix von der Laden,https://www.youtube.com/channel/UChr1sKJ27Fr6WZxAlusbo_w,testEmail,3239574,318336.0714285714,0.051617955417735756,2018-04-30 12:21:58.719685,15.0
+pc setup tour,Turner Tfue,https://www.youtube.com/channel/UC9lSZSYpDDE18hoFA7YlBpw,testEmail,137732,41727.666666666664,0.04283899799265304,2018-04-30 12:22:01.226001,22.0
+gaming pc setup tour,Lt. Eddy Games,https://www.youtube.com/channel/UCKOVytBlD553Hpmv5YG7l9w,testEmail,266391,120371.8,0.048394451796245234,2018-04-30 12:22:07.866588,11.0
+gaming pc setup tour,Clayton Allen,https://www.youtube.com/channel/UCY_OvXfj7xDSb2IDYKkDZYw,testEmail,312,1902.15,0.017848224377677892,2018-04-30 12:22:10.500418,21.0
+gaming pc setup tour,Yazeed 2D,https://www.youtube.com/channel/UCseu7qiktJC4CxQm3CydE1g,testEmail,23554,591246.6666666666,0.022492022506117017,2018-04-30 12:22:11.037211,3.0
+gaming pc setup tour,Morgz,https://www.youtube.com/channel/UCBwSufNse8VMBvQM_rCSvgQ,testEmail,3188480,1215757.2916666667,0.03859287620463493,2018-04-30 12:22:13.635554,25.0
+gaming pc setup tour,iamfallfromgrace,https://www.youtube.com/channel/UC-3Oc4KY7pElZMbsWtm3X6A,testEmail,173092,2334.0434782608695,0.0771566417674124,2018-04-30 12:22:16.339485,24.0
+gaming pc setup tour,TheGamingLemon,https://www.youtube.com/channel/UCoaWFCFBDCXS030uimjZAkw,testEmail,3817970,1384690.2173913044,0.03716669809210191,2018-04-30 12:22:19.194104,25.0
+gaming pc setup tour,Ryan Franklin,https://www.youtube.com/channel/UCi2QxtjB7UR0D7fJO2r0CeQ,testEmail,157007,22170.272727272728,0.0808570652448765,2018-04-30 12:22:22.129182,24.0
+gaming pc setup tour,Rumblysuperset,https://www.youtube.com/channel/UCtmz6m01iDZfEsn_2Fi5kHw,testEmail,151618,9789.1,0.03475804721578082,2018-04-30 12:22:24.745083,21.0
+gaming pc setup tour,PartiallyRoyal,https://www.youtube.com/channel/UC-wXkB3v0N9MB2Y9rR2Pbkg,testEmail,736871,15832.142857142857,0.048292762955519555,2018-04-30 12:22:27.360956,23.0
+gaming pc setup tour,Prime V Gamer,https://www.youtube.com/channel/UCjrOs-tuSxPY0gyF7kJnCow,testEmail,5067,2124.9523809523807,0.06577856381272293,2018-04-30 12:22:30.412000,21.0
+gaming pc setup tour,XpertThief,https://www.youtube.com/channel/UCDwujczvdxbbVHg-V4-kC-A,testEmail,4264911,274854.4210526316,0.03760357476640585,2018-04-30 12:22:32.867119,20.0
+gaming pc setup tour,GMAntonZ,https://www.youtube.com/channel/UCM6goQs3y0xQH47h49SmWKw,testEmail,11291,1146.7777777777778,0.12189952523980235,2018-04-30 12:22:34.735140,9.0
+gaming pc setup tour,lilsimsie,https://www.youtube.com/channel/UC_TYFButglZuuDbD-0Q_IzQ,testEmail,203743,27601.956521739132,0.06839189093400751,2018-04-30 12:22:37.617682,25.0
+gaming pc setup tour,Burlington Gamer,https://www.youtube.com/channel/UC-JWebv9aB5KKNRP9kJNbSw,testEmail,24078,1844.9583333333333,0.09322703764764335,2018-04-30 12:22:41.720344,25.0
+gaming pc setup tour,BlueberryJam,https://www.youtube.com/channel/UChxRYXH6H-UEEP58YQFsIRg,testEmail,51932,1440.0,0.06374007936507936,2018-04-30 12:22:44.110246,15.0
+gaming pc vs gaming laptop,Aaron Won One,https://www.youtube.com/channel/UCjrr8V-uSWUfWlWWDDrOOYw,testEmail,37811,677.8235294117648,0.09660570164019787,2018-04-30 12:22:51.085466,18.0
+gaming pc vs gaming laptop,Tech Pathagar,https://www.youtube.com/channel/UC4_jTY5-c7QaG3Ssborhnnw,testEmail,27848,75083.25,0.02507835350380126,2018-04-30 12:22:53.907917,22.0
+gaming pc vs gaming laptop,DeV,https://www.youtube.com/channel/UCuN6CiunobgtFGyW-upi0Dw,testEmail,80568,,,2018-04-30 12:22:54.297580,1.0
+gaming pc vs gaming laptop,Tryte,https://www.youtube.com/channel/UCYviCHN_y643rzUh107XZ8Q,testEmail,18246,1908.5833333333333,0.0614330000436624,2018-04-30 12:22:56.698122,13.0
+gaming pc vs gaming laptop,Rod Studios,https://www.youtube.com/channel/UC3NPWFqYUy7M0FnF2msekaQ,testEmail,59201,75390.125,0.028461397740530785,2018-04-30 12:23:00.157631,25.0
+gaming pc vs gaming laptop,ForcePlayZ,https://www.youtube.com/channel/UC3cti8sed5U7aYiVrBVfNPw,testEmail,244704,312126.875,0.046037902589024626,2018-04-30 12:23:03.624108,25.0
+gaming pc vs gaming laptop,IGN,https://www.youtube.com/channel/UCKy1dAqELo0zrOtPkf0eTMw,testEmail,9691539,82560.91304347826,0.025863380976680724,2018-04-30 12:23:06.473188,25.0
+gaming pc vs gaming laptop,jackfrags,https://www.youtube.com/channel/UCw7FkXsC00lH2v2yB5LQoYA,testEmail,2548065,229102.47619047618,0.04543587670705666,2018-04-30 12:23:08.959769,23.0
+gaming pc vs gaming laptop,Ulasan ID,https://www.youtube.com/channel/UCxvrjCHUlGMDXIqq1oHaPLw,testEmail,63141,17112.75,0.020461796537415214,2018-04-30 12:23:12.338989,25.0
+gaming pc vs gaming laptop,CODFish,https://www.youtube.com/channel/UChHo4UZLy-pUqoEz-xVXYxg,testEmail,114416,512164.6666666667,0.025075919593568214,2018-04-30 12:23:14.819018,20.0
+gaming pc vs gaming laptop,I know I'm Awesome,https://www.youtube.com/channel/UCtUqetWlf7GCvbbAqhI8fnA,testEmail,99046,343438.63636363635,0.02708343456631162,2018-04-30 12:23:17.674458,23.0
+gaming pc vs gaming laptop,J&D Game Rex,https://www.youtube.com/channel/UCd6D0XXbrDfw_bmB1fNZwvA,testEmail,138992,173213.15789473685,0.03015557344920314,2018-04-30 12:23:20.887507,20.0
+gaming pc vs gaming laptop,Riverside Tech,https://www.youtube.com/channel/UCFSdc2jSsM8BazteTXttwmQ,testEmail,1226,1389.9565217391305,0.017689011229628702,2018-04-30 12:23:24.161846,25.0
+gaming pc vs gaming laptop,Top Tech Videos,https://www.youtube.com/channel/UCark4B2q22cutojP6bzm2kQ,testEmail,49828,699746.8823529412,0.004895299535621999,2018-04-30 12:23:26.794544,18.0
+gaming pc vs gaming laptop,Jimmy Tries World,https://www.youtube.com/channel/UCM3hWnv_tshvTS660fhHH7A,testEmail,3934,1876.6666666666667,0.035523978685612786,2018-04-30 12:23:30.040091,25.0
+gaming pc vs gaming laptop,The TECH Nation,https://www.youtube.com/channel/UCwkjzH5MWxeb92S_vMbV0AQ,testEmail,7192,4270.272727272727,0.06434871466402069,2018-04-30 12:23:33.372524,25.0
+gaming pc vs gaming laptop,IndianGamer,https://www.youtube.com/channel/UC89VCaiRZ9yxw4p8fi_6nAg,testEmail,227,307.7368421052632,0.07626133059688728,2018-04-30 12:23:36.503644,21.0
+gaming pc vs gaming laptop,rishav tech,https://www.youtube.com/channel/UCVZYQrdR0uuH13Pql9hrqKg,testEmail,28781,2288.4,0.021230646096100238,2018-04-30 12:23:39.539011,21.0
+gaming pc vs gaming laptop,AlexBlade,https://www.youtube.com/channel/UCRmdN_3WdFzRX34q2WagXCA,testEmail,9626,5425.846153846154,0.09647353327176396,2018-04-30 12:23:41.360658,14.0
+gaming pc vs gaming laptop,LowSpecGamer,https://www.youtube.com/channel/UCQkd05iAYed2-LOmhjzDG6g,testEmail,453024,75527.60869565218,0.0505111145650741,2018-04-30 12:23:44.999530,25.0
+gaming pc vs gaming laptop,Zizzlero,https://www.youtube.com/channel/UCt9bNFUCyM9jkfLAvlSsSMw,testEmail,112,135.0,0.05327635327635328,2018-04-30 12:23:47.262841,14.0
+gaming pc vs gaming laptop,flyinguweGaming,https://www.youtube.com/channel/UCGj6rFOMtC-TbtPWHnQ65Ww,testEmail,342537,37533.25,0.05545083359421313,2018-04-30 12:23:49.459121,13.0
+gaming keyboard vs regular keyboard,VeryTraumatic,https://www.youtube.com/channel/UCtfdGE-pNN4IY3zqPQ_AsQQ,testEmail,59169,4941.0,0.019007623288133303,2018-04-30 12:23:56.799168,12.0
+gaming keyboard vs regular keyboard,JDTechGear,https://www.youtube.com/channel/UCJmpPlWiIzQDb-VR8oqT9Nw,testEmail,29564,2561.6363636363635,0.0691792651477512,2018-04-30 12:23:58.828225,12.0
+gaming keyboard vs regular keyboard,qwertyTech,https://www.youtube.com/channel/UCSgGkK_0k_aqKIyfUwQTjQg,testEmail,611,162.41666666666666,0.09803957436366476,2018-04-30 12:24:02.854814,25.0
+gaming keyboard vs regular keyboard,Casperr,https://www.youtube.com/channel/UCkhYXfMuER6AyF1XPl9kXow,testEmail,40772,5890.2,0.07307052392108926,2018-04-30 12:24:03.930839,5.0
+gaming keyboard vs regular keyboard,Roberto Blake,https://www.youtube.com/channel/UCovtFObhY9NypXcyHxAS7-Q,testEmail,308838,3887.2,0.12502572545791316,2018-04-30 12:24:05.289943,5.0
+gaming keyboard vs regular keyboard,24hourpcgaming,https://www.youtube.com/channel/UCeX1JgOSnmDQFYXIJCpdwaQ,testEmail,1058,157.92307692307693,0.0131920766358175,2018-04-30 12:24:07.230618,13.0
+gaming keyboard vs regular keyboard,Talking Hidef,https://www.youtube.com/channel/UC1ej8vYx2mAY67SicgpiQDA,testEmail,790,373.0,0.07962466487935657,2018-04-30 12:24:08.984851,11.0
+gaming keyboard vs regular keyboard,MrElephante - Gaming Videos,https://www.youtube.com/channel/UCr3zT7QOnYKFHY6qOwI8ueA,testEmail,1555,95.63157894736842,0.11062190423775455,2018-04-30 12:24:11.772072,20.0
+gaming keyboard vs regular keyboard,VIRL PC,https://www.youtube.com/channel/UCqZY1qjzgZecLHxOAoFDshA,testEmail,1610,734.7272727272727,0.0568105490154488,2018-04-30 12:24:14.537571,23.0
+gaming keyboard vs regular keyboard,luckySkillFaker,https://www.youtube.com/channel/UCS6fU1w749zdEwIhJCxAc3g,testEmail,163427,2328.3333333333335,0.06242772975056438,2018-04-30 12:24:16.549806,13.0
+gaming keyboard vs regular keyboard,Skyline,https://www.youtube.com/channel/UCDrfc_LU0llSRI7icBFoBnw,testEmail,92116,39096.833333333336,0.03668455672027999,2018-04-30 12:24:19.571920,25.0
+gaming keyboard vs regular keyboard,Wedvin [Gaming],https://www.youtube.com/channel/UCXv2_qbhjwsqdND5Xxs0u_A,testEmail,544,246.5,0.03668753858364935,2018-04-30 12:24:23.394698,25.0
+gaming keyboard vs regular keyboard,Matt Cole Gaming,https://www.youtube.com/channel/UCQ2Khpthudmbg6WZLwqZwZQ,testEmail,10556,231.5,0.11783057355411568,2018-04-30 12:24:24.652346,9.0
+gaming keyboard vs regular keyboard,Tommyttk,https://www.youtube.com/channel/UCl3DmXpHyTCUxhReeyMwZhQ,testEmail,4433,32389.333333333332,0.011938086612876667,2018-04-30 12:24:26.145880,3.0
+gaming keyboard vs regular keyboard,TigerDirect,https://www.youtube.com/channel/UCxn2JKjtfOy5qr1pnen79Fw,testEmail,109392,15749.375,0.009468629707528077,2018-04-30 12:24:29.475030,25.0
+gaming keyboard vs regular keyboard,Sahil Satishkumar,https://www.youtube.com/channel/UCBGh-ub0fgOPt6AtSGgdjhQ,testEmail,12,11244.0,0.007848630380647457,2018-04-30 12:24:30.554540,4.0
+gaming keyboard asmr,ASMR KeyboardSounds,https://www.youtube.com/channel/UCl3suhqRCvmgjA9V-QntHEg,testEmail,76,83.0909090909091,0.03804149621031935,2018-04-30 12:24:39.671690,24.0
+gaming keyboard asmr,The ASMR Gamer,https://www.youtube.com/channel/UC7oYKFtklNO3Mmfn2d8jKqg,testEmail,64619,24005.2,0.03085164880942463,2018-04-30 12:24:40.933352,10.0
+gaming keyboard asmr,ASMRSurge,https://www.youtube.com/channel/UCIKOy_q2VWDv1vzeoi7KgNw,testEmail,514447,531560.052631579,0.025533580847081593,2018-04-30 12:24:43.276553,20.0
+gaming keyboard asmr,ASMR Unboxed,https://www.youtube.com/channel/UCB7KuFwlp5lHWjHC59ai7Ig,testEmail,1806,5095.173913043478,0.015973128877283704,2018-04-30 12:24:46.372960,25.0
+gaming keyboard asmr,Gibi ASMR,https://www.youtube.com/channel/UCE6acMV3m35znLcf0JGNn7Q,testEmail,884062,462398.625,0.028651256198238557,2018-04-30 12:24:48.500907,18.0
+gaming keyboard asmr,Brecci,https://www.youtube.com/channel/UCXfhn8l1BN_jvSc_qngRLng,testEmail,6034,1329.25,0.08077999743780546,2018-04-30 12:24:51.539225,25.0
+gaming keyboard asmr,The Sleepy Hearth,https://www.youtube.com/channel/UCPutnM6a4wjNIvWJtS2aHmw,testEmail,1187,139.0,0.05467625899280576,2018-04-30 12:24:53.636301,16.0
+gaming keyboard asmr,Whisper Plays,https://www.youtube.com/channel/UCYvcatztdBH1T2v52pfsu2A,testEmail,219,604.6086956521739,0.01869696533870272,2018-04-30 12:24:56.654220,25.0
+gaming keyboard asmr,PBas,https://www.youtube.com/channel/UC8lf0rN0b9h-2lOvTKpGowQ,testEmail,133,4140.833333333333,0.008814650835178106,2018-04-30 12:24:58.213075,7.0
+gaming keyboard asmr,Capsule Toy,https://www.youtube.com/channel/UC71-TLQ6JFnCIFN-PmL0wtw,testEmail,2051,295292.75,0.012899063725743351,2018-04-30 12:24:58.902591,4.0
+gaming keyboard asmr,Gaming Triggers ASMR,https://www.youtube.com/channel/UC9a-xhNGBdWVlyguifwbrfg,testEmail,32,291.6,0.021262002743484224,2018-04-30 12:24:59.922044,6.0
+gaming keyboard asmr,Made In France ASMR,https://www.youtube.com/channel/UC4d18IlLmw0utmVxIjSadLQ,testEmail,146329,25637.333333333332,0.02638859995839401,2018-04-30 12:25:01.114302,6.0
+gaming keyboard asmr,JubileeWhispers,https://www.youtube.com/channel/UCvuebWYC_QpVDQUTvjov_Cw,testEmail,27801,2760.5833333333335,0.04091172181892873,2018-04-30 12:25:04.323374,25.0
+gaming keyboard asmr,The MemeTeamTMT,https://www.youtube.com/channel/UCzk3OJeGexulcbFLGn4065Q,testEmail,1915,698.35,0.029283310660843415,2018-04-30 12:25:07.367390,21.0
+gaming keyboard asmr,anoASMR,https://www.youtube.com/channel/UCsuYEYtsPwJEhJpUt1dTVWA,testEmail,325720,283718.8333333333,0.036262273230854014,2018-04-30 12:25:10.192507,25.0
+gaming keyboard asmr,Finn Manning,https://www.youtube.com/channel/UCkvP7N4CSCrbC5O6wsgcEmA,testEmail,879,,,2018-04-30 12:25:10.823485,0.0
+gaming keyboard asmr,Pedro Saraiva,https://www.youtube.com/channel/UCyo75esTRcaCBDd6ZBiwXBA,testEmail,22,,,2018-04-30 12:25:11.101020,0.0
+gaming keyboard asmr,miceblue425,https://www.youtube.com/channel/UCLRVqbjEoQ22h2RHRPNy_aw,testEmail,0,751.375,0.0252146427202303,2018-04-30 12:25:14.389979,25.0
+gaming keyboard asmr,The Whisper Kit,https://www.youtube.com/channel/UCpfjCa8Jv_pNPhQLPdxo0XQ,testEmail,1226,1127.304347826087,0.0567400750797079,2018-04-30 12:25:17.913784,25.0
+gaming keyboard asmr,Clicky ASMR,https://www.youtube.com/channel/UC4fKcaB3hpqtQO7-uNlnrpw,testEmail,160,818.0,0.029043491146180635,2018-04-30 12:25:19.395045,12.0
+gaming keyboard asmr,Soothing Sensations ASMR,https://www.youtube.com/channel/UCPolSY41ZxL3B7Fv6IZWI0w,testEmail,18057,38024.454545454544,0.023943921256416326,2018-04-30 12:25:21.277797,12.0
+gaming keyboard asmr,Riptide ASMR,https://www.youtube.com/channel/UCASNpKUS3r7ULDG4NjwSahA,testEmail,853,1963.5,0.019804364433520443,2018-04-30 12:25:25.138105,25.0
+gaming keyboard asmr,Tingting ASMR,https://www.youtube.com/channel/UClqNSqnWeOOUVkzcJFj4rBw,testEmail,248448,120078.16666666667,0.028384454522286717,2018-04-30 12:25:27.984362,25.0
+gaming keyboard asmr,Gentle Voice ASMR,https://www.youtube.com/channel/UCFpG2MpFElTXhrK6iRtVclg,testEmail,1886,2553.5833333333335,0.06537545279509185,2018-04-30 12:25:31.726654,25.0
+gaming keyboard asmr,ASMR Labs,https://www.youtube.com/channel/UClIcXcmqr0hstrTj8lDixmg,testEmail,15449,17039.791666666668,0.02596939282678598,2018-04-30 12:25:34.685229,25.0
+gaming keyboard asmr,Dozevil,https://www.youtube.com/channel/UCM0WQoYQ_D_-va6qO5i0utQ,testEmail,13284,14502.07142857143,0.0410745919712619,2018-04-30 12:25:37.044276,16.0
+gaming keyboard asmr,ASMR Riolu,https://www.youtube.com/channel/UC3xLOgy7lnJUrO1Y3ExTmMw,testEmail,4854,2974.1111111111113,0.04221616169163522,2018-04-30 12:25:38.493686,10.0
+gaming keyboard asmr,The Mellow Microphone,https://www.youtube.com/channel/UCTyvToFypY3ibzQsIfaVkEg,testEmail,23080,13289.041666666666,0.027448926467827706,2018-04-30 12:25:41.261456,25.0
+gaming keyboard asmr,Rogue ASMR,https://www.youtube.com/channel/UCuZkE3NRLm0R6tz2YfXeHAg,testEmail,164,,,2018-04-30 12:25:41.568361,0.0
+gaming keyboard asmr,The Silent Unboxer,https://www.youtube.com/channel/UCWXWWbr62Hdy4cSTKxKLQDg,testEmail,51,2837.0,0.018329221008107157,2018-04-30 12:25:42.415003,4.0
+gaming keyboard asmr,Eudaimonist ASMR,https://www.youtube.com/channel/UCaYvCtcoFj9xPIDwPZy9Pug,testEmail,377,1906.6,0.01774038053278586,2018-04-30 12:25:44.368135,16.0
+gaming keyboard asmr,ASMR Jonie,https://www.youtube.com/channel/UCo7kA3XcXrqS8_cbz5GboCg,testEmail,42894,18761.153846153848,0.02453924844707763,2018-04-30 12:25:46.640805,14.0
+gaming keyboard asmr,ASMR Chershi,https://www.youtube.com/channel/UCn0Fbg9fPbtMIh3xUyCDx8g,testEmail,13215,,,2018-04-30 12:25:47.246299,1.0
+gaming keyboard asmr,Mim ASMR,https://www.youtube.com/channel/UCY3SZEmz7vRQXxMhY7ZCBAQ,testEmail,1204,1524.0,0.024606299212598427,2018-04-30 12:25:48.926630,9.0
+gaming keyboard asmr,ASMR twodae,https://www.youtube.com/channel/UCd0niLuvSNQnyOMlVuG-XyA,testEmail,8003,7595.086956521739,0.03543075138199561,2018-04-30 12:25:52.001286,25.0
+gaming keyboard and mouse combo,"John & Michelle: Video Games, Tech, Humor, Reviews",https://www.youtube.com/channel/UC1hlBVlxLDY--Ih2fEyH5nQ,testEmail,4748,2163.8125,0.037467908800676915,2018-04-30 12:26:00.322882,18.0
+gaming keyboard and mouse combo,Colin Snelson,https://www.youtube.com/channel/UCdacSISq22K21MPj1_LpmRw,testEmail,3556,1267.1818181818182,0.025545830643039908,2018-04-30 12:26:02.563274,13.0
+gaming keyboard and mouse combo,FocusTripp,https://www.youtube.com/channel/UCPqot00g0GilGiwqNxj2mww,testEmail,1568,687.1111111111111,0.0305627425614489,2018-04-30 12:26:04.556972,9.0
+gaming keyboard and mouse combo,Half_Harry,https://www.youtube.com/channel/UCp85eAVMl9Zm4a6lo-0eZoA,testEmail,3086,406.0,0.29992421371731715,2018-04-30 12:26:06.262341,13.0
+gaming keyboard and mouse combo,Jaru,https://www.youtube.com/channel/UCaxSng5nZypcdfLyk3yIDAg,testEmail,18925,1223.2608695652175,0.07069083585095669,2018-04-30 12:26:09.431357,25.0
+gaming keyboard and mouse combo,Gadget Friendly,https://www.youtube.com/channel/UCan8j7Aq55Vmpz1QrA3Y3RQ,testEmail,21254,31679.166666666668,0.011415663121568685,2018-04-30 12:26:11.437142,13.0
+gaming keyboard and mouse combo,SkuezTech,https://www.youtube.com/channel/UCLxUxftBRS-3_HxOd9aQPRw,testEmail,50208,3617.75,0.05347763356434372,2018-04-30 12:26:15.030032,25.0
+gaming keyboard and mouse combo,Games Dragon,https://www.youtube.com/channel/UCO0IBvUJ77oo1Aw9ee67Vww,testEmail,4275,37251.0,0.005266612821210131,2018-04-30 12:26:18.479735,25.0
+gaming keyboard and mouse combo,wowVJsLTR,https://www.youtube.com/channel/UC6dQPBafZbG1oC-ePqVhGfg,testEmail,1109,246.54166666666666,0.24742268041237114,2018-04-30 12:26:22.056708,25.0
+gaming keyboard and mouse combo,Primeval Media,https://www.youtube.com/channel/UCLgHCc1AR0nh8SfbdWpz3wQ,testEmail,3728,545.5833333333334,0.06399877806628991,2018-04-30 12:26:24.761512,13.0
+gaming keyboard and mouse combo,Gadget Gig,https://www.youtube.com/channel/UCUuh2FAXecgF2cxXvgENqVw,testEmail,83291,6759.181818181818,0.045243731310495715,2018-04-30 12:26:27.190027,13.0
+gaming keyboard and mouse combo,XC techs,https://www.youtube.com/channel/UCYxuwrRSvZR3FW757cpK0wA,testEmail,31977,1223.4117647058824,0.02820784049748373,2018-04-30 12:26:30.129361,19.0
+gaming keyboard and mouse combo,Jasse Jess,https://www.youtube.com/channel/UC8Bt8G9BzNJGRj4x3WezKTQ,testEmail,328,13.333333333333334,0.1625,2018-04-30 12:26:32.339963,13.0
+gaming keyboard and mouse combo,MILANO,https://www.youtube.com/channel/UCa3aG3-QVY7UsXC7dhbDKPw,testEmail,136,,,2018-04-30 12:26:32.633076,0.0
+gaming keyboard and mouse combo,Lionheart,https://www.youtube.com/channel/UCj8OIFftAQLC34aWx-O81ew,testEmail,7862,217.5,0.07126436781609195,2018-04-30 12:26:34.406018,9.0
+gaming keyboard and mouse combo,Prince Chandra,https://www.youtube.com/channel/UC3hNf9tl-m8Kf7XvrxXdviA,testEmail,413319,47738.583333333336,0.10152863773712038,2018-04-30 12:26:36.551773,13.0
+gaming keyboard and mouse combo,Everything You Need,https://www.youtube.com/channel/UC0uplOtyH8sicZxZGVJA0tQ,testEmail,375,2092.6666666666665,0.00793661786500824,2018-04-30 12:26:40.383420,25.0
+gaming keyboard and mouse combo,FozTech,https://www.youtube.com/channel/UCGqVvbdT3dIrOCBXWapArmw,testEmail,2196,1623.3636363636363,0.05035840286722294,2018-04-30 12:26:42.699462,13.0
+gaming keyboard and mouse combo,TheFishster,https://www.youtube.com/channel/UCuWVflnEA7cWLzqN1O74iwA,testEmail,60,,,2018-04-30 12:26:43.896673,0.0
+gaming keyboard and mouse combo,Era of The Geeks,https://www.youtube.com/channel/UCYV_IoKfTsi35J0GkT0RUBg,testEmail,16655,1419.25,0.06459649211102443,2018-04-30 12:26:45.639007,8.0
+gaming keyboard and mouse combo,YourTechGuide,https://www.youtube.com/channel/UCHF_Ug6d2cGTgHL3uckrvzg,testEmail,91236,540.0,0.03925925925925926,2018-04-30 12:26:46.692563,5.0
+mechanical gaming keyboard review ,Tech Gear Talk,https://www.youtube.com/channel/UCpHvDA_ladtos5LKzl8TzkA,testEmail,5342,7021.928571428572,0.04769073751953913,2018-04-30 12:26:54.399188,15.0
+mechanical gaming keyboard review ,AuraofVengeance,https://www.youtube.com/channel/UC7x7CgwpSuND32w5S3s67tw,testEmail,149,,,2018-04-30 12:26:54.853894,0.0
+mechanical gaming keyboard review ,Maraksot78,https://www.youtube.com/channel/UCBVf811EizXO2KGbkmAjyNA,testEmail,2897,133.0,0.20075187969924813,2018-04-30 12:26:56.234647,6.0
+mechanical gaming keyboard review ,The Hardware Hound,https://www.youtube.com/channel/UCjYG_GLQcq19ugAuSGPRV6Q,testEmail,1805,273.0,0.049712192569335435,2018-04-30 12:26:57.906598,8.0
+mechanical gaming keyboard review ,AYNG,https://www.youtube.com/channel/UCrvzRJVRFiHgXIYnQnoNuOg,testEmail,345,7499.0,0.012706456098908426,2018-04-30 12:26:59.231035,8.0
+mechanical gaming keyboard review ,Dower Chin,https://www.youtube.com/channel/UCNmfPobOx8xXhz9I-R-djGQ,testEmail,3032,,,2018-04-30 12:26:59.974014,0.0
+mechanical gaming keyboard review ,HyperX,https://www.youtube.com/channel/UCmONQe9yHyPcETc5xdiZMcA,testEmail,527423,26695.708333333332,0.020610045725831656,2018-04-30 12:27:03.329773,25.0
+mechanical gaming keyboard review ,CazuaLLUK,https://www.youtube.com/channel/UC04dfXeTsgROBHSLm_C__JA,testEmail,106222,543.4444444444445,0.06023819259865059,2018-04-30 12:27:04.954688,9.0
+mechanical gaming keyboard review ,PhantomTech,https://www.youtube.com/channel/UCBU5MimsH6GWghWziXBlwAw,testEmail,2654,,,2018-04-30 12:27:05.070619,0.0
+mechanical gaming keyboard review ,JustinTheOreo,https://www.youtube.com/channel/UC3djWWSES8WdZyGJ8OeIM6A,testEmail,20470,370.0,0.10450450450450449,2018-04-30 12:27:05.852530,3.0
+mechanical gaming keyboard review ,It'sAGundam,https://www.youtube.com/channel/UCbQ4fbi0fy3d6Hb7q2FIATw,testEmail,38385,7516.25,0.09466831526860885,2018-04-30 12:27:08.453113,25.0
+mechanical gaming keyboard review ,MXDOUT,https://www.youtube.com/channel/UCEEkwHK9pxaCksUAWUcj8kA,testEmail,10775,387.88235294117646,0.047897078151855225,2018-04-30 12:27:11.287501,19.0
+gaming peripherals review,BattlefrontUpdates,https://www.youtube.com/channel/UCzH3sYjz7qi6o1HFPRD0HCQ,testEmail,176147,27816.434782608696,0.058632838265773445,2018-04-30 12:27:19.651696,24.0
+gaming peripherals review,THE FRAG PARADE,https://www.youtube.com/channel/UCrZzBDJlWc8wuCjys5DKdJQ,testEmail,123,109.66666666666667,0.062310030395136766,2018-04-30 12:27:21.480560,13.0
+gaming peripherals review,Everything by Sam,https://www.youtube.com/channel/UCL483U12DqEf9tr6jJHzXvA,testEmail,740,2026.2608695652175,0.014480669960886252,2018-04-30 12:27:24.720587,24.0
+gaming peripherals review,chris Gilland,https://www.youtube.com/channel/UCtMs8HUdhYpZEvjMnvVwwkA,testEmail,4,146.5,0.017064846416382253,2018-04-30 12:27:25.734641,7.0
+gaming peripherals review,BuzWeaver,https://www.youtube.com/channel/UC4xjgR0VBU1LQ3eLVyzWM_w,testEmail,4224,146.04347826086956,0.1464721643346234,2018-04-30 12:27:28.877307,25.0
+gaming peripherals review,caseyfostertv,https://www.youtube.com/channel/UCe7l_hieyMs03ju3l3BP_ew,testEmail,40802,9881.166666666666,0.017729159776210198,2018-04-30 12:27:32.505306,25.0
+gaming peripherals review,TNB,https://www.youtube.com/channel/UCDiUlAe0zReo4bEuHG3ZPJA,testEmail,190,995.0,0.027135678391959798,2018-04-30 12:27:34.181842,8.0
+gaming peripherals review,Just Another Gaming Site,https://www.youtube.com/channel/UCLXkB8_C2LvHzrk-WzNfdDQ,testEmail,24358,779.7272727272727,0.07622128949516148,2018-04-30 12:27:36.539052,12.0
+gaming peripherals review,Alienware Services,https://www.youtube.com/channel/UC4din6F8ZRY7G_csrfIEA5Q,testEmail,29133,2183.7083333333335,0.02578216320296796,2018-04-30 12:27:39.184309,25.0
+gaming peripherals review,"NicDroid: Tech, Gaming, and Random Stuff",https://www.youtube.com/channel/UCwRkm1dsBKR3p4FsmB13dqA,testEmail,21,90.0,0.03293650793650793,2018-04-30 12:27:40.158238,8.0
+gaming peripherals review,Fire Dragoon TV,https://www.youtube.com/channel/UCOV_q0FXre6HnVsGEXYb07A,testEmail,191,123.63636363636364,0.017231457800511506,2018-04-30 12:27:43.706828,24.0
+gaming peripherals review,Tech Perspective,https://www.youtube.com/channel/UCAWAUhU-gA5B9vLscG1Je2w,testEmail,23,78.66666666666667,,2018-04-30 12:27:44.362967,3.0
+gaming peripherals review,BoredGamer,https://www.youtube.com/channel/UC7W5LTUy7DJYpx0cpVKJe0g,testEmail,102168,11049.25,0.13764993745535412,2018-04-30 12:27:45.893812,8.0
+gaming peripherals unboxing,OverWatch Gaming,https://www.youtube.com/channel/UCprZ8DBr5cNs5Xv0EF9px9Q,testEmail,2337,676.9166666666666,0.02412901637326111,2018-04-30 12:27:54.369870,13.0
+gaming peripherals unboxing,Curse Entertainment,https://www.youtube.com/channel/UCf6J9yokPS0ys456jvjLBGQ,testEmail,787429,21223.652173913044,0.024792206124968588,2018-04-30 12:27:57.524908,25.0
+gaming peripherals unboxing,nKuch,https://www.youtube.com/channel/UChzM3rKP9jGZgSgERC3W8LA,testEmail,342484,42948.708333333336,0.038289057890801406,2018-04-30 12:28:00.540940,25.0
+gaming peripherals unboxing,David Di Franco,https://www.youtube.com/channel/UCTikFhzCiIXfOMS7D29dvYg,testEmail,166225,6866.958333333333,,2018-04-30 12:28:03.448028,25.0
+gaming peripherals unboxing,SmurfinWRX,https://www.youtube.com/channel/UC686IJyF40geirhYyJEMfIQ,testEmail,362697,5609.0,0.06588617499653335,2018-04-30 12:28:04.810973,10.0
+gaming peripherals unboxing,RedTech,https://www.youtube.com/channel/UCjXI1SmYzB26GTAchfNMBpQ,testEmail,197,30.76923076923077,0.12571428571428572,2018-04-30 12:28:07.522191,14.0
+gaming peripherals unboxing,RaZeR - JaCk,https://www.youtube.com/channel/UCsGhdqwFdNmAM718Elc0kSg,testEmail,5535,14959.041666666666,0.014402612156793835,2018-04-30 12:28:11.008911,25.0
+gaming peripherals unboxing,Koala Gaming,https://www.youtube.com/channel/UCAySQD90bxHfQwGWgHPYBDA,testEmail,10594,2167.1666666666665,0.036687185900243766,2018-04-30 12:28:15.123532,25.0
+gaming peripherals unboxing,BarneyCS,https://www.youtube.com/channel/UCcuwQzL-Pk6QXe1a0aGXWlg,testEmail,346,260.93333333333334,0.017556025987298347,2018-04-30 12:28:17.701596,16.0
+gaming peripherals unboxing,MasterMikeTech,https://www.youtube.com/channel/UC6verVscI7U85Kj1PAnYG3w,testEmail,58,87.95,0.07674815235929505,2018-04-30 12:28:21.316204,21.0
+gaming peripherals unboxing,ProtoAMP,https://www.youtube.com/channel/UCbQkHK4vpN6jTdjNpClrn5Q,testEmail,10382,4446.666666666667,0.060112443778110945,2018-04-30 12:28:23.145318,10.0
+gaming peripherals unboxing,Tech Critter,https://www.youtube.com/channel/UCqjo2WuCMGcgAaVnJt0B98g,testEmail,323,1711.5333333333333,0.01282336640495017,2018-04-30 12:28:25.870703,16.0
+gaming peripherals unboxing,Custom PC Review,https://www.youtube.com/channel/UCkrRGVxRy5c6gIslhsiuPVg,testEmail,26825,4354.347826086957,0.011991595939424197,2018-04-30 12:28:29.242947,25.0
+gaming peripherals unboxing,Twizz Ballista,https://www.youtube.com/channel/UCFZCF6miL3BaCHpUCNeeXfQ,testEmail,1396,106.0,0.15145300420115843,2018-04-30 12:28:33.300673,25.0
+gaming peripherals unboxing,The Technoclast,https://www.youtube.com/channel/UCot-aNTOcFDA-wzGh99am5Q,testEmail,47464,1668.3,0.02466725466185995,2018-04-30 12:28:36.514863,22.0
+gaming peripherals unboxing,Skill Up,https://www.youtube.com/channel/UCZ7AeeVbyslLM_8-nVy2B8Q,testEmail,305087,168885.2142857143,0.062403331425867015,2018-04-30 12:28:38.575897,15.0
+gaming peripherals unboxing,GameQQ,https://www.youtube.com/channel/UCm9m7x4zIuLhqbEa-V8PDuQ,testEmail,1113,3014.7083333333335,0.00584573579173124,2018-04-30 12:28:41.302263,25.0
+gaming peripherals unboxing,Godlike,https://www.youtube.com/channel/UCuwhr-PiOiuwFJN3QHyLYtA,testEmail,1277,2471.6666666666665,0.01067167023366267,2018-04-30 12:28:44.776501,25.0
+gaming peripherals unboxing,AgentX,https://www.youtube.com/channel/UCz9JYS-S1lTW8rOODByb0Ug,testEmail,103,144.6086956521739,0.04095259571056324,2018-04-30 12:28:48.247340,25.0
+gaming peripherals unboxing,nickbunyun2,https://www.youtube.com/channel/UCmrpyAm5UL1kNHja7WbM6yA,testEmail,379310,3919.608695652174,0.04139620293628569,2018-04-30 12:28:51.992661,24.0
+gaming peripherals unboxing,Hang And Bang Games,https://www.youtube.com/channel/UClHxdqOdIOhjKzW5XXY5v6Q,testEmail,5040,730.9166666666666,0.04993729335309543,2018-04-30 12:28:54.190397,14.0
+gaming peripherals unboxing,Care_Gadget_Analysis,https://www.youtube.com/channel/UChJ2V6Yt8sW5GMctfrkeH9w,testEmail,806,6258.347826086957,0.005334035004839912,2018-04-30 12:28:57.659868,25.0
+gaming peripherals unboxing,Will Work 4 Games,https://www.youtube.com/channel/UCiFQAuKRcja1k_YivAr5SMQ,testEmail,883,626.1538461538462,0.011056511056511056,2018-04-30 12:28:59.806932,14.0
+gaming peripherals unboxing,HiTechLegion,https://www.youtube.com/channel/UCCcDWx7QLF_L4D7TNrsljJA,testEmail,42769,1800.0,0.04238095238095237,2018-04-30 12:29:01.135493,8.0
+gaming peripherals unboxing,Luka5253,https://www.youtube.com/channel/UCg815jYTqWnFGd6p5qwWJxg,testEmail,48634,,,2018-04-30 12:29:02.237797,1.0
+gaming peripherals unboxing,TheDigitalDigest,https://www.youtube.com/channel/UC0EBzWEDwgRZB7pt14UpE0w,testEmail,65617,6141.041666666667,0.016629914848865217,2018-04-30 12:29:05.168641,25.0
+gaming peripherals unboxing,Generikb,https://www.youtube.com/channel/UCJTWU5K7kl9EE109HBeoldA,testEmail,1188443,7027.666666666667,0.06835620386822777,2018-04-30 12:29:06.897013,13.0
+gaming peripherals unboxing,NAVI Dota 2,https://www.youtube.com/channel/UC-bXlo2JKw9pjM0V0wmGrGA,testEmail,1221963,85776.625,0.036810634936796684,2018-04-30 12:29:10.315404,25.0
+gaming peripherals unboxing,JoshTechBytes,https://www.youtube.com/channel/UC04PY7Ux79EMPN0DFoiNUww,testEmail,1463,4116.125,0.024527078681801553,2018-04-30 12:29:13.992160,25.0
+gaming peripherals unboxing,Daniel Moises Magulado,https://www.youtube.com/channel/UCtqePdXVTJ7bJRzthpXPFYQ,testEmail,186,261.0,0.01532567049808429,2018-04-30 12:29:15.240633,4.0
+gaming peripherals unboxing,mbXtreme,https://www.youtube.com/channel/UC0Gx64EmyVDd9gxemldd8Gw,testEmail,15923,8735.0,0.020367835544162664,2018-04-30 12:29:19.502595,25.0
+razer review,DroidLime,https://www.youtube.com/channel/UCtaSWbg8OHxg6h10axQXV-g,testEmail,267013,86457.55555555556,0.02504388794501605,2018-04-30 12:29:26.414366,10.0
+razer review,GizmoSlipTech,https://www.youtube.com/channel/UC7u5APUApfF8MzbGHPJXF7w,testEmail,78645,44722.22727272727,0.020446412146085582,2018-04-30 12:29:29.255251,23.0
+razer review,iKnowReview,https://www.youtube.com/channel/UCF_n906__yoMtxZQtmqmZbA,testEmail,172692,96678.20833333333,0.0526068049994869,2018-04-30 12:29:33.082829,25.0
+razer review,TheOfficialSiNN,https://www.youtube.com/channel/UCJrzsFkoRFtIFDWAkIsD9qw,testEmail,257,8705.666666666666,0.01425125397250833,2018-04-30 12:29:34.076116,6.0
+razer review,TetraNinja,https://www.youtube.com/channel/UCSVv3TMby4KxNOVT1lYy9oA,testEmail,1729654,28876.5,0.036902511890824184,2018-04-30 12:29:35.730995,13.0
+razer review,Andrey Lebrov,https://www.youtube.com/channel/UCZsHHoDLK0s6r44ifx0DnXQ,testEmail,15491,5599.083333333333,0.07547709847193394,2018-04-30 12:29:38.191080,13.0
+razer review,Tara Arts Game Indonesia,https://www.youtube.com/channel/UCVvhlqBpNVoG-DUT3J0oZ-w,testEmail,751272,125046.2,0.05091075914099724,2018-04-30 12:29:40.448980,12.0
+razer review,Nerd Reviews ID,https://www.youtube.com/channel/UC09N-xTBgL9AYiPR-acjFmQ,testEmail,60579,15945.045454545454,0.028716597089217824,2018-04-30 12:29:43.841108,23.0
+razer review,Android Central,https://www.youtube.com/channel/UC-kFCSJLpxuJdgMnQz8Dvrg,testEmail,358930,34026.583333333336,0.024255545296692046,2018-04-30 12:29:45.556008,13.0
+razer review,GadgetIn,https://www.youtube.com/channel/UC1dI4tO13ApuSX0QeX8pHng,testEmail,480590,211581.26086956522,0.028330987984402062,2018-04-30 12:29:48.960253,25.0
+razer review,TechnoBuffalo,https://www.youtube.com/channel/UCR0AnNR7sViH3TWMJl5jyxw,testEmail,1484316,143166.35714285713,0.022536888136398,2018-04-30 12:29:50.632324,15.0
+razer review,DHIARCOM,https://www.youtube.com/channel/UC4fn1t8clOY76_BeWNJg4TQ,testEmail,92541,48272.65217391304,0.0305699764592008,2018-04-30 12:29:53.940816,25.0
+razer review,DanteGTX,https://www.youtube.com/channel/UCJKFZ26gRK7AJXfmuxWR9Cg,testEmail,74000,40648.066666666666,0.05575500925833291,2018-04-30 12:29:56.261802,16.0
+razer keyboard,Niels Kirtan,https://www.youtube.com/channel/UCQM2uePn3jZSQToNq38o8DA,testEmail,1890,33604.333333333336,0.014779839901599992,2018-04-30 12:30:02.923150,7.0
+razer keyboard,ItsFusionHD,https://www.youtube.com/channel/UCIc1veA5enDxyCdfFfkkE9A,testEmail,7423,3192.608695652174,0.06264469562848972,2018-04-30 12:30:06.399577,24.0
+razer keyboard,CAPT MORG,https://www.youtube.com/channel/UCvt1FAM_3pVl_UJFXJTBKLw,testEmail,1078,91646.0,0.02427601859328285,2018-04-30 12:30:07.402762,5.0
+razer keyboard,R Λ Z Ξ R,https://www.youtube.com/channel/UCOsLfEqAwim8MFOhPddwwFw,testEmail,1437002,49708.230769230766,0.04140778419299079,2018-04-30 12:30:09.000402,14.0
+razer keyboard,Swifty,https://www.youtube.com/channel/UC6idiEhlPEreqzCWfQ_GiLw,testEmail,696567,14387.041666666666,0.02473174645007515,2018-04-30 12:30:11.961313,25.0
+razer keyboard,eTeknix,https://www.youtube.com/channel/UCb9tDXXfM-REtXni2MOpwgA,testEmail,21083,683.75,0.052526296266857425,2018-04-30 12:30:15.308699,25.0
+razer keyboard,FPSThailand,https://www.youtube.com/channel/UC9CldAJs08kpQk_Qx7Imiow,testEmail,578806,16364.222222222223,0.009723108678825079,2018-04-30 12:30:17.445751,9.0
+razer keyboard,MiawAug,https://www.youtube.com/channel/UC3J4Q1grz46bdJ7NJLd4DGw,testEmail,1692324,140343.0,0.05127865301440043,2018-04-30 12:30:18.615509,5.0
+razer keyboard,TradeChat,https://www.youtube.com/channel/UCFc1GYgZ7gYzawc_WuAW31A,testEmail,470601,11488.153846153846,0.05565989938353443,2018-04-30 12:30:20.611562,14.0
+razer keyboard,DDharam,https://www.youtube.com/channel/UC49vB7uo4Dmt8sGX2sOEYdQ,testEmail,1855,161.8695652173913,0.24242424242424243,2018-04-30 12:30:24.009878,24.0
+razer keyboard,OG MapleBar,https://www.youtube.com/channel/UCtmWZe_2iHMERfqmskS5dCA,testEmail,41,,,2018-04-30 12:30:24.783855,0.0
+razer keyboard,JASON(大J),https://www.youtube.com/channel/UC4nsi0oM9WBNFv1RdLh3c2g,testEmail,602187,162479.18181818182,0.026637678337532472,2018-04-30 12:30:26.614464,12.0
+razer keyboard,InFeRnoBraVeHeart,https://www.youtube.com/channel/UCU9rxNaZvp78zmbyQLDKRIg,testEmail,122988,51744.90909090909,0.10207826037051222,2018-04-30 12:30:28.779664,12.0
+razer keyboard,Axel,https://www.youtube.com/channel/UCVEAzFSFmr5lwpgHi6LY53A,testEmail,156636,26867.14285714286,0.07927899186473121,2018-04-30 12:30:30.283211,7.0
+razer keyboard,"Tech HD | Unboxings, Reviews, How To Vids",https://www.youtube.com/channel/UCQWUam-Ar_XOtoBJG079pvw,testEmail,7215,3988.8260869565215,0.008755436382067298,2018-04-30 12:30:33.778798,25.0
+razer keyboard,DusDavidGames,https://www.youtube.com/channel/UCB8b8H_V6NMz8KdPtbdEq7g,testEmail,713518,35464.666666666664,0.07447854815284616,2018-04-30 12:30:37.087982,25.0
+gaming tools for pc,Top5Gaming,https://www.youtube.com/channel/UCYn6CZe5UGIyPe9WJb0pTrg,testEmail,216322,452264.47826086957,0.013281042976068963,2018-04-30 12:30:48.953174,25.0
+gaming tools for pc,Army Of 4,https://www.youtube.com/channel/UCg9i-VSm-42JPzkYQUQACUw,testEmail,376,,,2018-04-30 12:30:49.753464,1.0
+gaming tools for pc,Zylum,https://www.youtube.com/channel/UCtq56NG96Ls5rBgz_UFxdSA,testEmail,13151,781.2857142857143,0.17126226610593037,2018-04-30 12:30:52.346549,15.0
+gaming tools for pc,RGB Gaming and Tech,https://www.youtube.com/channel/UCyGOe-zTht0WY8DbltCXYJQ,testEmail,161,,,2018-04-30 12:30:52.630773,0.0
+gaming tools for pc,Gaming Evolution,https://www.youtube.com/channel/UCzmap31cy73OBmqvpFUD1iA,testEmail,14,2614.3333333333335,0.004972587020272853,2018-04-30 12:30:53.188323,3.0
+gaming tools for pc,Priest,https://www.youtube.com/channel/UCNYfSZbWB_PdvU5mADGQEyw,testEmail,41260,6824.318181818182,0.04206706717577369,2018-04-30 12:30:56.775542,24.0
+gaming tools for pc,Panjno,https://www.youtube.com/channel/UCXKZHfs9sDLYV9HDuz9MLDA,testEmail,89048,,,2018-04-30 12:30:57.414492,1.0
+gaming tools for pc,LazarBeam,https://www.youtube.com/channel/UCw1SQ6QRRtfAhrN_cjkrOgA,testEmail,1242057,236853.08695652173,0.048760659177481507,2018-04-30 12:30:59.974465,24.0
+gaming tools for pc,The Tools,https://www.youtube.com/channel/UClSAhC6LBVA1IHYuq9gcZ4g,testEmail,727,31.083333333333332,,2018-04-30 12:31:03.440670,25.0
+gaming tools for pc,WeMod,https://www.youtube.com/channel/UCazAgLyfCCi7cbbEuF2ndHA,testEmail,4501,15105.375,0.009020807570776647,2018-04-30 12:31:06.707092,25.0
+gaming tools for pc,UDDY KLONGCHOENGROB,https://www.youtube.com/channel/UC8n_IQ4Uv3TIav7c6GQIErA,testEmail,15,,,2018-04-30 12:31:07.783124,0.0
+gaming tools for pc,Exosploit,https://www.youtube.com/channel/UC8lOFwhemXwjHLDJI7R405w,testEmail,1612,1127.6190476190477,0.01361697635135135,2018-04-30 12:31:10.955415,22.0
+gaming tools for pc,CroatCode,https://www.youtube.com/channel/UCfuSelBtnyCACv0KjG2P1-A,testEmail,331313,1030679.1666666666,0.02477702809231777,2018-04-30 12:31:12.686072,13.0
+gaming tools for pc,HitFilm,https://www.youtube.com/channel/UCIMX7KaXAFkJG7uPsQBepfA,testEmail,175709,8762.833333333334,0.039576240561462236,2018-04-30 12:31:13.933822,6.0
+gaming tools for pc,Tech James,https://www.youtube.com/channel/UCwc1hyc7dK-sbkRfu5EI6Fw,testEmail,25756,1168.625,0.07618423112756383,2018-04-30 12:31:16.781400,25.0
+gaming tools for pc,JerryRigEverything,https://www.youtube.com/channel/UCWFKCr40YwOZQx8FHU_ZqqQ,testEmail,1813057,578775.1666666666,0.03725453551191871,2018-04-30 12:31:19.389989,25.0
+gaming tools for pc,Stefan Gagne,https://www.youtube.com/channel/UCDuwq-KDYKrAz3vm39reWDw,testEmail,128,735.35,0.01776607834947401,2018-04-30 12:31:21.876973,22.0
+gaming tools for pc,MrHECTICKLOWN,https://www.youtube.com/channel/UCM_Z2HFmngjLJJbmsrDbIhQ,testEmail,5682,53.0,,2018-04-30 12:31:22.707828,2.0
+gaming tools for pc,TekThing,https://www.youtube.com/channel/UC6sWaC11f4mxnizvOroOvkQ,testEmail,60026,13287.888888888889,0.04165656278482495,2018-04-30 12:31:24.040733,9.0
+gaming tools for pc,Richie Castellano,https://www.youtube.com/channel/UCEKSACqYwBf1jbH4LnyMXeA,testEmail,24788,2477.6666666666665,0.04036055428494552,2018-04-30 12:31:25.788326,7.0
+gaming tools for pc,Patrick,https://www.youtube.com/channel/UCKilDtv4L7WWRq6rTvfwvIg,testEmail,394245,24953.208333333332,0.04068281132853658,2018-04-30 12:31:29.054795,25.0
+gaming tools for pc,PsychoCrank,https://www.youtube.com/channel/UC-pZLA4Gsw-4pvtkLEckMhA,testEmail,760,601.2352941176471,0.03551511593777517,2018-04-30 12:31:32.024456,18.0
+gaming tools for pc,Crafted Workshop,https://www.youtube.com/channel/UC-hTi9atsD6wAl2s46LpAVw,testEmail,190432,63618.04347826087,0.02798016696110961,2018-04-30 12:31:35.092581,24.0
+gaming tools for pc,CareyHolzman,https://www.youtube.com/channel/UCmWNCO9wSjzOz1UV8jCvIHA,testEmail,190194,6940.777777777777,0.04967022587926426,2018-04-30 12:31:36.556105,9.0
+gaming tools for pc,AwesomeGamingReview,https://www.youtube.com/channel/UCsVJtehl0oG5bSjDeIDkLwg,testEmail,75,,,2018-04-30 12:31:36.756011,1.0
+pc benchmark,Make Tech Easier,https://www.youtube.com/channel/UC5HhHXVDrGb30QwN0FTXBJw,testEmail,1839,908.6521739130435,0.010813552047582385,2018-04-30 12:31:45.106603,25.0
+pc benchmark,BOSS JEDIZOHAN,https://www.youtube.com/channel/UCq7kBllci37bh323I_Z5mTg,testEmail,1524,15797.75,0.009297210045734361,2018-04-30 12:31:46.823343,9.0
+pc benchmark,ThatsMyName,https://www.youtube.com/channel/UCyIiTKTtjrNz4IP3pCWwUdQ,testEmail,364,250.28571428571428,0.0702054794520548,2018-04-30 12:31:49.130492,15.0
+pc benchmark,Vucko100,https://www.youtube.com/channel/UCvnb2DgfVNvD1sHyf9xIxjQ,testEmail,1336434,285894.5,0.035591800471852376,2018-04-30 12:31:51.226853,17.0
+pc benchmark,BouseFeenux,https://www.youtube.com/channel/UCpoFDSDTS-GDMfNSR5ia8iA,testEmail,152500,10653.0,0.036054006696079346,2018-04-30 12:31:53.042494,13.0
+pc benchmark,Nova Bilgisayar,https://www.youtube.com/channel/UCCsnoJMncG6UWK8nYHaMA1g,testEmail,39198,138047.3,0.013162879679646034,2018-04-30 12:31:55.559002,21.0
+pc benchmark,Glerox,https://www.youtube.com/channel/UCwViLJvglYIBdVg1No4WBYw,testEmail,3537,5265.2,0.011623490085846691,2018-04-30 12:31:56.753849,6.0
+pc benchmark,TecnoGeekies 2.0: Canal de Hardware y Reviews,https://www.youtube.com/channel/UCKY9eC8A95wxeXt8PaqvMlw,testEmail,4312,185.53846153846155,0.11111111111111112,2018-04-30 12:31:58.861029,14.0
+pc benchmark,Blink46,https://www.youtube.com/channel/UC6DI_pJ_ZwfK2eBtoB791mg,testEmail,186959,52152.86363636364,0.06889188513138388,2018-04-30 12:32:02.065355,24.0
+pc benchmark,HighTech,https://www.youtube.com/channel/UCYkhENyTnhMntuFkwm2B54A,testEmail,2175,83.0,,2018-04-30 12:32:04.182220,8.0
+pc benchmark,A10 Studio,https://www.youtube.com/channel/UCM64QIMg8tJL23gwIqrQTcQ,testEmail,124,1181.875,0.020624008461131677,2018-04-30 12:32:06.553997,17.0
+pc benchmark,PC Benchmarks,https://www.youtube.com/channel/UCpc_uUd25ObT3pQGbr5MpHg,testEmail,0,562.6666666666666,0.04413507109004739,2018-04-30 12:32:10.272407,25.0
+pc benchmark,TEAMEVGA,https://www.youtube.com/channel/UCagwUI_wb06oRuWo85EWdoQ,testEmail,109835,2344.75,0.020043165421137488,2018-04-30 12:32:14.152984,25.0
+pc benchmark,C4ETech,https://www.youtube.com/channel/UClVIlK8QHZ2PFkXF97bA0lg,testEmail,1095786,66744.83333333333,0.052741910110395564,2018-04-30 12:32:17.302742,25.0
+pc benchmark,PC-WELT,https://www.youtube.com/channel/UCtmCJsYolKUjDPcUdfM8Skg,testEmail,523148,42278.34782608696,0.05061384077778532,2018-04-30 12:32:20.423790,25.0
+pc benchmark,BRKs GAMERS ™,https://www.youtube.com/channel/UCI6CtA_lP0Z_xQKnXIPj7WQ,testEmail,2443,238.1818181818182,0.09510178117048346,2018-04-30 12:32:22.672362,12.0
+pc benchmark,Sebyin-Tuto-PC,https://www.youtube.com/channel/UCd4cdu3-rL9i6iYiucfITSg,testEmail,1576,1159.7142857142858,0.0578960335057896,2018-04-30 12:32:24.134979,7.0
+pc benchmark,Bumble,https://www.youtube.com/channel/UCahG62_Yv1IpL2RIOCV88qQ,testEmail,7592,2813.7083333333335,0.02344628748872465,2018-04-30 12:32:27.847136,25.0
+pc benchmark,Benchmark PC Tech - MultiTechnopark,https://www.youtube.com/channel/UCb4my3eC4w6VvPwQlBJo1Wg,testEmail,10203,605.8333333333334,0.020366604868129894,2018-04-30 12:32:31.340179,25.0
+pc build guide,CG Geek,https://www.youtube.com/channel/UCG8AxMVa6eutIGxrdnDxWpQ,testEmail,117005,19419.5,0.0348702920447816,2018-04-30 12:32:38.317710,11.0
+pc build guide,EasyPCBuilder,https://www.youtube.com/channel/UCVhsPN8FKHvWVCcQ172U0_w,testEmail,48315,52035.166666666664,0.013489274881410327,2018-04-30 12:32:40.633627,13.0
+pc build guide,Pocket of Rocks Productions,https://www.youtube.com/channel/UCeHVYusE6HnV8y-4mjEog5g,testEmail,1939,10156.818181818182,0.02667263369881405,2018-04-30 12:32:42.505809,12.0
+pc build guide,PCPartPicker,https://www.youtube.com/channel/UCXQpf5LtNl7dbmZlxlFIO_w,testEmail,179399,54058.666666666664,0.02073994758244398,2018-04-30 12:32:45.666267,25.0

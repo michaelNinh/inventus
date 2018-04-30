@@ -8,6 +8,11 @@ connection = sqlite3.connect('core.db')
 # connection = sqlite3.connect('video.db')
 c = connection.cursor()
 
+
+# c.execute("""
+# ALTER TABLE video ADD COLUMN categoryId INT;
+# """)
+
 # need to modify, videoId should be an array
 
 # c.execute("""DROP TABLE IF EXISTS creator""")
@@ -22,7 +27,8 @@ c = connection.cursor()
 #             email TEXT,
 #             totalComments INT,
 #             videoCount INT,
-#             keywords TEXT
+#             keywords TEXT,
+#             reachOut INT
 #             )""")
 #
 #
@@ -36,7 +42,8 @@ c = connection.cursor()
 #             likeCount INT,
 #             dislikeCount INT,
 #             favoriteCount INT,
-#             commentCount INT
+#             commentCount INT,
+#             categoryIId INT
 #             )""")
 
 #
@@ -44,13 +51,13 @@ c = connection.cursor()
 #
 # CREATE TABLE creator_stats(
 # creatorId TEXT PRIMARY KEY NOT NULL REFERENCES creator(channelId),
-# viewsAverage INT,
-# likesAverage INT,
-# dislikeAverage INT,
-# favoritesAverage INT,
-# commentsAverage INT,
+# viewsAverage REAL,
+# likesAverage REAL,
+# dislikeAverage REAL,
+# favoritesAverage REAL,
+# commentsAverage REAL,
 # engagementRate REAL,
-# sampleSize INT,
+# sampleSize REAL,
 # dataRecorded TEXT )
 #
 # """)
@@ -64,7 +71,7 @@ c = connection.cursor()
 
 # c.execute("SELECT * FROM creator_stats")
 # c.execute("SELECT * FROM video")
-c.execute("SELECT * FROM creator")
+# c.execute("SELECT * FROM creator")
 
 
 # test channelID UCvLT8V6syfFU5AETDM4CtpA
@@ -92,12 +99,36 @@ c.execute("SELECT * FROM creator")
 
 
 
-print(json.dumps(c.fetchall(),indent=2))
+# print(json.dumps(c.fetchall(),indent=2))
 
+testCreatorId = 'UCvLT8V6syfFUzzzzz5AETDM4CtpA'
+# stringCommand = 'SELECT count(*) FROM creator WHERE creatorId = {}'.format(testCreatorId)
+# print(stringCommand)
+# c.execute(stringCommand)
+
+# c.execute("""
+#
+#         SELECT count(*)
+#         FROM creator
+#         WHERE creatorId = {}
+#
+#         """).__format__(testCreatorId)
+
+
+creatorIdTuple = (testCreatorId,)
+
+c.execute("""
+    SELECT * FROM video
+    WHERE creatorID = ?
+    """, creatorIdTuple)
+
+testResult =  c.fetchall()
 
 
 connection.commit()
 connection.close()
+
+print(len(testResult))
 
 '''
 find videos where related Creator.Video Tags == "kpop'

@@ -11,8 +11,6 @@ def activities_list(client, **kwargs):
 
   return response['items']
 
-
-
 # this need a list of channel IDs to work
 def run_get_channel_videos(client, channelId):
     results = activities_list(client,

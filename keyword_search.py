@@ -30,21 +30,58 @@ def channels_list_by_id(client, **kwargs):
     return response['items'][0]['statistics']
 
 
-def run_keyword_search(client):
+keywords = [
+    "mechanical keyboard review",
+    "keyboard review",
+    'best mech keys',
+    'best mechanical keyboards',
+    'kira mechanical keyboard',
+    'mech keyboard tutorial',
+    'mech keycaps',
+    'gaming keyboards',
+    'headphone review',
+    'sennheiser review',
+    'best overhead headphones',
+    'cheap headphone review',
+    'best beginner headphones',
+    'audio rig review',
+    'best headphones for gaming',
+    'budget headphones',
+    'high end headphones',
+    'skull candy review',
+    'best wireless headphones',
+    'audio technica review',
+    'audio technica ATH-E70 review',
+    'best headphones for streaming',
+    'monolith m1060 review',
+    'headphone amps',
+    'best in ear headphones'
+]
+
+def run_keyword_search(client, keyword):
     """ returns an array of STR channel Ids"""
-    keywordSearch = input('enter keyword search: ')
+
+    # keywordSearch = input('enter keyword search: ')
 
     # find all videos by keyword
     video_results_array = search_list_by_keyword(client,
                                                  part='snippet',
-                                                 maxResults=5,
-                                                 q=keywordSearch,
+                                                 maxResults=50,
+                                                 q=keyword,
                                                  type=''
                                                  )
 
     channelIdArray = []
 
     for video in video_results_array:
+
+        if 'videoId' in video["id"]:
+            availableVideoId = video['id']['videoId']
+        else:
+            print('missing video ID')
+            availableVideoId = 'notavailable'
+
+
         # for each video, find the channel statistics
         videoChannelStatisticsQuery = channels_list_by_id(client,
                                                           part='snippet,contentDetails,statistics',
@@ -55,11 +92,12 @@ def run_keyword_search(client):
                                        creatorId=video['snippet']['channelId'],
                                        totalSubscribers=videoChannelStatisticsQuery['subscriberCount'],
                                        totalViews=videoChannelStatisticsQuery['viewCount'],
-                                       availableVideoIds=video['id']['videoId'],
+                                       availableVideoIds=availableVideoId,
                                        email='testEmail',
                                        totalComments=videoChannelStatisticsQuery['commentCount'],
                                        videoCount=videoChannelStatisticsQuery['videoCount'],
-                                       discoveryKeyword=keywordSearch
+                                       discoveryKeyword=keyword,
+                                       reachOut=0
                                        )
 
         channelIdArray.append(create_creatorObject.creatorId)
@@ -68,6 +106,7 @@ def run_keyword_search(client):
         c = connection.cursor()
 
         # save into DB
+        # this does NOT UPDATE EXISTING CREATOR STATS - THIS NEEDS TO BE FIXED!
         c.execute("INSERT OR IGNORE INTO creator VALUES ("
                   ":channelTitle, "
                   ":creatorId, "
@@ -77,7 +116,8 @@ def run_keyword_search(client):
                   ":email, "
                   ":totalComments, "
                   ":videoCount, "
-                  ":keywords)",
+                  ":keywords,"
+                  ":reachOut)",
                   {
                       'channelTitle': create_creatorObject.channelTitle,
                       'creatorId': create_creatorObject.creatorId,
@@ -87,7 +127,9 @@ def run_keyword_search(client):
                       'email': create_creatorObject.email,
                       'totalComments': create_creatorObject.totalComments,
                       'videoCount': create_creatorObject.videoCount,
-                      'keywords': create_creatorObject.discoveryKeyword})
+                      'keywords': create_creatorObject.discoveryKeyword,
+                      'reachOut': create_creatorObject.reachOut
+                  })
 
         connection.commit()
         connection.close()

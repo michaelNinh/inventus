@@ -27,9 +27,12 @@ def pull_creator_stats_data():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
     c.execute("""
-    SELECT keywords, channelTitle, creatorId, email, totalSubs, viewsAverage, engagementRate, dataRecorded
+    SELECT keywords, channelTitle, creator.creatorId, email, totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize
+    
     FROM creator
-    JOIN creator_stats on creator.channelId = creator_stats.creatorId
+    
+    JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
+    
     """)
 
     return c.fetchall()
@@ -39,23 +42,27 @@ def pull_creator_stats_data():
 
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails', 'total subs', 'AVG views','AVG engagement', 'date recorded']
+        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
         for channelEntry in masterStatsArray:
             # transform testDict into correct writable formate here
 
+            # concate channelId into youtubeURL pattern
+            fullUrl = 'https://www.youtube.com/channel/' + channelEntry[2]
+
             #dumboFormat is the format needed to correctly write into csv
             dumboFormat = {
                 'discovery keyword': channelEntry[0],
                 'channel name': channelEntry[1],
-                'URL': channelEntry[2],
+                'URL': fullUrl,
                 'emails': channelEntry[3],
                 'total subs': channelEntry[4],
                 'AVG views': channelEntry[5],
                 'AVG engagement': channelEntry[6],
                 'date recorded': channelEntry[7],
+                'sampleSize': channelEntry[8]
             }
 
             print(dumboFormat)

@@ -57,7 +57,9 @@ def get_saved_videos(creatorId):
             likeCount=raw[6],
             dislikeCount=raw[7],
             favoriteCount=raw[8],
-            commentCount=raw[9], )
+            commentCount=raw[9],
+            categoryId=raw[10]
+        )
 
         videoArray.append(newVideo)
 
@@ -120,17 +122,22 @@ def get_statistics(videoArray):
     return [viewsAverage, likesAverage, dislikeAverage, favoriteAverage, commentAverage, engagementAverage]
 
 
+
 def runStats(creatorId):
     videoArray = get_saved_videos(creatorId)
     stats_array = get_statistics(videoArray)
 
     creator_stats = Channel_statistics(
         creatorId=creatorId,
-        viewsAverage=int(stats_array[0]),
-        likesAverage=int(stats_array[1]),
-        dislikeAverage=int(stats_array[2]),
-        favoritesAverage=int(stats_array[3]),
-        commentsAverage=int(stats_array[4]),
+        viewsAverage=stats_array[0],
+        likesAverage=stats_array[1],
+        dislikeAverage=stats_array[2],
+
+        # NEED TO FIX THIS, HARDCODING 0 INSIDE
+        favoritesAverage=stats_array[3],
+        # favoritesAverage=0,
+
+        commentsAverage=stats_array[4],
         engagementRate=stats_array[5],
         sampleSize=len(videoArray),
         dateRecorded=datetime.datetime.now()

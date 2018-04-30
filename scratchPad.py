@@ -28,9 +28,23 @@ TO DO:
 - input data into database from CSV (email, reach out status)
 - overall channel performance statistics
 - it is possible to pull category ID, on the video level
-- understand outlier data
-- understand statistical variance data
-- running scraper_one_creator needs to add creator, if not exist, into the DB
+- skipping scraping of favorite number, problem with using Pandas, cannot convert NaN float into INT
+
 
 
 """
+def test():
+    d = {'a': 1}
+
+    if 'b' in d:
+        print('inside')
+    else:
+        print('not inside')
+
+
+test()
+
+
+
+
+

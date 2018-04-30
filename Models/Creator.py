@@ -4,7 +4,7 @@ from Models.Video import Video
 class Creator:
     """Class data model for youtube creator"""
 
-    def __init__(self, channelTitle, creatorId, totalSubscribers, totalViews, availableVideoIds, email, totalComments, videoCount, discoveryKeyword):
+    def __init__(self, channelTitle, creatorId, totalSubscribers, totalViews, availableVideoIds, email, totalComments, videoCount, discoveryKeyword, reachOut):
         self.channelTitle = channelTitle
         self.creatorId = creatorId
         self.totalSubscribers = totalSubscribers
@@ -14,6 +14,7 @@ class Creator:
         self.totalComments = totalComments
         self.videoCount = videoCount
         self.discoveryKeyword = discoveryKeyword
+        self.reachOut = reachOut
 
 
 
@@ -27,7 +28,8 @@ class Creator:
                "'email {}', " \
                "'totalComments {}', " \
                "'videoCount {}', " \
-               "'keyword {}')" \
-            .format(self.channelTitle, self.creatorId, self.totalSubscribers, self.totalViews, self.availableVideosIds, self.email, self.totalComments, self.videoCount, self.discoveryKeyword)
+               "'keyword {}'," \
+               "'reachOut {}')" \
+            .format(self.channelTitle, self.creatorId, self.totalSubscribers, self.totalViews, self.availableVideosIds, self.email, self.totalComments, self.videoCount, self.discoveryKeyword,self.reachOut)
 
 
