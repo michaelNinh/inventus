@@ -25,12 +25,14 @@ and save outlier videos...look for trends on what works and doesn't
 
 
 TO DO:
-- input data into database from CSV (email, reach out status)
+- grab creator geographic data
+- get category of videos
+- approximate which vertical channel specializes is
+=][
+- need way for spreadsheet to talk to database
 - overall channel performance statistics
 - it is possible to pull category ID, on the video level
 - skipping scraping of favorite number, problem with using Pandas, cannot convert NaN float into INT
-
-
 
 """
 def test():

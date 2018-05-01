@@ -26,12 +26,40 @@ kw = keywords = [
 'best gaming monitor',
 '4k gaming monitor review',
 'top gaming monitors',
-'',
-
-
-
-
-
+'best headphone amp',
+'smartwatch review',
+'gaming tv',
+'DSLR review',
+'camera review',
+'first dlsr',
+'budget camera for youtube',
+'gaming chair review',
+'gaming chair unboxing',
+'gaming chair vs office chair',
+'gaming chair with speakers',
+'gaming chair setup',
+'gaming chair with footrest ',
+'gaming mouse',
+'gaming mouse review',
+'gaming mouse unboxing',
+'budget gaming mouse',
+'gaming headset under 50',
+'gaming headset review',
+'gaming headset under 100',
+'gaming headset vs headphones',
+'corsair void pro review',
+'best wireless headphones',
+'wireless headphone unboxing',
+'wireless headphones for tv',
+'wireless headphones for gym',
+'wireless headphones for running',
+'worst wireless headphones',
+'wireless earbuds review',
+'wireless earbuds unboxing',
+'bluetooth earbuds',
+'best wireless earbuds'
+'vr headset review',
+'best gaming headset',
 
 ]
 
