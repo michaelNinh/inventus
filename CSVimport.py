@@ -2,7 +2,6 @@ import csv
 import sqlite3
 import json
 
-
 """
 flow of logic 
 Meant to take modified objects in CSV and update them in database
@@ -34,16 +33,23 @@ def readConvertCsvData(csvPath):
     csv_f = csv.reader(f)
 
     firstline = True
-    #the following converts readData into pythonData
+    # the following converts readData into pythonData
     for row in csv_f:
         if firstline:
             firstline = False
             continue
         # create an object from row
 
-        channelId = row[-1]
+
+        channelName = str(row[1])
+        # channelId = row[12]
         notes = row[7]
         reachOut = row[8]
+
+        # print(channelId)
+        print(channelName)
+        # print(notes)
+        # print(reachOut)
 
         connection = sqlite3.connect('core.db')
         c = connection.cursor()
@@ -51,8 +57,9 @@ def readConvertCsvData(csvPath):
         c.execute("""
         UPDATE creator
         SET reachOut = ?, notes = ?
-        WHERE creatorId = ?
-        """, (reachOut, notes, channelId))
+        WHERE channelTitle = ?
+        """, (reachOut, notes, channelName))
+
 
         connection.commit()
         connection.close()
@@ -63,17 +70,28 @@ def readConvertCsvData(csvPath):
 def testWork():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
-    c.execute("""
-    SELECT *
+    c.execute("""    
+    SELECT reachOut, notes
     FROM creator
-    WHERE creatorId = 'UCXuqSBlHAE6Xw-yeJA0Tunw'
+    WHERE creator.reachOut = 1
     """)
-
     print(c.fetchall())
 
 
+def getcolm():
+    connection = sqlite3.connect('core.db')
+    cursor = connection.execute('select * from creator')
+    names = list(map(lambda x: x[0], cursor.description))
+    print(names)
 
 
-
-readConvertCsvData('/Users/michaelninh/Desktop/inventus/csvRaws/inventusCoreDataTEST.csv - inventusCoreDataTEST.csv.csv')
+# readConvertCsvData('/Users/michaelninh/Desktop/inventus/csvRaws/inventusCoreData2.csv - First Round Emails.csv')
 testWork()
+# getcolm()
+
+
+
+
+"""
+['channelTitle', 'creatorId', 'totalSubs', 'totalViews', 'vidIds', 'email', 'totalComments', 'videoCount', 'keywords', 'reachOut', 'country', 'notes', 'approval']
+"""
