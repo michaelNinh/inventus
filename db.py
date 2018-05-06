@@ -4,9 +4,8 @@ import json
 
 
 connection = sqlite3.connect('core.db')
-
-# connection = sqlite3.connect('video.db')
 c = connection.cursor()
+
 
 
 
