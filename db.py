@@ -9,40 +9,12 @@ connection = sqlite3.connect('core.db')
 c = connection.cursor()
 
 
-# c.execute("""
-# ALTER TABLE video ADD COLUMN categoryId INT;
-# """)
-
-# c.execute("""
-# ALTER TABLE creator ADD COLUMN country TEXT
-# """)
-#
-# c.execute("""
-# ALTER TABLE creator ADD COLUMN notes TEXT
-# """)
-
-# c.execute("""
-# ALTER TABLE creator_stats ADD COLUMN categoryId INT
-# """)
-
-# c.execute("""
-# SELECT *
-# FROM creator_stats
-# WHERE creatorId = 'UC09jtjFzXA7r13SZbKDDBNQ'
-#
-# """)
-
-c.execute("""
-SELECT country
-FROM creator
-""")
 
 #
 # c.execute("""
 # SELECT categoryIId
 # FROM video
 # """)
-
 # c.execute(
 #     """
 #     SELECT count(creatorId) FROM video
@@ -65,7 +37,7 @@ FROM creator
 # WHERE videoId = 'VPb-TNK27hs'
 # """)
 
-print(c.fetchall())
+# print(c.fetchall())
 
 
 

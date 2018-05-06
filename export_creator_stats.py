@@ -27,13 +27,13 @@ def pull_creator_stats_data():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
     c.execute("""
-    SELECT keywords, channelTitle, creator.creatorId, email, country,totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize 
+    SELECT keywords, channelTitle, creator.creatorId, email, country,totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize, notes 
     
     FROM creator
     
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
     
-    
+    limit 1
     
     """)
 
@@ -44,7 +44,7 @@ def pull_creator_stats_data():
 
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails','country', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize']
+        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails','country', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize', 'notes']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -66,6 +66,7 @@ def writeCSV(csvPath, masterStatsArray):
                 'AVG engagement': channelEntry[7],
                 'date recorded': channelEntry[8],
                 'sampleSize': channelEntry[9],
+                'notes': channelEntry[10]
             }
 
             print(dumboFormat)
@@ -79,7 +80,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData2.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData3.csv',dataArray)
 
 
 

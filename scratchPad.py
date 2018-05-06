@@ -91,7 +91,7 @@ def test2():
     try:
         print(array[2])
     except IndexError:
-        continue
+        print('no response')
 
 
 test2()
