@@ -13,6 +13,62 @@ c = connection.cursor()
 # ALTER TABLE video ADD COLUMN categoryId INT;
 # """)
 
+# c.execute("""
+# ALTER TABLE creator ADD COLUMN country TEXT
+# """)
+#
+# c.execute("""
+# ALTER TABLE creator ADD COLUMN notes TEXT
+# """)
+
+# c.execute("""
+# ALTER TABLE creator_stats ADD COLUMN categoryId INT
+# """)
+
+# c.execute("""
+# SELECT *
+# FROM creator_stats
+# WHERE creatorId = 'UC09jtjFzXA7r13SZbKDDBNQ'
+#
+# """)
+
+c.execute("""
+SELECT country
+FROM creator
+""")
+
+#
+# c.execute("""
+# SELECT categoryIId
+# FROM video
+# """)
+
+# c.execute(
+#     """
+#     SELECT count(creatorId) FROM video
+#     WHERE LENGTH(categoryIId) > 3
+#
+#     """
+# )
+
+#
+# c.execute("""
+# SELECT *
+# FROM video
+# WHERE videoId = '6jZ7y7omHCw'
+#
+# """)
+
+# c.execute("""
+# DELETE
+# FROM video
+# WHERE videoId = 'VPb-TNK27hs'
+# """)
+
+print(c.fetchall())
+
+
+
 # need to modify, videoId should be an array
 
 # c.execute("""DROP TABLE IF EXISTS creator""")
@@ -100,35 +156,35 @@ c = connection.cursor()
 
 
 # print(json.dumps(c.fetchall(),indent=2))
-
-testCreatorId = 'UCvLT8V6syfFUzzzzz5AETDM4CtpA'
-# stringCommand = 'SELECT count(*) FROM creator WHERE creatorId = {}'.format(testCreatorId)
-# print(stringCommand)
-# c.execute(stringCommand)
-
+#
+# testCreatorId = 'UCvLT8V6syfFUzzzzz5AETDM4CtpA'
+# # stringCommand = 'SELECT count(*) FROM creator WHERE creatorId = {}'.format(testCreatorId)
+# # print(stringCommand)
+# # c.execute(stringCommand)
+#
+# # c.execute("""
+# #
+# #         SELECT count(*)
+# #         FROM creator
+# #         WHERE creatorId = {}
+# #
+# #         """).__format__(testCreatorId)
+#
+#
+# creatorIdTuple = (testCreatorId,)
+#
 # c.execute("""
+#     SELECT * FROM video
+#     WHERE creatorID = ?
+#     """, creatorIdTuple)
 #
-#         SELECT count(*)
-#         FROM creator
-#         WHERE creatorId = {}
-#
-#         """).__format__(testCreatorId)
-
-
-creatorIdTuple = (testCreatorId,)
-
-c.execute("""
-    SELECT * FROM video
-    WHERE creatorID = ?
-    """, creatorIdTuple)
-
-testResult =  c.fetchall()
+# testResult =  c.fetchall()
 
 
 connection.commit()
 connection.close()
 
-print(len(testResult))
+
 
 '''
 find videos where related Creator.Video Tags == "kpop'

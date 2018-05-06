@@ -9,59 +9,8 @@ import sqlite3
 
 
 
-kw = keywords = [
-    'liquid cooling vs air cooling',
-    'liquid cool pc build',
-'easy computer build',
-'gaming mouse vs normal mouse',
-'gaming mouse review',
-'gaming mouse and keyboard',
-'gaming mouse for fortnite',
-'gaming mouse with number pad',
-'logitech gaming mouse review',
-'evga review',
-'gaming monitor  review',
-'gaming monitor under 100',
-'gaming monitor setup',
-'best gaming monitor',
-'4k gaming monitor review',
-'top gaming monitors',
-'best headphone amp',
-'smartwatch review',
-'gaming tv',
-'DSLR review',
-'camera review',
-'first dlsr',
-'budget camera for youtube',
-'gaming chair review',
-'gaming chair unboxing',
-'gaming chair vs office chair',
-'gaming chair with speakers',
-'gaming chair setup',
-'gaming chair with footrest ',
-'gaming mouse',
-'gaming mouse review',
-'gaming mouse unboxing',
-'budget gaming mouse',
-'gaming headset under 50',
-'gaming headset review',
-'gaming headset under 100',
-'gaming headset vs headphones',
-'corsair void pro review',
-'best wireless headphones',
-'wireless headphone unboxing',
-'wireless headphones for tv',
-'wireless headphones for gym',
-'wireless headphones for running',
-'worst wireless headphones',
-'wireless earbuds review',
-'wireless earbuds unboxing',
-'bluetooth earbuds',
-'best wireless earbuds'
-'vr headset review',
-'best gaming headset',
-
-]
+kw = keywords = ['fountain pen review',
+    ]
 
 if __name__ == '__main__':
     base_youtube_code.os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
@@ -99,24 +48,8 @@ if __name__ == '__main__':
                 videoId_list = get_channel_videos.run_get_channel_videos(client, channelId)
                 for videoId in videoId_list:
                     video_statistics.run_video_statistics(client, videoId)
+                print('new creator discovered')
                 get_channel_stats.runStats(channelId)
-
-
-
-
-
-        # else:
-        # run
-
-        # get list of videos related to channel ID
-        # for channelId in channelId_list:
-        #     videoId_list = get_channel_videos.run_get_channel_videos(client, channelId)
-        #     for videoId in videoId_list:
-        #         video_statistics.run_video_statistics(client, videoId)
-        #     get_channel_stats.runStats(channelId)
-
-
-
 
 
 

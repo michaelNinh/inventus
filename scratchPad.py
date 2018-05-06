@@ -25,28 +25,76 @@ and save outlier videos...look for trends on what works and doesn't
 
 
 TO DO:
-- grab creator geographic data
-- get category of videos
-- approximate which vertical channel specializes is
-=][
+- retroactively update all existing data to conform to new data types
+    - grab geographic data
+    - grab category Id
+    - approximate most common category Id
 - need way for spreadsheet to talk to database
-- overall channel performance statistics
-- it is possible to pull category ID, on the video level
-- skipping scraping of favorite number, problem with using Pandas, cannot convert NaN float into INT
+
 
 """
+
+
+# t = [1,1,1,1,1,1,1,1,5,6,89,6,6354,354,987,]
+# print(max(t,key=t.count))
+
+import sqlite3
+import json
+import numpy
+from Models.Video import Video
+from Models.Creator_statistics import Channel_statistics
+import datetime
+import video_statistics
+import get_channel_videos
+import get_channel_stats
+import base_youtube_code
+
+
+
 def test():
-    d = {'a': 1}
+    client = base_youtube_code.get_authenticated_service()
 
-    if 'b' in d:
-        print('inside')
-    else:
-        print('not inside')
+    channelId_list = ['UCGK9n7svoIjuaQfRIBJXkqQ']
+    for channelId in channelId_list:
+        connection = sqlite3.connect('core.db')
+        c = connection.cursor()
+        creatorIdTuple = (channelId,)
+
+        c.execute("""
+            SELECT * FROM video
+            WHERE creatorID = ?
+            """, creatorIdTuple)
+
+        existing_videoCount = c.fetchall()
+
+        connection.commit()
+        connection.close()
+
+        # if there is a result in DB, have videos from creator saved
+        if len(existing_videoCount) > 0:
+            print('already discovered')
+        # if results == 0, no videos saved from creator, just discovered a new creator
+        else:
+            # videoId_list = get_channel_videos.run_get_channel_videos(client, channelId)
+            # for videoId in videoId_list:
+            #     video_statistics.run_video_statistics(client, videoId)
+            print('getting channel stats')
+            # get_channel_stats.runStats(channelId)
 
 
-test()
+
+# test()
 
 
+def test2():
+    array = [0,1]
+    try:
+        print(array[2])
+    except IndexError:
+        continue
+
+
+test2()
 
 
 

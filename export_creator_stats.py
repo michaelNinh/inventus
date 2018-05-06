@@ -27,11 +27,13 @@ def pull_creator_stats_data():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
     c.execute("""
-    SELECT keywords, channelTitle, creator.creatorId, email, totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize
+    SELECT keywords, channelTitle, creator.creatorId, email, country,totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize 
     
     FROM creator
     
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
+    
+    
     
     """)
 
@@ -42,7 +44,7 @@ def pull_creator_stats_data():
 
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize']
+        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails','country', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -50,7 +52,7 @@ def writeCSV(csvPath, masterStatsArray):
             # transform testDict into correct writable formate here
 
             # concate channelId into youtubeURL pattern
-            fullUrl = 'https://www.youtube.com/channel/' + channelEntry[2]
+            fullUrl = 'https://www.youtube.com/channel/' + channelEntry[2] + '/about'
 
             #dumboFormat is the format needed to correctly write into csv
             dumboFormat = {
@@ -58,11 +60,12 @@ def writeCSV(csvPath, masterStatsArray):
                 'channel name': channelEntry[1],
                 'URL': fullUrl,
                 'emails': channelEntry[3],
-                'total subs': channelEntry[4],
-                'AVG views': channelEntry[5],
-                'AVG engagement': channelEntry[6],
-                'date recorded': channelEntry[7],
-                'sampleSize': channelEntry[8]
+                'country': channelEntry[4],
+                'total subs': channelEntry[5],
+                'AVG views': channelEntry[6],
+                'AVG engagement': channelEntry[7],
+                'date recorded': channelEntry[8],
+                'sampleSize': channelEntry[9],
             }
 
             print(dumboFormat)
@@ -73,9 +76,29 @@ def writeCSV(csvPath, masterStatsArray):
 
 
 dataArray = pull_creator_stats_data()
+# print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData2.csv',dataArray)
+
+
+
+
+"""
+[('mechanical keyboard review', 0 
+'Linus Tech Tips', 1
+'UCXuqSBlHAE6Xw-yeJA0Tunw', 2 
+'testEmail', 3
+'n/a', 4
+5724356, 5 
+691304.0, 6
+0.035287418173963025, 7
+'2018-04-30 10:08:19.525312', 8 
+ 13.0 9)]
+
+
+
+"""
 
 
 

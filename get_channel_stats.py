@@ -26,11 +26,6 @@ def get_saved_videos(creatorId):
     """returns an array of Video Objects related to CreatorID"""
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
-    # c.execute("""
-    # SELECT * FROM video
-    # where creatorID = {0}
-    # """.format(creatorId))
-
     # SQLITE needs tuples for some reason?
     creatorIdTuple = (creatorId,)
 
@@ -89,6 +84,7 @@ def get_statistics(videoArray):
     dislikeCountArray = []
     favoriteCountArray = []
     commentCountArray = []
+    categoryIdArray = []
 
     # get all resulting numbers
     for video in videoArray:
@@ -97,6 +93,7 @@ def get_statistics(videoArray):
         dislikeCountArray.append(video.dislikeCount)
         favoriteCountArray.append(video.favoriteCount)
         commentCountArray.append(video.commentCount)
+        categoryIdArray.append(video.categoryId)
 
     viewCountArray = removeOutliers(viewCountArray)
     likeCountArray = removeOutliers(likeCountArray)
@@ -118,8 +115,9 @@ def get_statistics(videoArray):
 
     commentAverage = numpy.average(commentCountArray)
     engagementAverage = (likesAverage + dislikeAverage + commentAverage + favoriteAverage) / viewsAverage
+    mostCommonCategoryId = max(categoryIdArray, key=categoryIdArray.count)
 
-    return [viewsAverage, likesAverage, dislikeAverage, favoriteAverage, commentAverage, engagementAverage]
+    return [viewsAverage, likesAverage, dislikeAverage, favoriteAverage, commentAverage, engagementAverage, mostCommonCategoryId]
 
 
 
@@ -132,15 +130,12 @@ def runStats(creatorId):
         viewsAverage=stats_array[0],
         likesAverage=stats_array[1],
         dislikeAverage=stats_array[2],
-
-        # NEED TO FIX THIS, HARDCODING 0 INSIDE
         favoritesAverage=stats_array[3],
-        # favoritesAverage=0,
-
         commentsAverage=stats_array[4],
         engagementRate=stats_array[5],
         sampleSize=len(videoArray),
-        dateRecorded=datetime.datetime.now()
+        dateRecorded=datetime.datetime.now(),
+        categoryId=stats_array[6]
     )
 
     print(creator_stats)
@@ -157,10 +152,12 @@ def runStats(creatorId):
         creator_stats.commentsAverage,
         creator_stats.engagementRate,
         creator_stats.sampleSize,
-        creator_stats.dateRecorded
+        creator_stats.dateRecorded,
+        creator_stats.categoryId
     ]
 
-    c.execute("INSERT OR REPLACE INTO creator_stats VALUES (?,?,?,?,?,?,?,?,?)", valueList)
+    # THIS IS AN OVERRIDE, updates channel statistics
+    c.execute("INSERT OR REPLACE INTO creator_stats VALUES (?,?,?,?,?,?,?,?,?,?)", valueList)
 
     connection.commit()
     connection.close()

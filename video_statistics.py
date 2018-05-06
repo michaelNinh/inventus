@@ -64,7 +64,7 @@ def run_video_statistics(client, videoId):
                          dislikeCount=dislikeCount,
                          favoriteCount=raw_video_data["statistics"]['favoriteCount'],
                          commentCount=commentCount,
-                         categoryId=raw_video_data['snippet']['title'])
+                         categoryId=raw_video_data['snippet']['categoryId'])
 
     # # save data into DB
     # # OPEN CONNECTION TO VIDEO DB
@@ -86,6 +86,7 @@ def run_video_statistics(client, videoId):
                'commentCount': create_video.commentCount,
                'categoryId': create_video.categoryId,
                })
+
 
     print("video saved")
 
