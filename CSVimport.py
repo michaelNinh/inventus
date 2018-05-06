@@ -66,7 +66,7 @@ def testWork():
     c.execute("""
     SELECT *
     FROM creator
-    WHERE creatorId = 'UCmY3dSr-0TOkJqy0btd2AJg'
+    WHERE creatorId = 'UCXuqSBlHAE6Xw-yeJA0Tunw'
     """)
 
     print(c.fetchall())
@@ -75,5 +75,5 @@ def testWork():
 
 
 
-readConvertCsvData('/Users/michaelninh/Desktop/inventus/csvRaws/test.csv - First Round Emails.csv')
+readConvertCsvData('/Users/michaelninh/Desktop/inventus/csvRaws/inventusCoreDataTEST.csv - inventusCoreDataTEST.csv.csv')
 testWork()

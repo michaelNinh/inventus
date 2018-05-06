@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f533a0-0896-4ad9-973e-2ac87bdb2bc2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csvRaws/test.csv - First Round Emails.csv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core_BACKUP.db" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/export_creator_stats.py" afterPath="$PROJECT_DIR$/CSVexport_creator_stats.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/importCSV.py" afterPath="$PROJECT_DIR$/CSVimport.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Inventus.iml" afterPath="$PROJECT_DIR$/.idea/Inventus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csvRaws/inventusCoreDataTEST.csv - inventusCoreDataTEST.csv.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csvRaws/test.csv - First Round Emails.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSVexport_creator_stats.py" afterPath="$PROJECT_DIR$/CSVexport_creator_stats.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSVimport.py" afterPath="$PROJECT_DIR$/CSVimport.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core.db" afterPath="$PROJECT_DIR$/core.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +44,8 @@
       <file leaf-file-name="CSVimport.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSVimport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="461">
+              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="48" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -59,8 +56,8 @@
       <file leaf-file-name="CSVexport_creator_stats.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSVexport_creator_stats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="46" column="60" lean-forward="true" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+            <state relative-caret-position="561">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -121,9 +118,9 @@
         <option value="$PROJECT_DIR$/scratchPad.py" />
         <option value="$PROJECT_DIR$/csvOperations/importCSV.py" />
         <option value="$PROJECT_DIR$/csvOperations/export_creator_stats.py" />
-        <option value="$PROJECT_DIR$/CSVexport_creator_stats.py" />
         <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/CSVimport.py" />
+        <option value="$PROJECT_DIR$/CSVexport_creator_stats.py" />
       </list>
     </option>
   </component>
@@ -648,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video_statistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -676,10 +663,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSVimport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="461">
+          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="48" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -688,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSVexport_creator_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="46" column="60" lean-forward="true" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+        <state relative-caret-position="561">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

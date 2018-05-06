@@ -27,13 +27,16 @@ def pull_creator_stats_data():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
     c.execute("""
-    SELECT keywords, channelTitle, creator.creatorId, email, country,totalSubs, viewsAverage, engagementRate, dataRecorded, sampleSize, notes 
+    SELECT keywords, channelTitle, creator.creatorId, email, country,
+    totalSubs, viewsAverage, engagementRate, dataRecorded, 
+    sampleSize, notes, reachOut 
     
     FROM creator
-    
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
+
+    LIMIT 1 
     
-    limit 1
+    
     
     """)
 
@@ -42,9 +45,25 @@ def pull_creator_stats_data():
     # print(json.dumps(c.fetchall(), indent=2))
 
 
+
+"""
+keywords, 0 
+channelTitle, 1 
+creator.creatorId, 2 
+email, 3
+country, 4
+totalSubs, 5
+viewsAverage, 6 
+engagementRate,  7
+dataRecorded, 8
+sampleSize, 9
+notes, 10
+reachOut 11
+"""
+
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'URL', 'emails','country', 'total subs', 'AVG views','AVG engagement', 'date recorded', 'sampleSize', 'notes', 'id']
+        fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -58,15 +77,16 @@ def writeCSV(csvPath, masterStatsArray):
             dumboFormat = {
                 'discovery keyword': channelEntry[0],
                 'channel name': channelEntry[1],
-                'URL': fullUrl,
-                'emails': channelEntry[3],
+                'email': channelEntry[3],
                 'country': channelEntry[4],
-                'total subs': channelEntry[5],
+                'URL': fullUrl,
                 'AVG views': channelEntry[6],
                 'AVG engagement': channelEntry[7],
+                'notes': channelEntry[10],
+                'reachOut': channelEntry[11],
+                'total subs': channelEntry[5],
                 'date recorded': channelEntry[8],
                 'sampleSize': channelEntry[9],
-                'notes': channelEntry[10],
                 'id': channelEntry[2]
             }
 
@@ -81,7 +101,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData3.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreDataTEST2.csv',dataArray)
 
 
 
