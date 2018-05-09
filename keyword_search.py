@@ -41,7 +41,7 @@ def run_keyword_search(client, keyword):
     # find all videos by keyword
     video_results_array = search_list_by_keyword(client,
                                                  part='snippet',
-                                                 maxResults=5,
+                                                 maxResults=20,
                                                  q=keyword,
                                                  type=''
                                                  )
@@ -80,7 +80,7 @@ def run_keyword_search(client, keyword):
                                        totalComments=videoChannelStatisticsQuery['statistics']['commentCount'],
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
-                                       reachOut=0,
+                                       reachOut=3,
                                        country=countryInput,
                                        notes='no notes'
                                        )
@@ -105,7 +105,8 @@ def run_keyword_search(client, keyword):
                   ":keywords,"
                   ":reachOut,"
                   ":country,"
-                  ":notes)",
+                  ":notes,"
+                  ":approval)",
                   {
                       'channelTitle': create_creatorObject.channelTitle,
                       'creatorId': create_creatorObject.creatorId,
@@ -118,7 +119,8 @@ def run_keyword_search(client, keyword):
                       'keywords': create_creatorObject.discoveryKeyword,
                       'reachOut': create_creatorObject.reachOut,
                       'country': create_creatorObject.country,
-                      'notes':create_creatorObject.notes
+                      'notes':create_creatorObject.notes,
+                      'approval':0
 
                   })
 

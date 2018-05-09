@@ -115,7 +115,14 @@ def get_statistics(videoArray):
 
     commentAverage = numpy.average(commentCountArray)
     engagementAverage = (likesAverage + dislikeAverage + commentAverage + favoriteAverage) / viewsAverage
-    mostCommonCategoryId = max(categoryIdArray, key=categoryIdArray.count)
+
+    # check if there are values inside mostCommonCategoryId
+    if len(categoryIdArray) > 0:
+        mostCommonCategoryId = max(categoryIdArray, key=categoryIdArray.count)
+    else:
+        mostCommonCategoryId = 000
+
+
 
     return [viewsAverage, likesAverage, dislikeAverage, favoriteAverage, commentAverage, engagementAverage, mostCommonCategoryId]
 

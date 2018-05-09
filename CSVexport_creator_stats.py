@@ -34,10 +34,7 @@ def pull_creator_stats_data():
     FROM creator
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
 
-    LIMIT 1 
-    
-    
-    
+
     """)
 
     return c.fetchall()
@@ -101,7 +98,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreDataTEST2.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData2.csv',dataArray)
 
 
 
