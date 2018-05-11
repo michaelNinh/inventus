@@ -1,4 +1,5 @@
 import csv
+# import unicodecsv as csv
 import sqlite3
 import json
 
@@ -32,6 +33,8 @@ def pull_creator_stats_data():
     sampleSize, notes, reachOut 
     
     FROM creator
+
+    
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
 
 
@@ -59,7 +62,7 @@ reachOut 11
 """
 
 def writeCSV(csvPath, masterStatsArray):
-    with open(csvPath, 'w') as csvfile:
+    with open(csvPath, 'w', encoding='utf-8') as csvfile:
         fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -87,7 +90,6 @@ def writeCSV(csvPath, masterStatsArray):
                 'id': channelEntry[2]
             }
 
-            print(dumboFormat)
 
             writer.writerow(dumboFormat)
     print('SAVED TO MEMORY')
@@ -98,7 +100,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/inventusCoreData2.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/4batch.csv',dataArray)
 
 
 

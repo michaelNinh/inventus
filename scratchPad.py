@@ -94,7 +94,94 @@ def test2():
         print('no response')
 
 
-test2()
+# test2()
+
+
+def keywordGen(game_names):
+    for game in game_names:
+        print("'" + game + ' beginner guide' + "'" + ",")
+        print("'" + game + ' beginner tutorial' + "'" + ",")
+        print("'" + game + ' beginner strategy' + "'" + ",")
+        print("'" + game + ' beginner methods' + "'" + ",")
+        print("'" + game + ' beginner lessons' + "'" + ",")
+        print("'" + game + ' beginner techniques' + "'" + ",")
+        print("'" + game + ' beginner videos' + "'" + ",")
+        print("'" + game + ' beginner lessons' + "'" + ",")
+        print("'" + game + ' beginner tactics' + "'" + ",")
+        print("'" + game + ' beginner overview' + "'" + ",")
+        print("'" + game + ' beginner tips and trick' + "'" + ",")
+        print("'" + game + ' beginner gameplay' + "'" + ",")
+        print("'" + game + ' beginner common mistakes' + "'" + ",")
+        print("'" + game + ' beginner builds' + "'" + ",")
+        print("'" + game + ' beginner players' + "'" + ",")
+        print("'" + game + ' beginner noobs' + "'" + ",")
+        print("'" + game + ' beginner news' + "'" + ",")
+        print("'" + game + ' tutorial' + "'" + ",")
+
+        print("'" + game + ' intermediate guide' + "'" + ",")
+        print("'" + game + ' intermediate tutorial' + "'" + ",")
+        print("'" + game + ' intermediate strategy' + "'" + ",")
+        print("'" + game + ' intermediate methods' + "'" + ",")
+        print("'" + game + ' intermediate lessons' + "'" + ",")
+        print("'" + game + ' intermediate techniques' + "'" + ",")
+        print("'" + game + ' intermediate videos' + "'" + ",")
+        print("'" + game + ' intermediate lessons' + "'" + ",")
+        print("'" + game + ' intermediate tactics' + "'" + ",")
+        print("'" + game + ' intermediate overview' + "'" + ",")
+        print("'" + game + ' intermediate tips and trick' + "'" + ",")
+        print("'" + game + ' intermediate gameplay' + "'" + ",")
+        print("'" + game + ' intermediate common mistakes' + "'" + ",")
+        print("'" + game + ' intermediate builds' + "'" + ",")
+        print("'" + game + ' intermediate players' + "'" + ",")
+        print("'" + game + ' intermediate noobs' + "'" + ",")
+        print("'" + game + ' intermediate news' + "'" + ",")
+        print("'" + game + ' intermediate tutorial' + "'" + ",")
+
+        print("'" + game + ' expert guide' + "'" + ",")
+        print("'" + game + ' expert tutorial' + "'" + ",")
+        print("'" + game + ' expert strategy' + "'" + ",")
+        print("'" + game + ' expert methods' + "'" + ",")
+        print("'" + game + ' expert lessons' + "'" + ",")
+        print("'" + game + ' expert techniques' + "'" + ",")
+        print("'" + game + ' expert videos' + "'" + ",")
+        print("'" + game + ' expert lessons' + "'" + ",")
+        print("'" + game + ' expert tactics' + "'" + ",")
+        print("'" + game + ' expert overview' + "'" + ",")
+        print("'" + game + ' expert tips and trick' + "'" + ",")
+        print("'" + game + ' expert gameplay' + "'" + ",")
+        print("'" + game + ' expert common mistakes' + "'" + ",")
+        print("'" + game + ' expert builds' + "'" + ",")
+        print("'" + game + ' expert players' + "'" + ",")
+        print("'" + game + ' expert noobs' + "'" + ",")
+        print("'" + game + ' expert news' + "'" + ",")
+        print("'" + game + ' expert tutorial' + "'" + ",")
+
+        print("'" + game + ' pro guide' + "'" + ",")
+        print("'" + game + ' pro tutorial' + "'" + ",")
+        print("'" + game + ' pro strategy' + "'" + ",")
+        print("'" + game + ' pro methods' + "'" + ",")
+        print("'" + game + ' pro lessons' + "'" + ",")
+        print("'" + game + ' pro techniques' + "'" + ",")
+        print("'" + game + ' pro videos' + "'" + ",")
+        print("'" + game + ' pro lessons' + "'" + ",")
+        print("'" + game + ' pro tactics' + "'" + ",")
+        print("'" + game + ' pro overview' + "'" + ",")
+        print("'" + game + ' pro tips and trick' + "'" + ",")
+        print("'" + game + ' pro gameplay' + "'" + ",")
+        print("'" + game + ' pro common mistakes' + "'" + ",")
+        print("'" + game + ' pro builds' + "'" + ",")
+        print("'" + game + ' pro players' + "'" + ",")
+        print("'" + game + ' pro noobs' + "'" + ",")
+        print("'" + game + ' pro news' + "'" + ",")
+        print("'" + game + ' pro tutorial' + "'" + ",")
+
+
+
+
+game_names = ['dead by daylight', 'dark souls', 'dead cells', 'black desert online', 'far cry 5', 'minecraft']
+
+keywordGen(game_names)
+
 
 
 

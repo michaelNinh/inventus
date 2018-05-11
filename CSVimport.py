@@ -85,7 +85,7 @@ def getcolm():
     print(names)
 
 
-# readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/inventclearusCoreData2.csv - combo batch.csv')
+readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/batch2.csv - combo batch.csv')
 # testWork()
 # getcolm()
 

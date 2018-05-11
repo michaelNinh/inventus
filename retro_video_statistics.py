@@ -31,6 +31,13 @@ def run_video_statistics(client, videoId):
 
     # sometimes creators hide certain stats. need to check if certain stat is pullable
 
+
+    if 'viewCount' in raw_video_data["statistics"]:
+        viewCount = raw_video_data["statistics"]['viewCount']
+    else:
+        # print('like count hidden')
+        viewCount = 0
+
     if 'likeCount' in raw_video_data["statistics"]:
         likeCount = raw_video_data["statistics"]['likeCount']
     else:
@@ -56,7 +63,7 @@ def run_video_statistics(client, videoId):
                          title=raw_video_data['snippet']['title'],
                          videoTags='placeholder',
                          # videoTags=raw_video_data['snippet']['tags'],
-                         viewCount=raw_video_data["statistics"]['viewCount'],
+                         viewCount=viewCount,
 
                          # need to perform check if likeCount exists
                          likeCount=likeCount,
