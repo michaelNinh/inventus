@@ -31,16 +31,13 @@ def channels_list_by_id(client, **kwargs):
 
 
 
-    print(response['items'])
+    # print(response['items'])
     # sometimes response will be []
 
-    if len(response['items'][0]) == 0:
+    if len(response['items']) == 0:
         pass
     else:
         return response['items'][0]
-
-
-
 
 
 def run_keyword_search(client, keyword):

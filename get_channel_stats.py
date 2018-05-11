@@ -145,7 +145,8 @@ def runStats(creatorId):
         categoryId=stats_array[6]
     )
 
-    print(creator_stats)
+    # this is clogging up the terminal
+    # print(creator_stats)
 
     connection = sqlite3.connect('core.db')
     c = connection.cursor()

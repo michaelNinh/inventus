@@ -178,7 +178,7 @@ def keywordGen(game_names):
 
 
 
-game_names = ['dead by daylight', 'dark souls', 'dead cells', 'black desert online', 'far cry 5', 'minecraft']
+game_names = ['smite', 'escape from tarkov', 'runscape', 'world of tanks', 'bloodborne', 'GTA 5']
 
 keywordGen(game_names)
 
