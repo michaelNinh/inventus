@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f533a0-0896-4ad9-973e-2ac87bdb2bc2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/csvRaws/inventusCoreDatabatch3.csv - valid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvRaws/4batch.csv - 1st filter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvRaws/4batch.csv - 2nd filter.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4batch.csv" beforeDir="false" afterPath="$PROJECT_DIR$/4batch.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSVexport_creator_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSVexport_creator_stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSVimport.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSVimport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Serperus" beforeDir="false" afterPath="$PROJECT_DIR$/Serperus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core.db" beforeDir="false" afterPath="$PROJECT_DIR$/core.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_channel_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_channel_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_channel_videos.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_channel_videos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keyword_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyword_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scraper_keyword_discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper_keyword_discovery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratchPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratchPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/video_statistics.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,20 +34,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scraper_keyword_discovery.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scraper_keyword_discovery.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scraper_keyword_discovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="135">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVimport.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="keyword_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keyword_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSVimport.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSVimport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="87" column="110" selection-start-line="87" selection-start-column="110" selection-end-line="87" selection-end-column="110" />
+            <state relative-caret-position="442">
+              <caret line="87" column="99" lean-forward="true" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_channel_stats.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_channel_stats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_channel_videos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_channel_videos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSVexport_creator_stats.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSVexport_creator_stats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -64,6 +110,7 @@
     <findStrings>
       <find>pc build review</find>
       <find>print</find>
+      <find>Nan c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,7 +127,6 @@
         <option value="$PROJECT_DIR$/core.py" />
         <option value="$PROJECT_DIR$/scraper_one_creator.py" />
         <option value="$PROJECT_DIR$/export_csv.py" />
-        <option value="$PROJECT_DIR$/get_channel_videos.py" />
         <option value="$PROJECT_DIR$/Models/Video.py" />
         <option value="$PROJECT_DIR$/Models/Creator.py" />
         <option value="$PROJECT_DIR$/test_db.py" />
@@ -90,22 +136,23 @@
         <option value="$PROJECT_DIR$/csvOperations/importCSV.py" />
         <option value="$PROJECT_DIR$/csvOperations/export_creator_stats.py" />
         <option value="$PROJECT_DIR$/db.py" />
-        <option value="$PROJECT_DIR$/CSVexport_creator_stats.py" />
         <option value="$PROJECT_DIR$/retro_video_statistics.py" />
-        <option value="$PROJECT_DIR$/video_statistics.py" />
-        <option value="$PROJECT_DIR$/get_channel_stats.py" />
-        <option value="$PROJECT_DIR$/keyword_search.py" />
         <option value="$PROJECT_DIR$/scratchPad.py" />
-        <option value="$PROJECT_DIR$/CSVimport.py" />
+        <option value="$PROJECT_DIR$/video_statistics.py" />
+        <option value="$PROJECT_DIR$/get_channel_videos.py" />
+        <option value="$PROJECT_DIR$/get_channel_stats.py" />
         <option value="$PROJECT_DIR$/scraper_keyword_discovery.py" />
+        <option value="$PROJECT_DIR$/keyword_search.py" />
+        <option value="$PROJECT_DIR$/CSVexport_creator_stats.py" />
+        <option value="$PROJECT_DIR$/CSVimport.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1504" />
-    <option name="y" value="-422" />
-    <option name="width" value="1262" />
-    <option name="height" value="1187" />
+    <option name="x" value="2678" />
+    <option name="y" value="-156" />
+    <option name="width" value="1800" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,14 +187,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/csvRaws" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/csvOperations" />
       <recent name="$PROJECT_DIR$/Actions" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,19 +305,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1504" y="-422" width="1262" height="1187" extended-state="0" />
+    <frame x="2678" y="-156" width="1800" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29635498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31555554" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -294,9 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,9 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,9 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,54 +586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding>
-            <element signature="e#3516#7892#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSVexport_creator_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_channel_stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="118" column="53" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_channel_videos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyword_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -615,20 +607,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSVimport.py">
+    <entry file="file://$PROJECT_DIR$/get_channel_stats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="87" column="110" selection-start-line="87" selection-start-column="110" selection-end-line="87" selection-end-column="110" />
+        <state relative-caret-position="416">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyword_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_channel_videos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper_keyword_discovery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSVexport_creator_stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="84" column="42" lean-forward="true" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraper_keyword_discovery.py">
+    <entry file="file://$PROJECT_DIR$/CSVimport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="442">
+          <caret line="87" column="99" lean-forward="true" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

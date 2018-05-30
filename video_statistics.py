@@ -27,7 +27,7 @@ def run_video_statistics(client, videoId):
     # print(testObject)
 
     # need to create the correct video object here
-    print('creating video object for ' + videoId)
+    # print('creating video object for ' + videoId)
 
     # sometimes creators hide certain stats. need to check if certain stat is pullable
 
@@ -35,26 +35,26 @@ def run_video_statistics(client, videoId):
     if 'viewCount' in raw_video_data["statistics"]:
         viewCount = raw_video_data["statistics"]['viewCount']
     else:
-        print('like count hidden')
+        # print('like count hidden')
         viewCount = 0
 
     if 'likeCount' in raw_video_data["statistics"]:
         likeCount = raw_video_data["statistics"]['likeCount']
     else:
-        print('like count hidden')
+        # print('like count hidden')
         likeCount = 0
 
     if 'dislikeCount' in raw_video_data["statistics"]:
         dislikeCount = raw_video_data["statistics"]['dislikeCount']
     else:
-        print('dislike count hidden')
+        # print('dislike count hidden')
         dislikeCount = 0
 
 
     if 'commentCount' in raw_video_data["statistics"]:
         commentCount = raw_video_data["statistics"]['commentCount']
     else:
-        print('commentCount count hidden')
+        # print('commentCount count hidden')
         commentCount = 0
 
     create_video = Video(videoId=raw_video_data['id'],
@@ -95,7 +95,7 @@ def run_video_statistics(client, videoId):
                })
 
 
-    print("video saved")
+    # print("video saved")
 
     connection.commit()
     connection.close()

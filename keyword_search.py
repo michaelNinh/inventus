@@ -60,7 +60,7 @@ def run_keyword_search(client, keyword):
         if 'videoId' in video["id"]:
             availableVideoId = video['id']['videoId']
         else:
-            print('missing video ID')
+            # print('missing video ID')
             availableVideoId = 'notavailable'
 
 
@@ -74,7 +74,7 @@ def run_keyword_search(client, keyword):
         if 'country' in videoChannelStatisticsQuery["snippet"]:
             countryInput = videoChannelStatisticsQuery["snippet"]['country']
         else:
-            print('dislike count hidden')
+            # print('dislike count hidden')
             countryInput = 'country not detected'
 
         # this is the creation of a WHOLE NEW CREATOR OBJECT
@@ -87,7 +87,7 @@ def run_keyword_search(client, keyword):
                                        totalComments=videoChannelStatisticsQuery['statistics']['commentCount'],
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
-                                       reachOut=3,
+                                       reachOut=5,
                                        country=countryInput,
                                        notes='no notes'
                                        )

@@ -33,7 +33,9 @@ def run_get_channel_videos(client, channelId):
         if activity['snippet']['type'] == 'upload':
             recent_videoIds.append(activity['contentDetails']['upload']['videoId'])
         else:
-            print('not video upload')
+            continue
+            # print('not video upload')
+
 
     # print(recent_videoIds)
 

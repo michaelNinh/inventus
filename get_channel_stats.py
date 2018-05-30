@@ -109,7 +109,7 @@ def get_statistics(videoArray):
     favoriteAverage = numpy.average(favoriteCountArray)
     if str(favoriteAverage) == 'nan':
         favoriteAverage = 0
-        print('nanChange')
+        # print('nanChange')
     else:
         print('no change')
 

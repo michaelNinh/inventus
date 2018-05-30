@@ -100,7 +100,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/4batch.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/clotheBatch.csv',dataArray)
 
 
 
