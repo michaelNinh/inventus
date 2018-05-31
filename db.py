@@ -7,7 +7,13 @@ connection = sqlite3.connect('core.db')
 c = connection.cursor()
 
 
+c.execute("""
+SELECT *
+FROM creator
+WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
+""")
 
+print(c.fetchall())
 
 #
 # c.execute("""

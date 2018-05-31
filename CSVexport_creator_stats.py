@@ -2,6 +2,7 @@ import csv
 # import unicodecsv as csv
 import sqlite3
 import json
+import helpers
 
 """
 Flow of logic
@@ -30,13 +31,11 @@ def pull_creator_stats_data():
     c.execute("""
     SELECT keywords, channelTitle, creator.creatorId, email, country,
     totalSubs, viewsAverage, engagementRate, dataRecorded, 
-    sampleSize, notes, reachOut 
+    sampleSize, notes, reachOut, categoryId
     
     FROM creator
 
-    
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
-
 
     """)
 
@@ -59,11 +58,14 @@ dataRecorded, 8
 sampleSize, 9
 notes, 10
 reachOut 11
+categoryIId 12
 """
+
+
 
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w', encoding='utf-8') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id']
+        fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id','categoryId']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -72,6 +74,11 @@ def writeCSV(csvPath, masterStatsArray):
 
             # concate channelId into youtubeURL pattern
             fullUrl = 'https://www.youtube.com/channel/' + channelEntry[2] + '/about'
+
+
+            categoryId = helpers.youtubeChannelDict.get(channelEntry[12], 'N/A')
+
+
 
             #dumboFormat is the format needed to correctly write into csv
             dumboFormat = {
@@ -87,7 +94,8 @@ def writeCSV(csvPath, masterStatsArray):
                 'total subs': channelEntry[5],
                 'date recorded': channelEntry[8],
                 'sampleSize': channelEntry[9],
-                'id': channelEntry[2]
+                'id': channelEntry[2],
+                'categoryId': categoryId
             }
 
 
@@ -100,7 +108,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/clotheBatch.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/duncanBatch1.csv',dataArray)
 
 
 

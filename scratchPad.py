@@ -32,6 +32,15 @@ TO DO:
 - need way for spreadsheet to talk to database
 
 
+REFERENCE CODES:
+MODIFY reachOut codes in KEYWORDSEARCH.PY
+reachOut ==
+3 == initial scrape
+4 == additional game scrape
+5 == men's fashion tags
+8 == duncan scrapes
+
+
 """
 
 

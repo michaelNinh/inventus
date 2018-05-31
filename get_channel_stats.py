@@ -171,7 +171,7 @@ def runStats(creatorId):
     connection.close()
 
 
-# runStats('UCvLT8V6syfFU5AETDM4CtpA')
+runStats('UClbfoD1o7sV0VxErpxTCpyw')
 
 # videos = get_saved_videos('UCvLT8V6syfFU5AETDM4CtpA')
 # get_statistics(videos)

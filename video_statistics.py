@@ -73,6 +73,8 @@ def run_video_statistics(client, videoId):
                          commentCount=commentCount,
                          categoryId=raw_video_data['snippet']['categoryId'])
 
+    # print(create_video)
+
     # # save data into DB
     # # OPEN CONNECTION TO VIDEO DB
     connection = sqlite3.connect('core.db')
@@ -95,7 +97,7 @@ def run_video_statistics(client, videoId):
                })
 
 
-    # print("video saved")
+    print("video saved")
 
     connection.commit()
     connection.close()

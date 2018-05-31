@@ -7,27 +7,47 @@ import sqlite3
 
 # run file to start function flow
 
+# IMPORTANT IMPORTANT IMPORTANT IMPORTANT
+
+#########################################################
+#########################################################
+#########################################################
+####REMEMBER TO RECORD THE REFERENCE NUMBERS INSIDE SCRATCH PAD#####################
+#########################################################
 
 
 kw = keywords = [
 
-    'men fashion advice',
-    'fashion for men',
-    'sweater for men',
-'guy how to dress',
-'fashion tips for guys',
-'fashion for dudes',
-'dude fashion',
-'how to dress guys',
-'guy fashion advice',
-'how to dress as a guy',
-'guy fashion advice',
-'dude fashion advice',
-'how should a suit fit',
-'how to tie a tie',
-'tie tutorial',
-'street fashion advice',
-'ootd guy',
+    'ultra light',
+    'outdoors',
+    'adventure travel',
+    'camping',
+'camping reviews',
+'ultra light reviews',
+'hiking gear reviews',
+'hiking trails',
+'hiking recommendations',
+'kyaking',
+'kyaking tips',
+'kyaking tips for beginners',
+'best kyaking spots',
+'kyaking travels',
+'kyak vlog',
+'backpacking',
+'backpacking for beginners',
+'backpacking throughkjhlkjhkjklh europe',
+'best backpacking bag',
+'merino socks',
+'wools socks vs merino socks',
+'outdoor kits',
+'tent review',
+'hiking tents review',
+'hiking boots review',
+'best hiking boots',
+'best travel tent',
+'best hiking water bottle',
+'adventure activities',
+
 
 
 

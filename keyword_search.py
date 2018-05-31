@@ -29,8 +29,6 @@ def channels_list_by_id(client, **kwargs):
     ).execute()
 
 
-
-
     # print(response['items'])
     # sometimes response will be []
 
@@ -48,7 +46,7 @@ def run_keyword_search(client, keyword):
     # find all videos by keyword
     video_results_array = search_list_by_keyword(client,
                                                  part='snippet',
-                                                 maxResults=20,
+                                                 maxResults=40,
                                                  q=keyword,
                                                  type=''
                                                  )
@@ -77,7 +75,25 @@ def run_keyword_search(client, keyword):
             # print('dislike count hidden')
             countryInput = 'country not detected'
 
+
+
+
+        # IMPORTANT #############################
+        ########################################## MODIFY REACH OUT CODES HERE
         # this is the creation of a WHOLE NEW CREATOR OBJECT
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+
+        '''IMPORTANT  '''
+
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
+        # IMPORTANT #############################
         create_creatorObject = Creator(channelTitle=video['snippet']['channelTitle'],
                                        creatorId=video['snippet']['channelId'],
                                        totalSubscribers=videoChannelStatisticsQuery['statistics']['subscriberCount'],
@@ -87,7 +103,7 @@ def run_keyword_search(client, keyword):
                                        totalComments=videoChannelStatisticsQuery['statistics']['commentCount'],
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
-                                       reachOut=5,
+                                       reachOut=8,
                                        country=countryInput,
                                        notes='no notes'
                                        )
