@@ -43,7 +43,6 @@ reachOut ==
 
 """
 
-
 # t = [1,1,1,1,1,1,1,1,5,6,89,6,6354,354,987,]
 # print(max(t,key=t.count))
 
@@ -57,7 +56,6 @@ import video_statistics
 import get_channel_videos
 import get_channel_stats
 import base_youtube_code
-
 
 
 def test():
@@ -91,12 +89,11 @@ def test():
             # get_channel_stats.runStats(channelId)
 
 
-
 # test()
 
 
 def test2():
-    array = [0,1]
+    array = [0, 1]
     try:
         print(array[2])
     except IndexError:
@@ -185,12 +182,19 @@ def keywordGen(game_names):
         print("'" + game + ' pro tutorial' + "'" + ",")
 
 
-
-
-game_names = ['smite', 'escape from tarkov', 'runscape', 'world of tanks', 'bloodborne', 'GTA 5']
+game_names = ['elder scrolls online','final fantasy xiv','star wars the old republic',
+              'eve online','archeage','tera rising','guild wars 2','neverwinter', 'maplestory']
 
 keywordGen(game_names)
 
-
-
+#
+# def testFuc():
+#     someDict = {'snippet': {'country': None}}
+#     # print(someDict['snippet']['country'])
+#     if someDict['snippet']['country'] == None:
+#         print('WHOLE LOTTA GANG')
+#     else:
+#         print('not none')
+#
+# testFuc()
 

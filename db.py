@@ -6,12 +6,36 @@ import json
 connection = sqlite3.connect('core.db')
 c = connection.cursor()
 
+# c.execute("""
+#
+# UPDATE creator
+# SET reachOut = 5
+# WHERE creatorId = 'UC2jao3bBO9EV3-PF7r2CtQA'
+#
+# """)
 
-c.execute("""
-SELECT *
-FROM creator
-WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
-""")
+
+c.execute(
+    """
+    SELECT * 
+    FROM creator
+    WHERE creatorId = 'UC2jao3bBO9EV3-PF7r2CtQA' 
+    
+    """
+
+)
+
+# c.execute("""
+# SELECT *
+# FROM creator
+# WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
+# """)
+
+# c.execute("""
+# DELETE
+# FROM creator
+# WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
+# """)
 
 print(c.fetchall())
 

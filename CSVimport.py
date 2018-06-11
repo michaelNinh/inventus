@@ -85,8 +85,8 @@ def getcolm():
     print(names)
 
 
-readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/4batch.csv - 2nd filter.csv')
 # testWork()
+readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/davinDump.csv')
 # getcolm()
 
 

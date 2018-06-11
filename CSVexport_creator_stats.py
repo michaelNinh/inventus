@@ -108,7 +108,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/duncanBatch1.csv',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/davinDump',dataArray)
 
 
 

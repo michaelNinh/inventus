@@ -46,7 +46,7 @@ def run_keyword_search(client, keyword):
     # find all videos by keyword
     video_results_array = search_list_by_keyword(client,
                                                  part='snippet',
-                                                 maxResults=40,
+                                                 maxResults=25,
                                                  q=keyword,
                                                  type=''
                                                  )
@@ -57,6 +57,7 @@ def run_keyword_search(client, keyword):
 
         if 'videoId' in video["id"]:
             availableVideoId = video['id']['videoId']
+            print(availableVideoId)
         else:
             # print('missing video ID')
             availableVideoId = 'notavailable'
@@ -67,13 +68,17 @@ def run_keyword_search(client, keyword):
                                                           part='snippet,contentDetails,statistics',
                                                           id=video['snippet']['channelId'])
 
+        # print(videoChannelStatisticsQuery)
 
-        # check if country data exists in snipppet
-        if 'country' in videoChannelStatisticsQuery["snippet"]:
-            countryInput = videoChannelStatisticsQuery["snippet"]['country']
+
+        # print(videoChannelStatisticsQuery['snippet'])
+        # there is a huge error going on here...None Type?
+        if 'country' in videoChannelStatisticsQuery['snippet']:
+                countryInput = videoChannelStatisticsQuery['snippet']['country']
         else:
-            # print('dislike count hidden')
-            countryInput = 'country not detected'
+                # print('dislike count hidden')
+                countryInput = 'country not detected'
+
 
 
 
@@ -103,7 +108,11 @@ def run_keyword_search(client, keyword):
                                        totalComments=videoChannelStatisticsQuery['statistics']['commentCount'],
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
-                                       reachOut=8,
+
+
+                                       reachOut='5',
+
+
                                        country=countryInput,
                                        notes='no notes'
                                        )

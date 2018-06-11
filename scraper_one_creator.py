@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # there is no channel being created
 
     # if does not exist, needs to enter into DB
-    channelId = 'UClbfoD1o7sV0VxErpxTCpyw'
+    channelId = 'UC2jao3bBO9EV3-PF7r2CtQA'
 
     # obtain a list of video IDs here
     recent_video_ids = get_channel_videos.run_get_channel_videos(client, channelId)
@@ -51,7 +51,7 @@ if __name__ == '__main__':
                                    totalComments=channelData['statistics']['commentCount'],
                                    videoCount=channelData['statistics']['videoCount'],
                                    discoveryKeyword='custom id input',
-                                   reachOut=8,
+                                   reachOut='fashion',
                                    country=countryInput,
                                    notes='no notes'
                                    )
