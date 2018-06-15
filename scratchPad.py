@@ -182,10 +182,14 @@ def keywordGen(game_names):
         print("'" + game + ' pro tutorial' + "'" + ",")
 
 
-game_names = ['elder scrolls online','final fantasy xiv','star wars the old republic',
-              'eve online','archeage','tera rising','guild wars 2','neverwinter', 'maplestory']
+game_names = [
 
-keywordGen(game_names)
+
+
+
+]
+
+# keywordGen(game_names)
 
 #
 # def testFuc():
@@ -197,4 +201,12 @@ keywordGen(game_names)
 #         print('not none')
 #
 # testFuc()
+
+
+
+
+from datetime import datetime
+s = '2018-06-01T21:32:27.000Z'
+print(s.split('T'))
+
 

@@ -18,7 +18,7 @@ c = connection.cursor()
 c.execute(
     """
     SELECT * 
-    FROM creator
+    FROM video
     WHERE creatorId = 'UC2jao3bBO9EV3-PF7r2CtQA' 
     
     """
@@ -37,7 +37,16 @@ c.execute(
 # WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
 # """)
 
-print(c.fetchall())
+# print(c.fetchall())
+
+
+test = c.fetchall()[0]
+
+print(
+
+    test[2].split('T')[0]
+
+      )
 
 #
 # c.execute("""
