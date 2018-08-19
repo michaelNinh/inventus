@@ -17,12 +17,10 @@ c = connection.cursor()
 
 c.execute(
     """
-    SELECT * 
-    FROM video
-    WHERE creatorId = 'UC2jao3bBO9EV3-PF7r2CtQA' 
-    
+    SELECT count(*)
+    FROM creator
+    WHERE reachOut = 10     
     """
-
 )
 
 # c.execute("""
@@ -40,13 +38,14 @@ c.execute(
 # print(c.fetchall())
 
 
-test = c.fetchall()[0]
+test = c.fetchall()
+print(test)
 
-print(
-
-    test[2].split('T')[0]
-
-      )
+# print(
+#
+#     test[2].split('T')[0]
+#
+#       )
 
 #
 # c.execute("""

@@ -29,6 +29,8 @@ def pull_creator_stats_data():
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
     c.execute("""
+    
+    
     SELECT keywords, channelTitle, creator.creatorId, email, country,
     totalSubs, viewsAverage, engagementRate, dataRecorded, 
     sampleSize, notes, reachOut, categoryId
@@ -36,6 +38,8 @@ def pull_creator_stats_data():
     FROM creator
 
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
+    AND creator.reachOut = 10
+    
 
     """)
 
@@ -65,7 +69,7 @@ categoryIId 12
 
 def writeCSV(csvPath, masterStatsArray):
     with open(csvPath, 'w', encoding='utf-8') as csvfile:
-        fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id','categoryId']
+        fieldnames = ['discovery keyword', 'channel name', 'email', 'country','URL', 'AVG views', 'AVG engagement','notes', 'reachOut', 'total subs', 'date recorded', 'sampleSize','id','categoryId','last video']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -77,8 +81,33 @@ def writeCSV(csvPath, masterStatsArray):
 
 
             categoryId = helpers.youtubeChannelDict.get(channelEntry[12], 'N/A')
+            #dirty code to find most recent video postings
+
+            connection = sqlite3.connect('core.db')
+            c = connection.cursor()
+
+            creatorIdTuple = (channelEntry[2],)
+
+            c.execute("""
+                SELECT * FROM video
+                WHERE creatorID = ?
+                """, creatorIdTuple)
 
 
+            # print(c.fetchall())
+            # getDate = c.fetchall()[0]
+            # lastVideoDate = getDate[2].split('T')[0]
+
+            try:
+                getDate = c.fetchall()[0]
+                lastVideoDate = getDate[2].split('T')[0]
+                print(lastVideoDate)
+            except IndexError:
+                lastVideoDate = 'no date'
+                print('no date')
+
+            connection.commit()
+            connection.close()
 
             #dumboFormat is the format needed to correctly write into csv
             dumboFormat = {
@@ -95,7 +124,8 @@ def writeCSV(csvPath, masterStatsArray):
                 'date recorded': channelEntry[8],
                 'sampleSize': channelEntry[9],
                 'id': channelEntry[2],
-                'categoryId': categoryId
+                'categoryId': categoryId,
+                'last video':lastVideoDate
             }
 
 
@@ -108,7 +138,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/batch7.csv'
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/seigeCheck.csv'
          '',dataArray)
 
 

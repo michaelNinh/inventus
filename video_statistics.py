@@ -97,7 +97,7 @@ def run_video_statistics(client, videoId):
                })
 
 
-    print("video saved")
+    # print("video saved")
 
     connection.commit()
     connection.close()

@@ -40,7 +40,7 @@ def run_get_channel_videos(client, channelId):
 
     # print(recent_videoIds)
 
-    print(recent_videoIds)
+    # print(recent_videoIds)
 
     return recent_videoIds
 

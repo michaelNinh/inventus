@@ -39,8 +39,10 @@ reachOut ==
 4 == additional game scrape
 5 == men's fashion tags
 8 == duncan scrapes
-
-
+cycling == cycling communities thing
+7 == finding more gaming content creators, long tail
+10 == seige content
+11 == pub g content
 """
 
 # t = [1,1,1,1,1,1,1,1,5,6,89,6,6354,354,987,]
@@ -105,91 +107,84 @@ def test2():
 
 def keywordGen(game_names):
     for game in game_names:
-        print("'" + game + ' beginner guide' + "'" + ",")
-        print("'" + game + ' beginner tutorial' + "'" + ",")
-        print("'" + game + ' beginner strategy' + "'" + ",")
-        print("'" + game + ' beginner methods' + "'" + ",")
-        print("'" + game + ' beginner lessons' + "'" + ",")
-        print("'" + game + ' beginner techniques' + "'" + ",")
-        print("'" + game + ' beginner videos' + "'" + ",")
-        print("'" + game + ' beginner lessons' + "'" + ",")
-        print("'" + game + ' beginner tactics' + "'" + ",")
-        print("'" + game + ' beginner overview' + "'" + ",")
-        print("'" + game + ' beginner tips and trick' + "'" + ",")
-        print("'" + game + ' beginner gameplay' + "'" + ",")
-        print("'" + game + ' beginner common mistakes' + "'" + ",")
-        print("'" + game + ' beginner builds' + "'" + ",")
-        print("'" + game + ' beginner players' + "'" + ",")
-        print("'" + game + ' beginner noobs' + "'" + ",")
-        print("'" + game + ' beginner news' + "'" + ",")
-        print("'" + game + ' tutorial' + "'" + ",")
+        print("'" + "rainbow six seige "  + game + ' beginner guide' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' intermediate guide' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' advanced guide' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' for noobs' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' newbies' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' for scrubs' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' for starters' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' for new players' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' grandmaster tips' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' from grandmasters' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' sick gameplayer 2018' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' new season tips' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' the best of' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' insane' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' season 10' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' all legendary skins' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' tricks and tips' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' advanced skills' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' season 9 guide' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' season' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' coaching' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' gone wrong' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' secrets' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' get better' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' improve' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' drills' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' practice tips' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' pro moments' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' grandmaster' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' vs matchup' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' how to play' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' advanced guide' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' breakdown' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' movement' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' positioning' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' 5 top tier' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' how to play console' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' console' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' pro' + "'" + ",")
+        print("'" + "rainbow six seige " + game + ' aggressive' + "'" + ",")
 
-        print("'" + game + ' intermediate guide' + "'" + ",")
-        print("'" + game + ' intermediate tutorial' + "'" + ",")
-        print("'" + game + ' intermediate strategy' + "'" + ",")
-        print("'" + game + ' intermediate methods' + "'" + ",")
-        print("'" + game + ' intermediate lessons' + "'" + ",")
-        print("'" + game + ' intermediate techniques' + "'" + ",")
-        print("'" + game + ' intermediate videos' + "'" + ",")
-        print("'" + game + ' intermediate lessons' + "'" + ",")
-        print("'" + game + ' intermediate tactics' + "'" + ",")
-        print("'" + game + ' intermediate overview' + "'" + ",")
-        print("'" + game + ' intermediate tips and trick' + "'" + ",")
-        print("'" + game + ' intermediate gameplay' + "'" + ",")
-        print("'" + game + ' intermediate common mistakes' + "'" + ",")
-        print("'" + game + ' intermediate builds' + "'" + ",")
-        print("'" + game + ' intermediate players' + "'" + ",")
-        print("'" + game + ' intermediate noobs' + "'" + ",")
-        print("'" + game + ' intermediate news' + "'" + ",")
-        print("'" + game + ' intermediate tutorial' + "'" + ",")
 
-        print("'" + game + ' expert guide' + "'" + ",")
-        print("'" + game + ' expert tutorial' + "'" + ",")
-        print("'" + game + ' expert strategy' + "'" + ",")
-        print("'" + game + ' expert methods' + "'" + ",")
-        print("'" + game + ' expert lessons' + "'" + ",")
-        print("'" + game + ' expert techniques' + "'" + ",")
-        print("'" + game + ' expert videos' + "'" + ",")
-        print("'" + game + ' expert lessons' + "'" + ",")
-        print("'" + game + ' expert tactics' + "'" + ",")
-        print("'" + game + ' expert overview' + "'" + ",")
-        print("'" + game + ' expert tips and trick' + "'" + ",")
-        print("'" + game + ' expert gameplay' + "'" + ",")
-        print("'" + game + ' expert common mistakes' + "'" + ",")
-        print("'" + game + ' expert builds' + "'" + ",")
-        print("'" + game + ' expert players' + "'" + ",")
-        print("'" + game + ' expert noobs' + "'" + ",")
-        print("'" + game + ' expert news' + "'" + ",")
-        print("'" + game + ' expert tutorial' + "'" + ",")
 
-        print("'" + game + ' pro guide' + "'" + ",")
-        print("'" + game + ' pro tutorial' + "'" + ",")
-        print("'" + game + ' pro strategy' + "'" + ",")
-        print("'" + game + ' pro methods' + "'" + ",")
-        print("'" + game + ' pro lessons' + "'" + ",")
-        print("'" + game + ' pro techniques' + "'" + ",")
-        print("'" + game + ' pro videos' + "'" + ",")
-        print("'" + game + ' pro lessons' + "'" + ",")
-        print("'" + game + ' pro tactics' + "'" + ",")
-        print("'" + game + ' pro overview' + "'" + ",")
-        print("'" + game + ' pro tips and trick' + "'" + ",")
-        print("'" + game + ' pro gameplay' + "'" + ",")
-        print("'" + game + ' pro common mistakes' + "'" + ",")
-        print("'" + game + ' pro builds' + "'" + ",")
-        print("'" + game + ' pro players' + "'" + ",")
-        print("'" + game + ' pro noobs' + "'" + ",")
-        print("'" + game + ' pro news' + "'" + ",")
-        print("'" + game + ' pro tutorial' + "'" + ",")
+
+
+
+
 
 
 game_names = [
+
+'maestro',
+    'Alibi',
+'Lion',
+'Finka',
+'Vigil',
+'Dokkaebi','Zofia',
+'Ela',
+'ying',
+'lesion',
+'mira',
+    'jackal',
+'hibana',
+'echo',
+'caveira','capitao',
+'blackbeard',
+'valkerie',
+'buck',
+'frost',
+'mute'
+
 
 
 
 
 ]
 
-# keywordGen(game_names)
+keywordGen(game_names)
 
 #
 # def testFuc():
@@ -204,9 +199,25 @@ game_names = [
 
 
 
+#
+# from datetime import datetime
+# s = '2018-06-01T21:32:27.000Z'
+# print(s.split('T'))
+"""
+# [pairing[0] (UTM), 0 
+# pairing[1] (URL), 1
+# creator_title, 2
+# creator_sub_count, 3
+# create_video.publishedAt, 4
+# create_video.title, 5 
+# create_video.viewCount, 6
+# create_video.likeCount, 7
+# create_video.commentCount, 8
+# create_video.dislikeCount 9
 
-from datetime import datetime
-s = '2018-06-01T21:32:27.000Z'
-print(s.split('T'))
+"""
+
+
+
 
 

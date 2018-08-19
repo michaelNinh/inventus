@@ -86,7 +86,7 @@ def getcolm():
 
 
 # testWork()
-readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/davinDump.csv')
+readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/seige check - valids.csv')
 # getcolm()
 
 

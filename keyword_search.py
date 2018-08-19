@@ -28,7 +28,6 @@ def channels_list_by_id(client, **kwargs):
         **kwargs
     ).execute()
 
-
     # print(response['items'])
     # sometimes response will be []
 
@@ -46,7 +45,7 @@ def run_keyword_search(client, keyword):
     # find all videos by keyword
     video_results_array = search_list_by_keyword(client,
                                                  part='snippet',
-                                                 maxResults=25,
+                                                 maxResults=50,
                                                  q=keyword,
                                                  type=''
                                                  )
@@ -57,7 +56,7 @@ def run_keyword_search(client, keyword):
 
         if 'videoId' in video["id"]:
             availableVideoId = video['id']['videoId']
-            print(availableVideoId)
+            # print(availableVideoId)
         else:
             # print('missing video ID')
             availableVideoId = 'notavailable'
@@ -78,8 +77,6 @@ def run_keyword_search(client, keyword):
         else:
                 # print('dislike count hidden')
                 countryInput = 'country not detected'
-
-
 
 
 
@@ -109,9 +106,7 @@ def run_keyword_search(client, keyword):
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
 
-
-                                       reachOut='5',
-
+                                       reachOut='11',
 
                                        country=countryInput,
                                        notes='no notes'
