@@ -106,7 +106,7 @@ def run_keyword_search(client, keyword):
                                        videoCount=videoChannelStatisticsQuery['statistics']['videoCount'],
                                        discoveryKeyword=keyword,
 
-                                       reachOut='11',
+                                       reachOut='16',
 
                                        country=countryInput,
                                        notes='no notes'

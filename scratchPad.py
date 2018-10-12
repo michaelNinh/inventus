@@ -43,6 +43,9 @@ cycling == cycling communities thing
 7 == finding more gaming content creators, long tail
 10 == seige content
 11 == pub g content
+12 == tactical watch content creators
+15 == bottlerocket content creators
+16 == baking creators
 """
 
 # t = [1,1,1,1,1,1,1,1,5,6,89,6,6354,354,987,]

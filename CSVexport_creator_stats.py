@@ -34,13 +34,8 @@ def pull_creator_stats_data():
     SELECT keywords, channelTitle, creator.creatorId, email, country,
     totalSubs, viewsAverage, engagementRate, dataRecorded, 
     sampleSize, notes, reachOut, categoryId
-    
     FROM creator
-
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
-    AND creator.reachOut = 10
-    
-
     """)
 
     return c.fetchall()
@@ -81,33 +76,13 @@ def writeCSV(csvPath, masterStatsArray):
 
 
             categoryId = helpers.youtubeChannelDict.get(channelEntry[12], 'N/A')
+
+            lastVideoDate = "PLACEHOLDER"
+
+
+            # START GET LAST VIDEO DATE
             #dirty code to find most recent video postings
 
-            connection = sqlite3.connect('core.db')
-            c = connection.cursor()
-
-            creatorIdTuple = (channelEntry[2],)
-
-            c.execute("""
-                SELECT * FROM video
-                WHERE creatorID = ?
-                """, creatorIdTuple)
-
-
-            # print(c.fetchall())
-            # getDate = c.fetchall()[0]
-            # lastVideoDate = getDate[2].split('T')[0]
-
-            try:
-                getDate = c.fetchall()[0]
-                lastVideoDate = getDate[2].split('T')[0]
-                print(lastVideoDate)
-            except IndexError:
-                lastVideoDate = 'no date'
-                print('no date')
-
-            connection.commit()
-            connection.close()
 
             #dumboFormat is the format needed to correctly write into csv
             dumboFormat = {
@@ -124,7 +99,38 @@ def writeCSV(csvPath, masterStatsArray):
                 'date recorded': channelEntry[8],
                 'sampleSize': channelEntry[9],
                 'id': channelEntry[2],
-                'categoryId': categoryId,
+                'categoryId': categoryId,    # connection = sqlite3.connect('core.db')
+            # c = connection.cursor()
+            #
+            # creatorIdTuple = (channelEntry[2],)
+            #
+            # c.execute("""
+            #     SELECT * FROM video
+            #     WHERE creatorID = ?
+            #     """, creatorIdTuple)
+            #
+            #
+            #
+            # # This code breaks stuff.
+            # # print(c.fetchall())
+            # # getDate = c.fetchall()[0]
+            # # lastVideoDate = getDate[2].split('T')[0]
+            #
+            # # THIS CODE GETS THE MOST RECENT RECORDED VIDEO
+            # try:
+            #     getDate = c.fetchall()[0]
+            #     lastVideoDate = getDate[2].split('T')[0]
+            #     print(lastVideoDate)
+            # except IndexError:
+            #     lastVideoDate = 'no date'
+            #     print('no date')
+            #
+            #
+            #
+            # connection.commit()
+            # connection.close()
+            #
+            # #     END GET DATE
                 'last video':lastVideoDate
             }
 
@@ -138,8 +144,7 @@ dataArray = pull_creator_stats_data()
 # print(dataArray)
 
 
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/seigeCheck.csv'
-         '',dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/testCSVPINTOUT.csv' ,dataArray)
 
 
 
@@ -155,9 +160,6 @@ writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/seigeCheck.csv'
 0.035287418173963025, 7
 '2018-04-30 10:08:19.525312', 8 
  13.0 9)]
-
-
-
 """
 
 

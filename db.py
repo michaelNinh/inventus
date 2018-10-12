@@ -17,9 +17,9 @@ c = connection.cursor()
 
 c.execute(
     """
-    SELECT count(*)
+    SELECT *
     FROM creator
-    WHERE reachOut = 10     
+    WHERE channelTitle = 'Jay Alvarrez'      
     """
 )
 

@@ -50,16 +50,44 @@ print('connected!')
 
 cur.execute(
 """
-select
+
+ SELECT COUNT(*) FROM (
+select a.uid, a.product_id
+from estimated_transaction_sales a
+inner join ( select uid from analysis_user_sources 
+where utm_term in ('775050')) b
+on (a.uid=b.uid)
+where transaction_date between '2018-01-01' and '2018-12-31'
+group by 1,2
+limit 999)
+ 
+"""
+        )
+
+
+
+df_urls = cur.fetchall()
+print("purchases")
+print(df_urls)
+
+cur.execute(
+    """
+    
+    select
     COUNT(*)
  from analysis_user_sources
  WHERE
  utm_medium='influencer' 
- AND utm_term='15757'
+ AND utm_term='775050'
  and date_registered between '2017-01-01' and '2018-10-01'
-"""
+     
+    
+    """
 
-        )
+)
+
+# 775006
 
 df_urls = cur.fetchall()
+print("users")
 print(df_urls)

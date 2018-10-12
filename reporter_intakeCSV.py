@@ -19,9 +19,6 @@ import helpers
 
 """
 
-
-
-
 def readYoutubeReferrals(csvPath):
     f = open(csvPath)
 
@@ -41,6 +38,7 @@ def readYoutubeReferrals(csvPath):
 
         full_youtube_url = str(row[4])
         splitter = full_youtube_url.split('watch?v=')
+        print(splitter)
         dirtyPossibleVidId = splitter[1]
         cleanerVidId = dirtyPossibleVidId.split('&')
         vidId = cleanerVidId[0]
@@ -166,10 +164,10 @@ def writeCSV(csvPath, masterDataArray):
 
 client = base_youtube_code.get_authenticated_service()
 # input form
-path = '/Users/michaelninh/PycharmProjects/inventus/csvRaws/8%2F6 - 8%2F12 - utms_utube.csv'
+path = '/Users/michaelninh/PycharmProjects/inventus/csvRaws/10%2F1 - 10%2F7 - youtube_ping.csv'
 pairings = readYoutubeReferrals(path)
 master_data = get_vid_stats_without_db(client, pairings)
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/weeklyanalysis1.csv',master_data)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/2report.csv',master_data)
 
 
 

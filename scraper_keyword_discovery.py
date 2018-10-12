@@ -18,48 +18,9 @@ import sqlite3
 
 kw = keywords = [
 
-'pug g guide',
-    'how to play pug g',
-    'pub g DMR guide',
-'pug g beginner guide',
-'pug g intermediate guide',
-'pug g rifle gameplay',
-'pug g gameplay ',
-'pug g updates explained',
-'pug g secrets',
-'pug g tricks and tips',
-'pug g how to',
-'pug g for noobs',
-'pug g understanding',
-'pug g highlights',
-'pug g tournemnets',
-'pug g contest',
-'pug g skins',
-'pug g loot',
-'pug g finds',
-'pug g optimization',
-'pug g FPS',
-'pug g fails',
-'pug g wins ',
-'pug g winners',
-'pug g how to win',
-'pug g how to drop',
-'pug g how to aim',
-'pug g how to ',
-    'how to play pub g',
-    'pub g set up',
-'pub g winnings',
-'pub g stream fails',
-'pub g highlights',
-'pub g guns',
-'pub g tricks',
-'pub g',
-'pub g no'
-
-
-
-
-
+    'how to bake',
+    'baking tool review',
+    'baking tools'
     ]
 
 if __name__ == '__main__':

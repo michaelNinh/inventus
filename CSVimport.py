@@ -43,6 +43,7 @@ def readConvertCsvData(csvPath):
 
         channelName = str(row[1])
         # channelId = row[12]
+        email = row[2]
         notes = row[7]
         reachOut = row[8]
 
@@ -56,9 +57,9 @@ def readConvertCsvData(csvPath):
 
         c.execute("""
         UPDATE creator
-        SET reachOut = ?, notes = ?
+        SET reachOut = ?, notes = ?, email = ?
         WHERE channelTitle = ?
-        """, (reachOut, notes, channelName))
+        """, (reachOut, notes, email,channelName))
 
 
         connection.commit()
@@ -86,7 +87,7 @@ def getcolm():
 
 
 # testWork()
-readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/seige check - valids.csv')
+readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/seige check - Sheet1.csv')
 # getcolm()
 
 
@@ -94,4 +95,13 @@ readConvertCsvData('/Users/michaelninh/PycharmProjects/inventus/csvRaws/seige ch
 
 """
 ['channelTitle', 'creatorId', 'totalSubs', 'totalViews', 'vidIds', 'email', 'totalComments', 'videoCount', 'keywords', 'reachOut', 'country', 'notes', 'approval']
+"""
+
+"""
+What is the main problem? 
+- I do not have a clear way to understand who I've scraped for email.
+- I need to link emails found or unavailables into the database 
+- I also need to add a new database row for the last video made
+
+
 """
