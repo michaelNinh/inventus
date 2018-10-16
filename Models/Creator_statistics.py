@@ -1,7 +1,7 @@
 class Channel_statistics:
     """ after getting a series of videos, get averages of channel attributes """
 
-    def __init__(self, creatorId ,viewsAverage, likesAverage, dislikeAverage,favoritesAverage,commentsAverage, engagementRate, sampleSize, dateRecorded, categoryId):
+    def __init__(self, creatorId ,viewsAverage, likesAverage, dislikeAverage,favoritesAverage,commentsAverage, engagementRate, sampleSize, dateRecorded, categoryId,date_last_video):
         self.creatorId = creatorId
         self.viewAverage = viewsAverage
         self.likesAverage = likesAverage
@@ -12,6 +12,7 @@ class Channel_statistics:
         self.sampleSize = sampleSize
         self.dateRecorded = dateRecorded
         self.categoryId = categoryId
+        self.date_last_video = date_last_video
 
 
 
@@ -25,6 +26,7 @@ class Channel_statistics:
                "'engagementRateAverage {}', " \
                "'sampleSize {}'," \
                "'dateRecorded {}', " \
+               "'date_last_video {}', " \
                "''categoryId {}'" \
             .format(self.creatorId, self.viewAverage, self.likesAverage,self.dislikeAverage,
-                    self.favoritesAverage,self.commentsAverage, self.engagementRate,self.sampleSize,self.dateRecorded, self.categoryId)
+                    self.favoritesAverage,self.commentsAverage, self.engagementRate,self.sampleSize,self.dateRecorded, self.date_last_video ,self.categoryId)

@@ -34,7 +34,16 @@ def get_saved_videos(creatorId):
     WHERE creatorID = ?
     """, creatorIdTuple)
 
+
     rawVideoJson = c.fetchall()
+
+    try:
+        getDate = rawVideoJson[0]
+        lastVideoDate = getDate[2].split('T')[0]
+    except IndexError:
+        lastVideoDate = 'no date'
+
+
 
     connection.commit()
     connection.close()
@@ -127,10 +136,32 @@ def get_statistics(videoArray):
     return [viewsAverage, likesAverage, dislikeAverage, favoriteAverage, commentAverage, engagementAverage, mostCommonCategoryId]
 
 
+def getLastVideoDate(creatorId):
+    creatorIdTuple = (creatorId,)
+
+    # this code gets the last recorded date
+    connection = sqlite3.connect('core.db')
+    c = connection.cursor()
+    c.execute("""
+                            SELECT * FROM video
+                            WHERE creatorID = ?
+                            """, creatorIdTuple)
+    try:
+        getDate = c.fetchall()[0]
+        lastVideoDate = getDate[2].split('T')[0]
+        return lastVideoDate
+    except IndexError:
+        lastVideoDate = 'no date'
+        return lastVideoDate
+
 
 def runStats(creatorId):
+
+
+
     videoArray = get_saved_videos(creatorId)
     stats_array = get_statistics(videoArray)
+    last_video_date = getLastVideoDate(creatorId)
 
     creator_stats = Channel_statistics(
         creatorId=creatorId,
@@ -142,11 +173,11 @@ def runStats(creatorId):
         engagementRate=stats_array[5],
         sampleSize=len(videoArray),
         dateRecorded=datetime.datetime.now(),
-        categoryId=stats_array[6]
+        categoryId=stats_array[6],
+        date_last_video=last_video_date
     )
 
-    # this is clogging up the terminal
-    # print(creator_stats)
+
 
     connection = sqlite3.connect('core.db')
     c = connection.cursor()
@@ -161,11 +192,12 @@ def runStats(creatorId):
         creator_stats.engagementRate,
         creator_stats.sampleSize,
         creator_stats.dateRecorded,
-        creator_stats.categoryId
+        creator_stats.categoryId,
+        creator_stats.date_last_video
     ]
 
     # THIS IS AN OVERRIDE, updates channel statistics
-    c.execute("INSERT OR REPLACE INTO creator_stats VALUES (?,?,?,?,?,?,?,?,?,?)", valueList)
+    c.execute("INSERT OR REPLACE INTO creator_stats VALUES (?,?,?,?,?,?,?,?,?,?, ?)", valueList)
 
     connection.commit()
     connection.close()

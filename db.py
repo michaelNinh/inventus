@@ -17,66 +17,16 @@ c = connection.cursor()
 
 c.execute(
     """
-    SELECT *
-    FROM creator
-    WHERE channelTitle = 'Jay Alvarrez'      
+    SELECT date_last_video
+    FROM creator_stats
+    WHERE creatorId = 'UCXuqSBlHAE6Xw-yeJA0Tunw'
+    
     """
 )
-
-# c.execute("""
-# SELECT *
-# FROM creator
-# WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
-# """)
-
-# c.execute("""
-# DELETE
-# FROM creator
-# WHERE creatorId = 'UClbfoD1o7sV0VxErpxTCpyw'
-# """)
-
-# print(c.fetchall())
 
 
 test = c.fetchall()
 print(test)
-
-# print(
-#
-#     test[2].split('T')[0]
-#
-#       )
-
-#
-# c.execute("""
-# SELECT categoryIId
-# FROM video
-# """)
-# c.execute(
-#     """
-#     SELECT count(creatorId) FROM video
-#     WHERE LENGTH(categoryIId) > 3
-#
-#     """
-# )
-
-#
-# c.execute("""
-# SELECT *
-# FROM video
-# WHERE videoId = '6jZ7y7omHCw'
-#
-# """)
-
-# c.execute("""
-# DELETE
-# FROM video
-# WHERE videoId = 'VPb-TNK27hs'
-# """)
-
-# print(c.fetchall())
-
-
 
 # need to modify, videoId should be an array
 
@@ -123,7 +73,8 @@ print(test)
 # commentsAverage REAL,
 # engagementRate REAL,
 # sampleSize REAL,
-# dataRecorded TEXT )
+# dataRecorded TEXT
+# date_last_video TEXT)
 #
 # """)
 
@@ -147,7 +98,6 @@ print(test)
 # SELECT * FROM video
 # where creatorID = 'UCvLT8V6syfFU5AETDM4CtpA'
 # """)
-
 
 # this will output all videos related to creatorId TOGETHER
 # c.execute("""

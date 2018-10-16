@@ -33,9 +33,11 @@ def pull_creator_stats_data():
     
     SELECT keywords, channelTitle, creator.creatorId, email, country,
     totalSubs, viewsAverage, engagementRate, dataRecorded, 
-    sampleSize, notes, reachOut, categoryId
+    sampleSize, notes, reachOut, categoryId, date_last_video
     FROM creator
     JOIN creator_stats ON creator.creatorId = creator_stats.creatorId
+    
+    LIMIT 1 
     """)
 
     return c.fetchall()
@@ -74,14 +76,9 @@ def writeCSV(csvPath, masterStatsArray):
             # concate channelId into youtubeURL pattern
             fullUrl = 'https://www.youtube.com/channel/' + channelEntry[2] + '/about'
 
-
             categoryId = helpers.youtubeChannelDict.get(channelEntry[12], 'N/A')
 
-            lastVideoDate = "PLACEHOLDER"
-
-
-            # START GET LAST VIDEO DATE
-            #dirty code to find most recent video postings
+            date_recorded_edit = channelEntry[8].split(" ")[0]
 
 
             #dumboFormat is the format needed to correctly write into csv
@@ -96,10 +93,12 @@ def writeCSV(csvPath, masterStatsArray):
                 'notes': channelEntry[10],
                 'reachOut': channelEntry[11],
                 'total subs': channelEntry[5],
-                'date recorded': channelEntry[8],
+                'date recorded': date_recorded_edit,
                 'sampleSize': channelEntry[9],
                 'id': channelEntry[2],
-                'categoryId': categoryId,    # connection = sqlite3.connect('core.db')
+                'categoryId': categoryId,
+                'last video': channelEntry[13]
+                # connection = sqlite3.connect('core.db')
             # c = connection.cursor()
             #
             # creatorIdTuple = (channelEntry[2],)
@@ -108,8 +107,6 @@ def writeCSV(csvPath, masterStatsArray):
             #     SELECT * FROM video
             #     WHERE creatorID = ?
             #     """, creatorIdTuple)
-            #
-            #
             #
             # # This code breaks stuff.
             # # print(c.fetchall())
@@ -131,7 +128,6 @@ def writeCSV(csvPath, masterStatsArray):
             # connection.close()
             #
             # #     END GET DATE
-                'last video':lastVideoDate
             }
 
 
@@ -141,10 +137,7 @@ def writeCSV(csvPath, masterStatsArray):
 
 
 dataArray = pull_creator_stats_data()
-# print(dataArray)
-
-
-writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/testCSVPINTOUT.csv' ,dataArray)
+writeCSV('/Users/michaelninh/PycharmProjects/inventus/exports/testAgain2.csv' ,dataArray)
 
 
 
